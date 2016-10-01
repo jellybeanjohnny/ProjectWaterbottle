@@ -10,6 +10,14 @@
 		C9987C331DA065300087BB4C /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9987C321DA065300087BB4C /* ActionViewController.swift */; };
 		C9987C361DA065300087BB4C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9987C341DA065300087BB4C /* MainInterface.storyboard */; };
 		C9987C3A1DA065300087BB4C /* WaterBottleExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C9987C301DA065300087BB4C /* WaterBottleExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C9987C4C1DA078520087BB4C /* WaterBottleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9987C431DA078520087BB4C /* WaterBottleFramework.framework */; };
+		C9987C531DA078520087BB4C /* WaterBottleFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9987C521DA078520087BB4C /* WaterBottleFrameworkTests.swift */; };
+		C9987C551DA078520087BB4C /* WaterBottleFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C9987C451DA078520087BB4C /* WaterBottleFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9987C581DA078520087BB4C /* WaterBottleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9987C431DA078520087BB4C /* WaterBottleFramework.framework */; };
+		C9987C591DA078520087BB4C /* WaterBottleFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C9987C431DA078520087BB4C /* WaterBottleFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C9987C621DA078D30087BB4C /* CardEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9987C611DA078D30087BB4C /* CardEditorViewController.swift */; };
+		C9987C641DA07BB30087BB4C /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9987C631DA07BB30087BB4C /* CardModel.swift */; };
+		C9987C651DA07FA00087BB4C /* WaterBottleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9987C431DA078520087BB4C /* WaterBottleFramework.framework */; };
 		C9CFFEB31DA057E6005BBECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFEB21DA057E6005BBECC /* AppDelegate.swift */; };
 		C9CFFEB51DA057E6005BBECC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFEB41DA057E6005BBECC /* ViewController.swift */; };
 		C9CFFEB81DA057E6005BBECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9CFFEB61DA057E6005BBECC /* Main.storyboard */; };
@@ -26,6 +34,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = C9987C2F1DA065300087BB4C;
 			remoteInfo = WaterBottleExtension;
+		};
+		C9987C4D1DA078520087BB4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9CFFEA71DA057E6005BBECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9987C421DA078520087BB4C;
+			remoteInfo = WaterBottleFramework;
+		};
+		C9987C4F1DA078520087BB4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9CFFEA71DA057E6005BBECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9CFFEAE1DA057E6005BBECC;
+			remoteInfo = ProjectWaterBottle;
+		};
+		C9987C561DA078520087BB4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9CFFEA71DA057E6005BBECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9987C421DA078520087BB4C;
+			remoteInfo = WaterBottleFramework;
 		};
 		C9CFFEC41DA057E6005BBECC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -44,6 +73,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		C9987C5D1DA078520087BB4C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C9987C591DA078520087BB4C /* WaterBottleFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9CFFEF21DA05CCF005BBECC /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,6 +102,14 @@
 		C9987C321DA065300087BB4C /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		C9987C351DA065300087BB4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		C9987C371DA065300087BB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9987C431DA078520087BB4C /* WaterBottleFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaterBottleFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9987C451DA078520087BB4C /* WaterBottleFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterBottleFramework.h; sourceTree = "<group>"; };
+		C9987C461DA078520087BB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9987C4B1DA078520087BB4C /* WaterBottleFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterBottleFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9987C521DA078520087BB4C /* WaterBottleFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterBottleFrameworkTests.swift; sourceTree = "<group>"; };
+		C9987C541DA078520087BB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9987C611DA078D30087BB4C /* CardEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardEditorViewController.swift; sourceTree = "<group>"; };
+		C9987C631DA07BB30087BB4C /* CardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		C9CFFEAF1DA057E6005BBECC /* ProjectWaterBottle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectWaterBottle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CFFEB21DA057E6005BBECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9CFFEB41DA057E6005BBECC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +130,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9987C651DA07FA00087BB4C /* WaterBottleFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9987C3F1DA078520087BB4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9987C481DA078520087BB4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9987C4C1DA078520087BB4C /* WaterBottleFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9987C581DA078520087BB4C /* WaterBottleFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +184,26 @@
 			path = WaterBottleExtension;
 			sourceTree = "<group>";
 		};
+		C9987C441DA078520087BB4C /* WaterBottleFramework */ = {
+			isa = PBXGroup;
+			children = (
+				C9987C451DA078520087BB4C /* WaterBottleFramework.h */,
+				C9987C461DA078520087BB4C /* Info.plist */,
+				C9987C611DA078D30087BB4C /* CardEditorViewController.swift */,
+				C9987C631DA07BB30087BB4C /* CardModel.swift */,
+			);
+			path = WaterBottleFramework;
+			sourceTree = "<group>";
+		};
+		C9987C511DA078520087BB4C /* WaterBottleFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9987C521DA078520087BB4C /* WaterBottleFrameworkTests.swift */,
+				C9987C541DA078520087BB4C /* Info.plist */,
+			);
+			path = WaterBottleFrameworkTests;
+			sourceTree = "<group>";
+		};
 		C9CFFEA61DA057E6005BBECC = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +211,8 @@
 				C9CFFEC61DA057E6005BBECC /* ProjectWaterBottleTests */,
 				C9CFFED11DA057E6005BBECC /* ProjectWaterBottleUITests */,
 				C9987C311DA065300087BB4C /* WaterBottleExtension */,
+				C9987C441DA078520087BB4C /* WaterBottleFramework */,
+				C9987C511DA078520087BB4C /* WaterBottleFrameworkTests */,
 				C9CFFEB01DA057E6005BBECC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -137,6 +224,8 @@
 				C9CFFEC31DA057E6005BBECC /* ProjectWaterBottleTests.xctest */,
 				C9CFFECE1DA057E6005BBECC /* ProjectWaterBottleUITests.xctest */,
 				C9987C301DA065300087BB4C /* WaterBottleExtension.appex */,
+				C9987C431DA078520087BB4C /* WaterBottleFramework.framework */,
+				C9987C4B1DA078520087BB4C /* WaterBottleFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,6 +263,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		C9987C401DA078520087BB4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9987C551DA078520087BB4C /* WaterBottleFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		C9987C2F1DA065300087BB4C /* WaterBottleExtension */ = {
 			isa = PBXNativeTarget;
@@ -192,6 +292,43 @@
 			productReference = C9987C301DA065300087BB4C /* WaterBottleExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		C9987C421DA078520087BB4C /* WaterBottleFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9987C5A1DA078520087BB4C /* Build configuration list for PBXNativeTarget "WaterBottleFramework" */;
+			buildPhases = (
+				C9987C3E1DA078520087BB4C /* Sources */,
+				C9987C3F1DA078520087BB4C /* Frameworks */,
+				C9987C401DA078520087BB4C /* Headers */,
+				C9987C411DA078520087BB4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterBottleFramework;
+			productName = WaterBottleFramework;
+			productReference = C9987C431DA078520087BB4C /* WaterBottleFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9987C4A1DA078520087BB4C /* WaterBottleFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9987C5E1DA078520087BB4C /* Build configuration list for PBXNativeTarget "WaterBottleFrameworkTests" */;
+			buildPhases = (
+				C9987C471DA078520087BB4C /* Sources */,
+				C9987C481DA078520087BB4C /* Frameworks */,
+				C9987C491DA078520087BB4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9987C4E1DA078520087BB4C /* PBXTargetDependency */,
+				C9987C501DA078520087BB4C /* PBXTargetDependency */,
+			);
+			name = WaterBottleFrameworkTests;
+			productName = WaterBottleFrameworkTests;
+			productReference = C9987C4B1DA078520087BB4C /* WaterBottleFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C9CFFEAE1DA057E6005BBECC /* ProjectWaterBottle */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9CFFED71DA057E6005BBECC /* Build configuration list for PBXNativeTarget "ProjectWaterBottle" */;
@@ -200,11 +337,13 @@
 				C9CFFEAC1DA057E6005BBECC /* Frameworks */,
 				C9CFFEAD1DA057E6005BBECC /* Resources */,
 				C9CFFEF21DA05CCF005BBECC /* Embed App Extensions */,
+				C9987C5D1DA078520087BB4C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				C9987C391DA065300087BB4C /* PBXTargetDependency */,
+				C9987C571DA078520087BB4C /* PBXTargetDependency */,
 			);
 			name = ProjectWaterBottle;
 			productName = ProjectWaterBottle;
@@ -262,6 +401,18 @@
 						DevelopmentTeam = VQXELCH5FM;
 						ProvisioningStyle = Automatic;
 					};
+					C9987C421DA078520087BB4C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VQXELCH5FM;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					C9987C4A1DA078520087BB4C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VQXELCH5FM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C9CFFEAE1DA057E6005BBECC;
+					};
 					C9CFFEAE1DA057E6005BBECC = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = VQXELCH5FM;
@@ -298,6 +449,8 @@
 				C9CFFEC21DA057E6005BBECC /* ProjectWaterBottleTests */,
 				C9CFFECD1DA057E6005BBECC /* ProjectWaterBottleUITests */,
 				C9987C2F1DA065300087BB4C /* WaterBottleExtension */,
+				C9987C421DA078520087BB4C /* WaterBottleFramework */,
+				C9987C4A1DA078520087BB4C /* WaterBottleFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -308,6 +461,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9987C361DA065300087BB4C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9987C411DA078520087BB4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9987C491DA078520087BB4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +513,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C9987C3E1DA078520087BB4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9987C621DA078D30087BB4C /* CardEditorViewController.swift in Sources */,
+				C9987C641DA07BB30087BB4C /* CardModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9987C471DA078520087BB4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9987C531DA078520087BB4C /* WaterBottleFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9CFFEAB1DA057E6005BBECC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -378,6 +562,21 @@
 			isa = PBXTargetDependency;
 			target = C9987C2F1DA065300087BB4C /* WaterBottleExtension */;
 			targetProxy = C9987C381DA065300087BB4C /* PBXContainerItemProxy */;
+		};
+		C9987C4E1DA078520087BB4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9987C421DA078520087BB4C /* WaterBottleFramework */;
+			targetProxy = C9987C4D1DA078520087BB4C /* PBXContainerItemProxy */;
+		};
+		C9987C501DA078520087BB4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9CFFEAE1DA057E6005BBECC /* ProjectWaterBottle */;
+			targetProxy = C9987C4F1DA078520087BB4C /* PBXContainerItemProxy */;
+		};
+		C9987C571DA078520087BB4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9987C421DA078520087BB4C /* WaterBottleFramework */;
+			targetProxy = C9987C561DA078520087BB4C /* PBXContainerItemProxy */;
 		};
 		C9CFFEC51DA057E6005BBECC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -442,6 +641,83 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C9987C5B1DA078520087BB4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VQXELCH5FM;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WaterBottleFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BuildThings.WaterBottleFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9987C5C1DA078520087BB4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VQXELCH5FM;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WaterBottleFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BuildThings.WaterBottleFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9987C5F1DA078520087BB4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VQXELCH5FM;
+				INFOPLIST_FILE = WaterBottleFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BuildThings.WaterBottleFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectWaterBottle.app/ProjectWaterBottle";
+			};
+			name = Debug;
+		};
+		C9987C601DA078520087BB4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VQXELCH5FM;
+				INFOPLIST_FILE = WaterBottleFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BuildThings.WaterBottleFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectWaterBottle.app/ProjectWaterBottle";
 			};
 			name = Release;
 		};
@@ -632,6 +908,22 @@
 			buildConfigurations = (
 				C9987C3C1DA065300087BB4C /* Debug */,
 				C9987C3D1DA065300087BB4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9987C5A1DA078520087BB4C /* Build configuration list for PBXNativeTarget "WaterBottleFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9987C5B1DA078520087BB4C /* Debug */,
+				C9987C5C1DA078520087BB4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9987C5E1DA078520087BB4C /* Build configuration list for PBXNativeTarget "WaterBottleFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9987C5F1DA078520087BB4C /* Debug */,
+				C9987C601DA078520087BB4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
