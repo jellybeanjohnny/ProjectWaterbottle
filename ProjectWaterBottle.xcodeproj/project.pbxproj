@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9987C331DA065300087BB4C /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9987C321DA065300087BB4C /* ActionViewController.swift */; };
+		C9987C361DA065300087BB4C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9987C341DA065300087BB4C /* MainInterface.storyboard */; };
+		C9987C3A1DA065300087BB4C /* WaterBottleExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C9987C301DA065300087BB4C /* WaterBottleExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C9CFFEB31DA057E6005BBECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFEB21DA057E6005BBECC /* AppDelegate.swift */; };
 		C9CFFEB51DA057E6005BBECC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFEB41DA057E6005BBECC /* ViewController.swift */; };
 		C9CFFEB81DA057E6005BBECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9CFFEB61DA057E6005BBECC /* Main.storyboard */; };
@@ -14,12 +17,16 @@
 		C9CFFEBD1DA057E6005BBECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9CFFEBB1DA057E6005BBECC /* LaunchScreen.storyboard */; };
 		C9CFFEC81DA057E6005BBECC /* ProjectWaterBottleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFEC71DA057E6005BBECC /* ProjectWaterBottleTests.swift */; };
 		C9CFFED31DA057E6005BBECC /* ProjectWaterBottleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFED21DA057E6005BBECC /* ProjectWaterBottleUITests.swift */; };
-		C9CFFEE71DA05CCF005BBECC /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFEE61DA05CCF005BBECC /* ActionViewController.swift */; };
-		C9CFFEEA1DA05CCF005BBECC /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9CFFEE81DA05CCF005BBECC /* MainInterface.storyboard */; };
-		C9CFFEEE1DA05CCF005BBECC /* WaterBottleExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C9CFFEE41DA05CCF005BBECC /* WaterBottleExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C9987C381DA065300087BB4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9CFFEA71DA057E6005BBECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9987C2F1DA065300087BB4C;
+			remoteInfo = WaterBottleExtension;
+		};
 		C9CFFEC41DA057E6005BBECC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C9CFFEA71DA057E6005BBECC /* Project object */;
@@ -34,13 +41,6 @@
 			remoteGlobalIDString = C9CFFEAE1DA057E6005BBECC;
 			remoteInfo = ProjectWaterBottle;
 		};
-		C9CFFEEC1DA05CCF005BBECC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C9CFFEA71DA057E6005BBECC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C9CFFEE31DA05CCF005BBECC;
-			remoteInfo = WaterBottleExtension;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,7 +50,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				C9CFFEEE1DA05CCF005BBECC /* WaterBottleExtension.appex in Embed App Extensions */,
+				C9987C3A1DA065300087BB4C /* WaterBottleExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,6 +58,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C9987C301DA065300087BB4C /* WaterBottleExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WaterBottleExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9987C321DA065300087BB4C /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		C9987C351DA065300087BB4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		C9987C371DA065300087BB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9CFFEAF1DA057E6005BBECC /* ProjectWaterBottle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectWaterBottle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CFFEB21DA057E6005BBECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9CFFEB41DA057E6005BBECC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,13 +75,16 @@
 		C9CFFECE1DA057E6005BBECC /* ProjectWaterBottleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectWaterBottleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CFFED21DA057E6005BBECC /* ProjectWaterBottleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectWaterBottleUITests.swift; sourceTree = "<group>"; };
 		C9CFFED41DA057E6005BBECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9CFFEE41DA05CCF005BBECC /* WaterBottleExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WaterBottleExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9CFFEE61DA05CCF005BBECC /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
-		C9CFFEE91DA05CCF005BBECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		C9CFFEEB1DA05CCF005BBECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C9987C2D1DA065300087BB4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9CFFEAC1DA057E6005BBECC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,23 +106,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9CFFEE11DA05CCF005BBECC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C9987C311DA065300087BB4C /* WaterBottleExtension */ = {
+			isa = PBXGroup;
+			children = (
+				C9987C321DA065300087BB4C /* ActionViewController.swift */,
+				C9987C341DA065300087BB4C /* MainInterface.storyboard */,
+				C9987C371DA065300087BB4C /* Info.plist */,
+			);
+			path = WaterBottleExtension;
+			sourceTree = "<group>";
+		};
 		C9CFFEA61DA057E6005BBECC = {
 			isa = PBXGroup;
 			children = (
 				C9CFFEB11DA057E6005BBECC /* ProjectWaterBottle */,
 				C9CFFEC61DA057E6005BBECC /* ProjectWaterBottleTests */,
 				C9CFFED11DA057E6005BBECC /* ProjectWaterBottleUITests */,
-				C9CFFEE51DA05CCF005BBECC /* WaterBottleExtension */,
+				C9987C311DA065300087BB4C /* WaterBottleExtension */,
 				C9CFFEB01DA057E6005BBECC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,7 +136,7 @@
 				C9CFFEAF1DA057E6005BBECC /* ProjectWaterBottle.app */,
 				C9CFFEC31DA057E6005BBECC /* ProjectWaterBottleTests.xctest */,
 				C9CFFECE1DA057E6005BBECC /* ProjectWaterBottleUITests.xctest */,
-				C9CFFEE41DA05CCF005BBECC /* WaterBottleExtension.appex */,
+				C9987C301DA065300087BB4C /* WaterBottleExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,19 +172,26 @@
 			path = ProjectWaterBottleUITests;
 			sourceTree = "<group>";
 		};
-		C9CFFEE51DA05CCF005BBECC /* WaterBottleExtension */ = {
-			isa = PBXGroup;
-			children = (
-				C9CFFEE61DA05CCF005BBECC /* ActionViewController.swift */,
-				C9CFFEE81DA05CCF005BBECC /* MainInterface.storyboard */,
-				C9CFFEEB1DA05CCF005BBECC /* Info.plist */,
-			);
-			path = WaterBottleExtension;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C9987C2F1DA065300087BB4C /* WaterBottleExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9987C3B1DA065300087BB4C /* Build configuration list for PBXNativeTarget "WaterBottleExtension" */;
+			buildPhases = (
+				C9987C2C1DA065300087BB4C /* Sources */,
+				C9987C2D1DA065300087BB4C /* Frameworks */,
+				C9987C2E1DA065300087BB4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterBottleExtension;
+			productName = WaterBottleExtension;
+			productReference = C9987C301DA065300087BB4C /* WaterBottleExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		C9CFFEAE1DA057E6005BBECC /* ProjectWaterBottle */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9CFFED71DA057E6005BBECC /* Build configuration list for PBXNativeTarget "ProjectWaterBottle" */;
@@ -187,7 +204,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C9CFFEED1DA05CCF005BBECC /* PBXTargetDependency */,
+				C9987C391DA065300087BB4C /* PBXTargetDependency */,
 			);
 			name = ProjectWaterBottle;
 			productName = ProjectWaterBottle;
@@ -230,23 +247,6 @@
 			productReference = C9CFFECE1DA057E6005BBECC /* ProjectWaterBottleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		C9CFFEE31DA05CCF005BBECC /* WaterBottleExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C9CFFEEF1DA05CCF005BBECC /* Build configuration list for PBXNativeTarget "WaterBottleExtension" */;
-			buildPhases = (
-				C9CFFEE01DA05CCF005BBECC /* Sources */,
-				C9CFFEE11DA05CCF005BBECC /* Frameworks */,
-				C9CFFEE21DA05CCF005BBECC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = WaterBottleExtension;
-			productName = WaterBottleExtension;
-			productReference = C9CFFEE41DA05CCF005BBECC /* WaterBottleExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -257,6 +257,11 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = BuildThings;
 				TargetAttributes = {
+					C9987C2F1DA065300087BB4C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VQXELCH5FM;
+						ProvisioningStyle = Automatic;
+					};
 					C9CFFEAE1DA057E6005BBECC = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = VQXELCH5FM;
@@ -273,11 +278,6 @@
 						DevelopmentTeam = VQXELCH5FM;
 						ProvisioningStyle = Automatic;
 						TestTargetID = C9CFFEAE1DA057E6005BBECC;
-					};
-					C9CFFEE31DA05CCF005BBECC = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = VQXELCH5FM;
-						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -297,12 +297,20 @@
 				C9CFFEAE1DA057E6005BBECC /* ProjectWaterBottle */,
 				C9CFFEC21DA057E6005BBECC /* ProjectWaterBottleTests */,
 				C9CFFECD1DA057E6005BBECC /* ProjectWaterBottleUITests */,
-				C9CFFEE31DA05CCF005BBECC /* WaterBottleExtension */,
+				C9987C2F1DA065300087BB4C /* WaterBottleExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C9987C2E1DA065300087BB4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9987C361DA065300087BB4C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9CFFEAD1DA057E6005BBECC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -327,17 +335,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9CFFEE21DA05CCF005BBECC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C9CFFEEA1DA05CCF005BBECC /* MainInterface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C9987C2C1DA065300087BB4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9987C331DA065300087BB4C /* ActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9CFFEAB1DA057E6005BBECC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,17 +371,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9CFFEE01DA05CCF005BBECC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C9CFFEE71DA05CCF005BBECC /* ActionViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C9987C391DA065300087BB4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9987C2F1DA065300087BB4C /* WaterBottleExtension */;
+			targetProxy = C9987C381DA065300087BB4C /* PBXContainerItemProxy */;
+		};
 		C9CFFEC51DA057E6005BBECC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C9CFFEAE1DA057E6005BBECC /* ProjectWaterBottle */;
@@ -384,14 +389,17 @@
 			target = C9CFFEAE1DA057E6005BBECC /* ProjectWaterBottle */;
 			targetProxy = C9CFFECF1DA057E6005BBECC /* PBXContainerItemProxy */;
 		};
-		C9CFFEED1DA05CCF005BBECC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C9CFFEE31DA05CCF005BBECC /* WaterBottleExtension */;
-			targetProxy = C9CFFEEC1DA05CCF005BBECC /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		C9987C341DA065300087BB4C /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9987C351DA065300087BB4C /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		C9CFFEB61DA057E6005BBECC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -408,17 +416,35 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		C9CFFEE81DA05CCF005BBECC /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9CFFEE91DA05CCF005BBECC /* Base */,
-			);
-			name = MainInterface.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C9987C3C1DA065300087BB4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VQXELCH5FM;
+				INFOPLIST_FILE = WaterBottleExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BuildThings.ProjectWaterBottle.WaterBottleExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C9987C3D1DA065300087BB4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VQXELCH5FM;
+				INFOPLIST_FILE = WaterBottleExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BuildThings.ProjectWaterBottle.WaterBottleExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		C9CFFED51DA057E6005BBECC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -598,35 +624,17 @@
 			};
 			name = Release;
 		};
-		C9CFFEF01DA05CCF005BBECC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = VQXELCH5FM;
-				INFOPLIST_FILE = WaterBottleExtension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.BuildThings.ProjectWaterBottle.WaterBottleExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		C9CFFEF11DA05CCF005BBECC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = VQXELCH5FM;
-				INFOPLIST_FILE = WaterBottleExtension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.BuildThings.ProjectWaterBottle.WaterBottleExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C9987C3B1DA065300087BB4C /* Build configuration list for PBXNativeTarget "WaterBottleExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9987C3C1DA065300087BB4C /* Debug */,
+				C9987C3D1DA065300087BB4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C9CFFEAA1DA057E6005BBECC /* Build configuration list for PBXProject "ProjectWaterBottle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -643,6 +651,7 @@
 				C9CFFED91DA057E6005BBECC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9CFFEDA1DA057E6005BBECC /* Build configuration list for PBXNativeTarget "ProjectWaterBottleTests" */ = {
 			isa = XCConfigurationList;
@@ -651,6 +660,7 @@
 				C9CFFEDC1DA057E6005BBECC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9CFFEDD1DA057E6005BBECC /* Build configuration list for PBXNativeTarget "ProjectWaterBottleUITests" */ = {
 			isa = XCConfigurationList;
@@ -659,14 +669,7 @@
 				C9CFFEDF1DA057E6005BBECC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		C9CFFEEF1DA05CCF005BBECC /* Build configuration list for PBXNativeTarget "WaterBottleExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C9CFFEF01DA05CCF005BBECC /* Debug */,
-				C9CFFEF11DA05CCF005BBECC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
