@@ -13,6 +13,7 @@ public class CardEditorViewController: UIViewController {
   @IBOutlet weak var frontTextView: UITextView!
   @IBOutlet weak var backTextView: UITextView!
   
+  
   public var card: CardModel!
   
   override public func viewDidLoad() {
@@ -30,6 +31,26 @@ public class CardEditorViewController: UIViewController {
   func initializeCard() {
     frontTextView.text = card.frontText
     backTextView.text = card.backText
+  }
+  
+  @IBAction func defineButtonTapped() {
+    
+    print("Should define the word \(selectedText())")
+    
+  }
+  
+  func selectedText() -> String {
+    
+    var result = ""
+    
+    if frontTextView.selectedRange.length != 0 {
+      let text = frontTextView.text as NSString
+      result = text.substring(with: frontTextView.selectedRange) as String
+    } else if backTextView.selectedRange.length != 0 {
+      let text = backTextView.text as NSString
+      result = text.substring(with: backTextView.selectedRange) as String
+    }
+    return result
   }
   
 }

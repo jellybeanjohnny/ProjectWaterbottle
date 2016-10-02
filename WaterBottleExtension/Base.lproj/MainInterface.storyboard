@@ -20,7 +20,7 @@
                         <subviews>
                             <navigationBar contentMode="scaleToFill" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="NOA-Dm-cuz">
                                 <items>
-                                    <navigationItem id="3HJ-uW-3hn">
+                                    <navigationItem title="WaterBottle" id="3HJ-uW-3hn">
                                         <barButtonItem key="leftBarButtonItem" title="Cancel" id="tIO-Sp-d0E">
                                             <connections>
                                                 <action selector="cancelTapped:" destination="ObA-dk-sSI" id="29K-RK-kBU"/>
@@ -99,6 +99,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8M-vD-k4i">
+                                <frame key="frameInset" minX="16" minY="565" width="45" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Define"/>
+                                <connections>
+                                    <action selector="defineButtonTapped" destination="8Ro-35-Bdf" eventType="touchUpInside" id="hYI-jZ-sXa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90980392160000001" green="0.047058823530000002" blue="0.47843137250000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
