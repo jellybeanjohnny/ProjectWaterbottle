@@ -1,15 +1,15 @@
 //
-//  WaterBottleFrameworkTests.swift
-//  WaterBottleFrameworkTests
+//  WaterBottleCardTests.swift
+//  WaterBottleCardTests
 //
 //  Created by Matt Amerige on 10/1/16.
 //  Copyright © 2016 BuildThings. All rights reserved.
 //
 
 import XCTest
-@testable import WaterBottleFramework
+@testable import WaterBottleCard
 
-class WaterBottleFrameworkTests: XCTestCase {
+class WaterBottleCardTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

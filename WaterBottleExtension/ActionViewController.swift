@@ -8,11 +8,11 @@
 
 import UIKit
 import MobileCoreServices
-import WaterBottleFramework
+import WaterBottleCard
 
 class ActionViewController: UIViewController {
   
-  
+  var cardEditorViewController: CardEditorViewController!
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -20,7 +20,9 @@ class ActionViewController: UIViewController {
     print(self.extensionContext?.inputItems)
     
     parseSelectedText { (text, error) in
-      print(text)
+      if let text = text {
+        self.cardEditorViewController.card = CardModel(frontText: text, backText: "")
+      } 
     }
     
     
@@ -70,10 +72,10 @@ class ActionViewController: UIViewController {
   //MARK: Segues
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     if segue.identifier == "EmbedCardEditor" {
-      let destinationVC = segue.destination as! CardEditorViewController
-      
+      cardEditorViewController = segue.destination as! CardEditorViewController
     }
   }
+  
   
   
 }

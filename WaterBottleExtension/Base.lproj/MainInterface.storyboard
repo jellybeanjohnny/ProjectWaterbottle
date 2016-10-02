@@ -60,7 +60,11 @@
         <!--Card Editor View Controller-->
         <scene sceneID="aCp-Nk-X0t">
             <objects>
-                <viewController id="8Ro-35-Bdf" customClass="CardEditorViewController" customModule="WaterBottleFramework" sceneMemberID="viewController">
+                <viewController id="8Ro-35-Bdf" customClass="CardEditorViewController" customModule="WaterBottleCard" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Ui-97-Gh9"/>
+                        <viewControllerLayoutGuide type="bottom" id="UAn-ey-qiC"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7qR-XC-ryi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

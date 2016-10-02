@@ -10,7 +10,12 @@ import Foundation
 
 public struct CardModel {
   
-  let frontText: String
-  let backText: String
+ public var frontText: String
+ public var backText: String
+  
+ public init(frontText: String, backText: String) {
+    self.frontText = frontText
+    self.backText = backText
+  }
   
 }
