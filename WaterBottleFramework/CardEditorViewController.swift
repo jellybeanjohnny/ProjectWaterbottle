@@ -51,6 +51,9 @@ public class CardEditorViewController: UIViewController {
       print(response.data)     // server data
       print(response.result)   // result of response serialization
       print(response.result.value) // JSON value of the response
+      
+      
+      
     }
     
   }
