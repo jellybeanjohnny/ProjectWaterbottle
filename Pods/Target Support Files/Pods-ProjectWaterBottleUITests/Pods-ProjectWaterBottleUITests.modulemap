@@ -1,0 +1,6 @@
+framework module Pods_ProjectWaterBottleUITests {
+  umbrella header "Pods-ProjectWaterBottleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
