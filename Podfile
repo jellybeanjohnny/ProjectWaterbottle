@@ -25,7 +25,7 @@ target 'WaterBottleCard' do
   use_frameworks!
 
   # Pods for WaterBottleCard
-  #pod 'Alamofire', '~> 4.0'
+  pod 'Alamofire'
 
   target 'WaterBottleCardTests' do
     inherit! :search_paths

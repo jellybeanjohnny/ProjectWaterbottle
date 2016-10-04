@@ -15,8 +15,8 @@
 		2EA81B16985524ECFF95918326AF8139 /* Pods-WaterBottleCardTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57174DEB1C63664926C7B6245EA8EABC /* Pods-WaterBottleCardTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33BA2F86B3EE3E046F4A2084F73D2C71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		3982B850C43B41BA6D25F440F0412E9B /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */; };
+		3C3090ECD0ED2D4C36ACE94E4763ED1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		44A6AED16C1E1CB626C3DD5DAF636803 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		46128D734F6B7CB3C22C6014A05D4A52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		4E13B70A892ED9DA38C21EB9349EF314 /* Pods-ProjectWaterBottle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B53522FE26CF5A90C2AA20E9733900F /* Pods-ProjectWaterBottle-dummy.m */; };
 		4E8E831D29686E93922443731B5EB44C /* Pods-ProjectWaterBottleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D4AD8A4D7469018F97C49D356ECAC /* Pods-ProjectWaterBottleTests-dummy.m */; };
 		5D30DDEA41E70774B10CD4D8FF635666 /* Pods-WaterBottleExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89B497938A9276DB0FBAA2CED12B5553 /* Pods-WaterBottleExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,17 +25,17 @@
 		7CA5A9BA5246FDA8227233E310029392 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */; };
 		813E7B00E3E575D6E62627A782FFF4EF /* Pods-ProjectWaterBottleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB5BF0F8CBAB635C23E4234A6C15B60 /* Pods-ProjectWaterBottleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86ED08F33B7D357932A9AB743E9D9EA7 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */; };
-		87EBA2BDF7A5FFB271658741B786E10B /* Pods-WaterBottleCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B61D67B2F888AA4FB71D8030DCB74CE /* Pods-WaterBottleCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D463A0A4C65C02FDD5211F0F3C6F8B8 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C1C119BCE81C53F76CAC2BE27C38E0 /* Alamofire-dummy.m */; };
 		907AB123FBC8BC9340D5B7350CE828DF /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */; };
 		91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		922A1BBB1A58430689F14D60FE85B154 /* Pods-ProjectWaterBottle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD543FAF82732B1C84F573318C8984B9 /* Pods-ProjectWaterBottle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B44A27EFBB0DA84D738057B77F3413B1 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95C371C68BBCFF6ABF9757B774E81819 /* Pods-WaterBottleCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B61D67B2F888AA4FB71D8030DCB74CE /* Pods-WaterBottleCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		975C9D2F5015FC77CB91C5F9E9E53465 /* Pods-WaterBottleExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D76F2A22EECE8EF8172ECD5F76E90F /* Pods-WaterBottleExtension-dummy.m */; };
-		A651D5BA0C3E8391AE48B7163F59CB45 /* Pods-WaterBottleCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A466324E7422A7AD659805396BEE698 /* Pods-WaterBottleCard-dummy.m */; };
 		A79AC30123B0C2177D67F6ED6A1B3215 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */; };
 		AF158CAAF4DD319009AFC855DC995D90 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */; };
 		B8154C96802336E5DDA5CEE97C3180A0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */; };
+		BA5806E1F1F1B3119E974EC2A05ED9BB /* Pods-WaterBottleCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A466324E7422A7AD659805396BEE698 /* Pods-WaterBottleCard-dummy.m */; };
 		C0AEA97E7684DDAD56998C0AE198A433 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */; };
 		C7A3408350643ADE1018826C766EE356 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */; };
 		D5E70FF963F068F0D9C821F2F3645C3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
@@ -48,6 +48,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A239F45886EC3E0A535EF80EC45DB9D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
+			remoteInfo = Alamofire;
+		};
 		CCE3B524066C54E961F2EDB668E8F78A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -153,11 +160,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1180499E1EDB74040BFC2733DC72A611 /* Frameworks */ = {
+		1E7317212511601A6CBB4F2EF2B780BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46128D734F6B7CB3C22C6014A05D4A52 /* Foundation.framework in Frameworks */,
+				3C3090ECD0ED2D4C36ACE94E4763ED1E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +439,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		227D4A333D8E33D08A1B894EC5E39C67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C371C68BBCFF6ABF9757B774E81819 /* Pods-WaterBottleCard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		26601B01AE8C127E84CFF19855136B9B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -453,14 +468,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D30DDEA41E70774B10CD4D8FF635666 /* Pods-WaterBottleExtension-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF550AE6F0DBD5455C7A37CDA035AE83 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				87EBA2BDF7A5FFB271658741B786E10B /* Pods-WaterBottleCard-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,23 +507,6 @@
 			productReference = 0BCD9BF3F183D38FD0507000F8514A86 /* Pods_ProjectWaterBottleTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		372BDA94B5C7336AD3E730CFDDF766A1 /* Pods-WaterBottleCard */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 29203D7CB847D9B46E951AECE758A824 /* Build configuration list for PBXNativeTarget "Pods-WaterBottleCard" */;
-			buildPhases = (
-				741A120DC084D074DDA07D67F8408756 /* Sources */,
-				1180499E1EDB74040BFC2733DC72A611 /* Frameworks */,
-				BF550AE6F0DBD5455C7A37CDA035AE83 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-WaterBottleCard";
-			productName = "Pods-WaterBottleCard";
-			productReference = EE663447636738B8E96E6773111E0887 /* Pods_WaterBottleCard.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		79159D2D1A801EA692E5D44D9E27D338 /* Pods-WaterBottleCardTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90866D54CED62609213F1E48400FBAE0 /* Build configuration list for PBXNativeTarget "Pods-WaterBottleCardTests" */;
@@ -549,6 +539,24 @@
 			name = Alamofire;
 			productName = Alamofire;
 			productReference = 20AD7811C4A57ECFBD668C6088C0C08B /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F9C1743B3EA57843396A9F8A6ABD071 /* Pods-WaterBottleCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94689FB1123EA8A2FF863028DB8B491E /* Build configuration list for PBXNativeTarget "Pods-WaterBottleCard" */;
+			buildPhases = (
+				4719C1BD849FCC8ECCE81B9995CE10E5 /* Sources */,
+				1E7317212511601A6CBB4F2EF2B780BA /* Frameworks */,
+				227D4A333D8E33D08A1B894EC5E39C67 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4337A47CEBCDF1A0FC85CF19DC7A0F73 /* PBXTargetDependency */,
+			);
+			name = "Pods-WaterBottleCard";
+			productName = "Pods-WaterBottleCard";
+			productReference = EE663447636738B8E96E6773111E0887 /* Pods_WaterBottleCard.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8FB4E508E11F3E616191E87B0D2A4D8E /* Pods-ProjectWaterBottleUITests */ = {
@@ -628,7 +636,7 @@
 				F2C7765085657A73185593A9D212F673 /* Pods-ProjectWaterBottle */,
 				1289F5D0E76C2FFBC840DA2310D91334 /* Pods-ProjectWaterBottleTests */,
 				8FB4E508E11F3E616191E87B0D2A4D8E /* Pods-ProjectWaterBottleUITests */,
-				372BDA94B5C7336AD3E730CFDDF766A1 /* Pods-WaterBottleCard */,
+				7F9C1743B3EA57843396A9F8A6ABD071 /* Pods-WaterBottleCard */,
 				79159D2D1A801EA692E5D44D9E27D338 /* Pods-WaterBottleCardTests */,
 				F4C539612DA6F4911EF5CEBE7EA257D5 /* Pods-WaterBottleExtension */,
 			);
@@ -669,6 +677,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4719C1BD849FCC8ECCE81B9995CE10E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5806E1F1F1B3119E974EC2A05ED9BB /* Pods-WaterBottleCard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4A47FC106E06A13EE06DCC794C9BE5E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -682,14 +698,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				75B33DD6E7ED630A0B5E3C971891AF20 /* Pods-ProjectWaterBottleUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		741A120DC084D074DDA07D67F8408756 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A651D5BA0C3E8391AE48B7163F59CB45 /* Pods-WaterBottleCard-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -712,6 +720,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4337A47CEBCDF1A0FC85CF19DC7A0F73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
+			targetProxy = A239F45886EC3E0A535EF80EC45DB9D6 /* PBXContainerItemProxy */;
+		};
 		D63994657BC370A5D86D0F72DD98496C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
@@ -721,37 +735,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		08217EFF5AE225FB3D3816849CCDF66F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		300A05FAD9B2B919510E468DFF81EC69 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F2E3DF9A272877679F685844D4BD6889 /* Pods-ProjectWaterBottle.debug.xcconfig */;
@@ -859,40 +842,6 @@
 			};
 			name = Debug;
 		};
-		488EEFA1B3FDBBA033A57FF0EBBD39FD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE9768ED4E53AD82558E80883FFB14BA /* Pods-WaterBottleCard.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WaterBottleCard/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WaterBottleCard/Pods-WaterBottleCard.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WaterBottleCard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		4A8E36AC1AD5951A0072622EAD3FDFBB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 841E61F7D2DC3197AD59FCE351695363 /* Pods-ProjectWaterBottleUITests.release.xcconfig */;
@@ -927,6 +876,38 @@
 			};
 			name = Release;
 		};
+		4E005DD06F1976C997DE310B41704569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		61C93449930C7B9AE4C9DC28EBA3832B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4EA640804F8F7DED74F35B1BA1F4665 /* Pods-WaterBottleExtension.release.xcconfig */;
@@ -952,6 +933,41 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_WaterBottleExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6552691CCA85AF5F901974EAE29916D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7307B9D07F29F96D22591BBADF83C24 /* Pods-WaterBottleCard.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WaterBottleCard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WaterBottleCard/Pods-WaterBottleCard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WaterBottleCard;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -1020,70 +1036,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_ProjectWaterBottle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		784D45BD01B6A4A066ED5EC84115205A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7C0E0C805337674B84496546FA12E985 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7307B9D07F29F96D22591BBADF83C24 /* Pods-WaterBottleCard.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WaterBottleCard/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WaterBottleCard/Pods-WaterBottleCard.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WaterBottleCard;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -1166,6 +1118,73 @@
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B3D20F1DB1A87B70FFC36292C5EF811A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB8A43755314B30EAEDACF4F52470630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE9768ED4E53AD82558E80883FFB14BA /* Pods-WaterBottleCard.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WaterBottleCard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WaterBottleCard/Pods-WaterBottleCard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WaterBottleCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -1274,15 +1293,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29203D7CB847D9B46E951AECE758A824 /* Build configuration list for PBXNativeTarget "Pods-WaterBottleCard" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				488EEFA1B3FDBBA033A57FF0EBBD39FD /* Debug */,
-				7C0E0C805337674B84496546FA12E985 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1295,8 +1305,8 @@
 		3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				08217EFF5AE225FB3D3816849CCDF66F /* Debug */,
-				784D45BD01B6A4A066ED5EC84115205A /* Release */,
+				4E005DD06F1976C997DE310B41704569 /* Debug */,
+				B3D20F1DB1A87B70FFC36292C5EF811A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1324,6 +1334,15 @@
 			buildConfigurations = (
 				A527D40182B01474837363799F118DC4 /* Debug */,
 				F70DF3E318ECAAABE05B6267A023C6AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94689FB1123EA8A2FF863028DB8B491E /* Build configuration list for PBXNativeTarget "Pods-WaterBottleCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8A43755314B30EAEDACF4F52470630 /* Debug */,
+				6552691CCA85AF5F901974EAE29916D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

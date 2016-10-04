@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 public class CardEditorViewController: UIViewController {
   
@@ -36,6 +37,21 @@ public class CardEditorViewController: UIViewController {
   @IBAction func defineButtonTapped() {
     
     print("Should define the word \(selectedText())")
+    let searchTerm = selectedText()
+    
+    let urlString = "http://www.jisho.org/api/v1/search/words"
+    
+    let parameters = [
+      "keyword" : searchTerm
+    ]
+    
+    Alamofire.request(urlString, method: .get, parameters: parameters).responseJSON { (response) in
+      print(response.request)  // original URL request
+      print(response.response) // HTTP URL response
+      print(response.data)     // server data
+      print(response.result)   // result of response serialization
+      print(response.result.value) // JSON value of the response
+    }
     
   }
   
