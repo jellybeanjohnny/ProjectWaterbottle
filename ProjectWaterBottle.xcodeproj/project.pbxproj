@@ -12,6 +12,9 @@
 		318EEE9589450222F7F34748 /* Pods_ProjectWaterBottleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793F96C95FBD63666F3BF28C /* Pods_ProjectWaterBottleUITests.framework */; };
 		41D633E739A10D380A0A261F /* Pods_WaterBottleExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838106BB1769E489B3EE3E1C /* Pods_WaterBottleExtension.framework */; };
 		C37CA46603CFBD92C708FF25 /* Pods_ProjectWaterBottle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEEE76874FA56D4B5013B27 /* Pods_ProjectWaterBottle.framework */; };
+		C90442DA1DA4369300FFA32B /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90442D91DA4369300FFA32B /* Word.swift */; };
+		C90442DC1DA4376B00FFA32B /* Japanese.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90442DB1DA4376B00FFA32B /* Japanese.swift */; };
+		C90442E01DA43D1300FFA32B /* JapaneseWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90442DF1DA43D1300FFA32B /* JapaneseWord.swift */; };
 		C9987C331DA065300087BB4C /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9987C321DA065300087BB4C /* ActionViewController.swift */; };
 		C9987C361DA065300087BB4C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9987C341DA065300087BB4C /* MainInterface.storyboard */; };
 		C9987C3A1DA065300087BB4C /* WaterBottleExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C9987C301DA065300087BB4C /* WaterBottleExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -121,6 +124,9 @@
 		A84721137D70CA40550C4483 /* Pods-ProjectWaterBottleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectWaterBottleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectWaterBottleUITests/Pods-ProjectWaterBottleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AD482E5A60232485B5F69FCE /* Pods-ProjectWaterBottleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectWaterBottleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectWaterBottleTests/Pods-ProjectWaterBottleTests.release.xcconfig"; sourceTree = "<group>"; };
 		B4A00CD862E02F218E497954 /* Pods-WaterBottleExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterBottleExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaterBottleExtension/Pods-WaterBottleExtension.release.xcconfig"; sourceTree = "<group>"; };
+		C90442D91DA4369300FFA32B /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		C90442DB1DA4376B00FFA32B /* Japanese.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Japanese.swift; sourceTree = "<group>"; };
+		C90442DF1DA43D1300FFA32B /* JapaneseWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapaneseWord.swift; sourceTree = "<group>"; };
 		C9987C301DA065300087BB4C /* WaterBottleExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WaterBottleExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9987C321DA065300087BB4C /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		C9987C351DA065300087BB4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -236,6 +242,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C90442DD1DA43AE900FFA32B /* Languages */ = {
+			isa = PBXGroup;
+			children = (
+				C90442D91DA4369300FFA32B /* Word.swift */,
+				C90442DB1DA4376B00FFA32B /* Japanese.swift */,
+				C90442DF1DA43D1300FFA32B /* JapaneseWord.swift */,
+			);
+			name = Languages;
+			sourceTree = "<group>";
+		};
+		C90442DE1DA43AF400FFA32B /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				C9987C611DA078D30087BB4C /* CardEditorViewController.swift */,
+				C9987C631DA07BB30087BB4C /* CardModel.swift */,
+			);
+			name = Card;
+			sourceTree = "<group>";
+		};
 		C9987C311DA065300087BB4C /* WaterBottleExtension */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,10 +274,10 @@
 		C9987C6C1DA0B4570087BB4C /* WaterBottleCard */ = {
 			isa = PBXGroup;
 			children = (
-				C9987C611DA078D30087BB4C /* CardEditorViewController.swift */,
-				C9987C631DA07BB30087BB4C /* CardModel.swift */,
+				C90442DE1DA43AF400FFA32B /* Card */,
 				C9987C6D1DA0B4570087BB4C /* WaterBottleCard.h */,
 				C9987C6E1DA0B4570087BB4C /* Info.plist */,
+				C90442DD1DA43AE900FFA32B /* Languages */,
 			);
 			path = WaterBottleCard;
 			sourceTree = "<group>";
@@ -839,8 +864,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90442DC1DA4376B00FFA32B /* Japanese.swift in Sources */,
 				C9B0C22C1DA0B6DE002019D2 /* CardEditorViewController.swift in Sources */,
 				C9B0C22D1DA0B6E3002019D2 /* CardModel.swift in Sources */,
+				C90442DA1DA4369300FFA32B /* Word.swift in Sources */,
+				C90442E01DA43D1300FFA32B /* JapaneseWord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

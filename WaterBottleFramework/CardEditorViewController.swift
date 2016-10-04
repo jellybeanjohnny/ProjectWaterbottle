@@ -8,6 +8,7 @@
 
 import UIKit
 import Alamofire
+import SwiftyJSON
 
 public class CardEditorViewController: UIViewController {
   
@@ -46,11 +47,18 @@ public class CardEditorViewController: UIViewController {
     ]
     
     Alamofire.request(urlString, method: .get, parameters: parameters).responseJSON { (response) in
-      print(response.request)  // original URL request
-      print(response.response) // HTTP URL response
-      print(response.data)     // server data
-      print(response.result)   // result of response serialization
-      print(response.result.value) // JSON value of the response
+      
+      switch response.result {
+      case .success(let value):
+        let json = JSON(value)
+        print("JSON: \(json)")
+        
+        let word = JapaneseWord(json: json)
+        print(word)
+        
+      case .failure(let error):
+        print(error)
+      }
       
       
       
