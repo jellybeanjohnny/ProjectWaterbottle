@@ -73,6 +73,7 @@ public class CardEditorViewController: UIViewController {
         
         let word = JapaneseWord(json: json)
         print(word)
+        
         self.addWordToBack(word: word)
         
       case .failure(let error):
@@ -81,8 +82,12 @@ public class CardEditorViewController: UIViewController {
     }
   }
   
+  
   func addWordToBack(word: JapaneseWord) {
     let definition = "\(word.term)(\(word.readings[0])) : \(word.definitions[0])"
+    
+    card.backText = definition
+    
     if backTextView.text.characters.count == 0 {
       backTextView.text = "\(definition)"
     } else {

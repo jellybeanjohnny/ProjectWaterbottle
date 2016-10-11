@@ -59,9 +59,9 @@ class ActionViewController: UIViewController {
  */
   @IBAction func done() {
     // Return any edited content to the host app.
-    // This template doesn't do anything, so we just echo the passed in items.
-        
-    self.extensionContext!.completeRequest(returningItems: self.extensionContext!.inputItems, completionHandler: nil)
+    let card = cardEditorViewController.card
+    
+     self.extensionContext!.completeRequest(returningItems: nil, completionHandler: nil)
   }
   
   @IBAction func cancelTapped(_ sender: AnyObject) {
