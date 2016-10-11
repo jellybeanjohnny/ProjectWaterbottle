@@ -22,6 +22,15 @@ public class CardEditorViewController: UIViewController {
     super.viewDidLoad()
     frontTextView.delegate = self
     backTextView.delegate = self
+    
+    addCustomMenu()
+    
+    
+  }
+  
+  func addCustomMenu() {
+    let defineMenuItem = UIMenuItem(title: "WB-Define", action: #selector(define))
+    UIMenuController.shared.menuItems = [defineMenuItem]
   }
   
   public override func viewDidAppear(_ animated: Bool) {
@@ -36,14 +45,28 @@ public class CardEditorViewController: UIViewController {
   }
   
   @IBAction func defineButtonTapped() {
+//    
+//    print("Should define the word \(selectedText())")
+//    let searchTerm = selectedText()
+//    
+//    define(term: searchTerm)
+  }
+  
+  func define() {
     
     print("Should define the word \(selectedText())")
-    let searchTerm = selectedText()
+    let term = selectedText()
+    
+    if term.characters.count == 0 {
+      print("No text selected")
+      return
+    }
+ 
     
     let urlString = "http://www.jisho.org/api/v1/search/words"
     
     let parameters = [
-      "keyword" : searchTerm
+      "keyword" : term
     ]
     
     Alamofire.request(urlString, method: .get, parameters: parameters).responseJSON { (response) in
@@ -51,19 +74,20 @@ public class CardEditorViewController: UIViewController {
       switch response.result {
       case .success(let value):
         let json = JSON(value)
-        print("JSON: \(json)")
         
         let word = JapaneseWord(json: json)
         print(word)
+        self.addWordToBack(word: word)
         
       case .failure(let error):
         print(error)
       }
-      
-      
-      
     }
-    
+  }
+  
+  func addWordToBack(word: JapaneseWord) {
+    let definition = "\(word.term)(\(word.readings[0])) : \(word.definitions[0])"
+    backTextView.text = "\(backTextView.text!)\n\(definition)"
   }
   
   func selectedText() -> String {
