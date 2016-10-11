@@ -15,6 +15,7 @@
 		C90442DA1DA4369300FFA32B /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90442D91DA4369300FFA32B /* Word.swift */; };
 		C90442DC1DA4376B00FFA32B /* Japanese.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90442DB1DA4376B00FFA32B /* Japanese.swift */; };
 		C90442E01DA43D1300FFA32B /* JapaneseWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90442DF1DA43D1300FFA32B /* JapaneseWord.swift */; };
+		C98B7EE21DACA8B50041660C /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98B7EE11DACA8B50041660C /* Secrets.swift */; };
 		C9987C331DA065300087BB4C /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9987C321DA065300087BB4C /* ActionViewController.swift */; };
 		C9987C361DA065300087BB4C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9987C341DA065300087BB4C /* MainInterface.storyboard */; };
 		C9987C3A1DA065300087BB4C /* WaterBottleExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C9987C301DA065300087BB4C /* WaterBottleExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -127,6 +128,9 @@
 		C90442D91DA4369300FFA32B /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		C90442DB1DA4376B00FFA32B /* Japanese.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Japanese.swift; sourceTree = "<group>"; };
 		C90442DF1DA43D1300FFA32B /* JapaneseWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapaneseWord.swift; sourceTree = "<group>"; };
+		C98B7EDF1DACA7C80041660C /* ProjectWaterBottle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProjectWaterBottle.entitlements; sourceTree = "<group>"; };
+		C98B7EE01DACA7E90041660C /* WaterBottleExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WaterBottleExtension.entitlements; sourceTree = "<group>"; };
+		C98B7EE11DACA8B50041660C /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		C9987C301DA065300087BB4C /* WaterBottleExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WaterBottleExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9987C321DA065300087BB4C /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		C9987C351DA065300087BB4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -264,6 +268,7 @@
 		C9987C311DA065300087BB4C /* WaterBottleExtension */ = {
 			isa = PBXGroup;
 			children = (
+				C98B7EE01DACA7E90041660C /* WaterBottleExtension.entitlements */,
 				C9987C321DA065300087BB4C /* ActionViewController.swift */,
 				C9987C341DA065300087BB4C /* MainInterface.storyboard */,
 				C9987C371DA065300087BB4C /* Info.plist */,
@@ -278,6 +283,7 @@
 				C9987C6D1DA0B4570087BB4C /* WaterBottleCard.h */,
 				C9987C6E1DA0B4570087BB4C /* Info.plist */,
 				C90442DD1DA43AE900FFA32B /* Languages */,
+				C98B7EE11DACA8B50041660C /* Secrets.swift */,
 			);
 			path = WaterBottleCard;
 			sourceTree = "<group>";
@@ -322,6 +328,7 @@
 		C9CFFEB11DA057E6005BBECC /* ProjectWaterBottle */ = {
 			isa = PBXGroup;
 			children = (
+				C98B7EDF1DACA7C80041660C /* ProjectWaterBottle.entitlements */,
 				C9CFFEB21DA057E6005BBECC /* AppDelegate.swift */,
 				C9CFFEB41DA057E6005BBECC /* ViewController.swift */,
 				C9CFFEB61DA057E6005BBECC /* Main.storyboard */,
@@ -505,6 +512,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = VQXELCH5FM;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					C9987C6A1DA0B4570087BB4C = {
 						CreatedOnToolsVersion = 8.0;
@@ -521,6 +533,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = VQXELCH5FM;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					C9CFFEC21DA057E6005BBECC = {
 						CreatedOnToolsVersion = 8.0;
@@ -865,6 +882,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C90442DC1DA4376B00FFA32B /* Japanese.swift in Sources */,
+				C98B7EE21DACA8B50041660C /* Secrets.swift in Sources */,
 				C9B0C22C1DA0B6DE002019D2 /* CardEditorViewController.swift in Sources */,
 				C9B0C22D1DA0B6E3002019D2 /* CardModel.swift in Sources */,
 				C90442DA1DA4369300FFA32B /* Word.swift in Sources */,
@@ -972,6 +990,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E2DC5C6C670E585C74B9B31 /* Pods-WaterBottleExtension.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = WaterBottleExtension/WaterBottleExtension.entitlements;
 				DEVELOPMENT_TEAM = VQXELCH5FM;
 				INFOPLIST_FILE = WaterBottleExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -986,6 +1005,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B4A00CD862E02F218E497954 /* Pods-WaterBottleExtension.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = WaterBottleExtension/WaterBottleExtension.entitlements;
 				DEVELOPMENT_TEAM = VQXELCH5FM;
 				INFOPLIST_FILE = WaterBottleExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -1173,6 +1193,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ProjectWaterBottle/ProjectWaterBottle.entitlements;
 				DEVELOPMENT_TEAM = VQXELCH5FM;
 				INFOPLIST_FILE = ProjectWaterBottle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1188,6 +1209,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ProjectWaterBottle/ProjectWaterBottle.entitlements;
 				DEVELOPMENT_TEAM = VQXELCH5FM;
 				INFOPLIST_FILE = ProjectWaterBottle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

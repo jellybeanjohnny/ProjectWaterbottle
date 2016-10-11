@@ -22,7 +22,7 @@ class ActionViewController: UIViewController {
     parseSelectedText { (text, error) in
       if let text = text {
         self.cardEditorViewController.card = CardModel(frontText: text, backText: "")
-      } 
+      }
     }
     
     
@@ -56,12 +56,10 @@ class ActionViewController: UIViewController {
    [self.extensionContext completeRequestReturningItems:outputItems];
    }
    
- */
+   */
   @IBAction func done() {
-    // Return any edited content to the host app.
-    let card = cardEditorViewController.card
-    
-     self.extensionContext!.completeRequest(returningItems: nil, completionHandler: nil)
+    saveCardToSharedUserDefaultSuite()
+    self.extensionContext!.completeRequest(returningItems: nil, completionHandler: nil)
   }
   
   @IBAction func cancelTapped(_ sender: AnyObject) {
@@ -74,6 +72,27 @@ class ActionViewController: UIViewController {
     if segue.identifier == "EmbedCardEditor" {
       cardEditorViewController = segue.destination as! CardEditorViewController
     }
+  }
+  
+  func saveCardToSharedUserDefaultSuite() {
+    // Save the card to the shared card array for the main app to use later on
+    let sharedDefaults = UserDefaults(suiteName: Secrets.appGroupName)
+    
+    // The below code probably won't work. The CardModel object needs to conform to the NSCoding protocol,
+    // then be archived into NSData THEN stored in UserDefaults
+    
+//    if var cards = sharedDefaults?.object(forKey: "Cards") as? [CardModel], let card = cardEditorViewController.card {
+//      // append to cards
+//      cards.append(card)
+//      sharedDefaults?.setValue(cards, forKey: "Cards")
+//    } else {
+//      // no cards object exists, create one here
+//      if let card = cardEditorViewController.card {
+//        let cards = [card]
+//        sharedDefaults?.setValue(cards, forKey: "Cards")
+//      }
+//    }
+    
   }
   
   
