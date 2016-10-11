@@ -44,20 +44,16 @@ public class CardEditorViewController: UIViewController {
     backTextView.text = card.backText
   }
   
-  @IBAction func defineButtonTapped() {
-//    
-//    print("Should define the word \(selectedText())")
-//    let searchTerm = selectedText()
-//    
-//    define(term: searchTerm)
-  }
-  
   func define() {
     
     print("Should define the word \(selectedText())")
     let term = selectedText()
     
     if term.characters.count == 0 {
+      let alertController = UIAlertController(title: "No Text Selected", message: "First select text then tap WB-Define", preferredStyle: .alert)
+      let okayAction = UIAlertAction(title: "Okay", style: .default, handler: nil)
+      alertController.addAction(okayAction)
+      present(alertController, animated: true, completion: nil)
       print("No text selected")
       return
     }
@@ -87,7 +83,12 @@ public class CardEditorViewController: UIViewController {
   
   func addWordToBack(word: JapaneseWord) {
     let definition = "\(word.term)(\(word.readings[0])) : \(word.definitions[0])"
-    backTextView.text = "\(backTextView.text!)\n\(definition)"
+    if backTextView.text.characters.count == 0 {
+      backTextView.text = "\(definition)"
+    } else {
+      backTextView.text = "\(backTextView.text!)\n\n\(definition)"
+    }
+    
   }
   
   func selectedText() -> String {
