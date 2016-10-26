@@ -7,20 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ED4FA8D7E5C14864CA99B44 /* Pods_WaterBottleCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580FFCF54C526D196E4AE5D5 /* Pods_WaterBottleCardTests.framework */; };
-		153BEE7303B6DBC52E7E1BFC /* Pods_ProjectWaterBottleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826E2F3E086FC051FCA57955 /* Pods_ProjectWaterBottleTests.framework */; };
-		318EEE9589450222F7F34748 /* Pods_ProjectWaterBottleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793F96C95FBD63666F3BF28C /* Pods_ProjectWaterBottleUITests.framework */; };
 		41D633E739A10D380A0A261F /* Pods_WaterBottleExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838106BB1769E489B3EE3E1C /* Pods_WaterBottleExtension.framework */; };
 		C37CA46603CFBD92C708FF25 /* Pods_ProjectWaterBottle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEEE76874FA56D4B5013B27 /* Pods_ProjectWaterBottle.framework */; };
 		C90442DA1DA4369300FFA32B /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90442D91DA4369300FFA32B /* Word.swift */; };
 		C90442DC1DA4376B00FFA32B /* Japanese.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90442DB1DA4376B00FFA32B /* Japanese.swift */; };
 		C90442E01DA43D1300FFA32B /* JapaneseWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90442DF1DA43D1300FFA32B /* JapaneseWord.swift */; };
+		C94A59731DC0539F00695639 /* Jellybean.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94A59701DC0535100695639 /* Jellybean.framework */; };
 		C98B7EE21DACA8B50041660C /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98B7EE11DACA8B50041660C /* Secrets.swift */; };
 		C9987C331DA065300087BB4C /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9987C321DA065300087BB4C /* ActionViewController.swift */; };
 		C9987C361DA065300087BB4C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9987C341DA065300087BB4C /* MainInterface.storyboard */; };
 		C9987C3A1DA065300087BB4C /* WaterBottleExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C9987C301DA065300087BB4C /* WaterBottleExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C9987C741DA0B4570087BB4C /* WaterBottleCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9987C6B1DA0B4570087BB4C /* WaterBottleCard.framework */; };
-		C9987C7B1DA0B4570087BB4C /* WaterBottleCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9987C7A1DA0B4570087BB4C /* WaterBottleCardTests.swift */; };
 		C9987C7D1DA0B4570087BB4C /* WaterBottleCard.h in Headers */ = {isa = PBXBuildFile; fileRef = C9987C6D1DA0B4570087BB4C /* WaterBottleCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9987C801DA0B4570087BB4C /* WaterBottleCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9987C6B1DA0B4570087BB4C /* WaterBottleCard.framework */; };
 		C9987C811DA0B4570087BB4C /* WaterBottleCard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C9987C6B1DA0B4570087BB4C /* WaterBottleCard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -32,12 +28,24 @@
 		C9CFFEB81DA057E6005BBECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9CFFEB61DA057E6005BBECC /* Main.storyboard */; };
 		C9CFFEBA1DA057E6005BBECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9CFFEB91DA057E6005BBECC /* Assets.xcassets */; };
 		C9CFFEBD1DA057E6005BBECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9CFFEBB1DA057E6005BBECC /* LaunchScreen.storyboard */; };
-		C9CFFEC81DA057E6005BBECC /* ProjectWaterBottleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFEC71DA057E6005BBECC /* ProjectWaterBottleTests.swift */; };
-		C9CFFED31DA057E6005BBECC /* ProjectWaterBottleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CFFED21DA057E6005BBECC /* ProjectWaterBottleUITests.swift */; };
 		D1F17F5725097F16013BFBBD /* Pods_WaterBottleCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F381B1076C87193B25BAB0F /* Pods_WaterBottleCard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C94A596F1DC0535100695639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C94A596A1DC0535100695639 /* Jellybean.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C94A594E1DC052F300695639;
+			remoteInfo = Jellybean;
+		};
+		C94A59711DC0535100695639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C94A596A1DC0535100695639 /* Jellybean.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C94A59571DC052F400695639;
+			remoteInfo = JellybeanTests;
+		};
 		C9987C381DA065300087BB4C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C9CFFEA71DA057E6005BBECC /* Project object */;
@@ -45,40 +53,12 @@
 			remoteGlobalIDString = C9987C2F1DA065300087BB4C;
 			remoteInfo = WaterBottleExtension;
 		};
-		C9987C751DA0B4570087BB4C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C9CFFEA71DA057E6005BBECC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C9987C6A1DA0B4570087BB4C;
-			remoteInfo = WaterBottleCard;
-		};
-		C9987C771DA0B4570087BB4C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C9CFFEA71DA057E6005BBECC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C9CFFEAE1DA057E6005BBECC;
-			remoteInfo = ProjectWaterBottle;
-		};
 		C9987C7E1DA0B4570087BB4C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C9CFFEA71DA057E6005BBECC /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C9987C6A1DA0B4570087BB4C;
 			remoteInfo = WaterBottleCard;
-		};
-		C9CFFEC41DA057E6005BBECC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C9CFFEA71DA057E6005BBECC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C9CFFEAE1DA057E6005BBECC;
-			remoteInfo = ProjectWaterBottle;
-		};
-		C9CFFECF1DA057E6005BBECC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C9CFFEA71DA057E6005BBECC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C9CFFEAE1DA057E6005BBECC;
-			remoteInfo = ProjectWaterBottle;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -128,6 +108,7 @@
 		C90442D91DA4369300FFA32B /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		C90442DB1DA4376B00FFA32B /* Japanese.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Japanese.swift; sourceTree = "<group>"; };
 		C90442DF1DA43D1300FFA32B /* JapaneseWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapaneseWord.swift; sourceTree = "<group>"; };
+		C94A596A1DC0535100695639 /* Jellybean.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Jellybean.xcodeproj; path = ../Jellybean/Jellybean.xcodeproj; sourceTree = "<group>"; };
 		C98B7EDF1DACA7C80041660C /* ProjectWaterBottle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProjectWaterBottle.entitlements; sourceTree = "<group>"; };
 		C98B7EE01DACA7E90041660C /* WaterBottleExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WaterBottleExtension.entitlements; sourceTree = "<group>"; };
 		C98B7EE11DACA8B50041660C /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
@@ -140,9 +121,6 @@
 		C9987C6B1DA0B4570087BB4C /* WaterBottleCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaterBottleCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9987C6D1DA0B4570087BB4C /* WaterBottleCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterBottleCard.h; sourceTree = "<group>"; };
 		C9987C6E1DA0B4570087BB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9987C731DA0B4570087BB4C /* WaterBottleCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterBottleCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9987C7A1DA0B4570087BB4C /* WaterBottleCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterBottleCardTests.swift; sourceTree = "<group>"; };
-		C9987C7C1DA0B4570087BB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9CFFEAF1DA057E6005BBECC /* ProjectWaterBottle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectWaterBottle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CFFEB21DA057E6005BBECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9CFFEB41DA057E6005BBECC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -150,12 +128,6 @@
 		C9CFFEB91DA057E6005BBECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9CFFEBC1DA057E6005BBECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9CFFEBE1DA057E6005BBECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9CFFEC31DA057E6005BBECC /* ProjectWaterBottleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectWaterBottleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9CFFEC71DA057E6005BBECC /* ProjectWaterBottleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectWaterBottleTests.swift; sourceTree = "<group>"; };
-		C9CFFEC91DA057E6005BBECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9CFFECE1DA057E6005BBECC /* ProjectWaterBottleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectWaterBottleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9CFFED21DA057E6005BBECC /* ProjectWaterBottleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectWaterBottleUITests.swift; sourceTree = "<group>"; };
-		C9CFFED41DA057E6005BBECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA21E0555995B7E800470CBF /* Pods-WaterBottleCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterBottleCard.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaterBottleCard/Pods-WaterBottleCard.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -173,16 +145,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C94A59731DC0539F00695639 /* Jellybean.framework in Frameworks */,
 				D1F17F5725097F16013BFBBD /* Pods_WaterBottleCard.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9987C701DA0B4570087BB4C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C9987C741DA0B4570087BB4C /* WaterBottleCard.framework in Frameworks */,
-				0ED4FA8D7E5C14864CA99B44 /* Pods_WaterBottleCardTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,22 +156,6 @@
 			files = (
 				C9987C801DA0B4570087BB4C /* WaterBottleCard.framework in Frameworks */,
 				C37CA46603CFBD92C708FF25 /* Pods_ProjectWaterBottle.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9CFFEC01DA057E6005BBECC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				153BEE7303B6DBC52E7E1BFC /* Pods_ProjectWaterBottleTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9CFFECB1DA057E6005BBECC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				318EEE9589450222F7F34748 /* Pods_ProjectWaterBottleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +213,32 @@
 			name = Card;
 			sourceTree = "<group>";
 		};
+		C94A596B1DC0535100695639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C94A59701DC0535100695639 /* Jellybean.framework */,
+				C94A59721DC0535100695639 /* JellybeanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C94A59741DC0565C00695639 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C98B7EE11DACA8B50041660C /* Secrets.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		C94A59751DC0566600695639 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9987C6D1DA0B4570087BB4C /* WaterBottleCard.h */,
+				C9987C6E1DA0B4570087BB4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		C9987C311DA065300087BB4C /* WaterBottleExtension */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,32 +254,20 @@
 			isa = PBXGroup;
 			children = (
 				C90442DE1DA43AF400FFA32B /* Card */,
-				C9987C6D1DA0B4570087BB4C /* WaterBottleCard.h */,
-				C9987C6E1DA0B4570087BB4C /* Info.plist */,
 				C90442DD1DA43AE900FFA32B /* Languages */,
-				C98B7EE11DACA8B50041660C /* Secrets.swift */,
+				C94A59741DC0565C00695639 /* Constants */,
+				C94A59751DC0566600695639 /* Supporting Files */,
 			);
 			path = WaterBottleCard;
-			sourceTree = "<group>";
-		};
-		C9987C791DA0B4570087BB4C /* WaterBottleCardTests */ = {
-			isa = PBXGroup;
-			children = (
-				C9987C7A1DA0B4570087BB4C /* WaterBottleCardTests.swift */,
-				C9987C7C1DA0B4570087BB4C /* Info.plist */,
-			);
-			path = WaterBottleCardTests;
 			sourceTree = "<group>";
 		};
 		C9CFFEA61DA057E6005BBECC = {
 			isa = PBXGroup;
 			children = (
+				C94A596A1DC0535100695639 /* Jellybean.xcodeproj */,
 				C9CFFEB11DA057E6005BBECC /* ProjectWaterBottle */,
-				C9CFFEC61DA057E6005BBECC /* ProjectWaterBottleTests */,
-				C9CFFED11DA057E6005BBECC /* ProjectWaterBottleUITests */,
 				C9987C311DA065300087BB4C /* WaterBottleExtension */,
 				C9987C6C1DA0B4570087BB4C /* WaterBottleCard */,
-				C9987C791DA0B4570087BB4C /* WaterBottleCardTests */,
 				C9CFFEB01DA057E6005BBECC /* Products */,
 				1BF1142786E5264C4D16C83D /* Pods */,
 				1BAB8BC768E08AA3522E72BC /* Frameworks */,
@@ -316,11 +278,8 @@
 			isa = PBXGroup;
 			children = (
 				C9CFFEAF1DA057E6005BBECC /* ProjectWaterBottle.app */,
-				C9CFFEC31DA057E6005BBECC /* ProjectWaterBottleTests.xctest */,
-				C9CFFECE1DA057E6005BBECC /* ProjectWaterBottleUITests.xctest */,
 				C9987C301DA065300087BB4C /* WaterBottleExtension.appex */,
 				C9987C6B1DA0B4570087BB4C /* WaterBottleCard.framework */,
-				C9987C731DA0B4570087BB4C /* WaterBottleCardTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -337,24 +296,6 @@
 				C9CFFEBE1DA057E6005BBECC /* Info.plist */,
 			);
 			path = ProjectWaterBottle;
-			sourceTree = "<group>";
-		};
-		C9CFFEC61DA057E6005BBECC /* ProjectWaterBottleTests */ = {
-			isa = PBXGroup;
-			children = (
-				C9CFFEC71DA057E6005BBECC /* ProjectWaterBottleTests.swift */,
-				C9CFFEC91DA057E6005BBECC /* Info.plist */,
-			);
-			path = ProjectWaterBottleTests;
-			sourceTree = "<group>";
-		};
-		C9CFFED11DA057E6005BBECC /* ProjectWaterBottleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C9CFFED21DA057E6005BBECC /* ProjectWaterBottleUITests.swift */,
-				C9CFFED41DA057E6005BBECC /* Info.plist */,
-			);
-			path = ProjectWaterBottleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,28 +352,6 @@
 			productReference = C9987C6B1DA0B4570087BB4C /* WaterBottleCard.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C9987C721DA0B4570087BB4C /* WaterBottleCardTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C9987C851DA0B4570087BB4C /* Build configuration list for PBXNativeTarget "WaterBottleCardTests" */;
-			buildPhases = (
-				EE6587452E090A8ACE76897F /* [CP] Check Pods Manifest.lock */,
-				C9987C6F1DA0B4570087BB4C /* Sources */,
-				C9987C701DA0B4570087BB4C /* Frameworks */,
-				C9987C711DA0B4570087BB4C /* Resources */,
-				39E3EFA3EB86D1EC7344BFDC /* [CP] Embed Pods Frameworks */,
-				F2C27DDE82CB8D017DF7724B /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C9987C761DA0B4570087BB4C /* PBXTargetDependency */,
-				C9987C781DA0B4570087BB4C /* PBXTargetDependency */,
-			);
-			name = WaterBottleCardTests;
-			productName = WaterBottleCardTests;
-			productReference = C9987C731DA0B4570087BB4C /* WaterBottleCardTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		C9CFFEAE1DA057E6005BBECC /* ProjectWaterBottle */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9CFFED71DA057E6005BBECC /* Build configuration list for PBXNativeTarget "ProjectWaterBottle" */;
@@ -456,47 +375,6 @@
 			productName = ProjectWaterBottle;
 			productReference = C9CFFEAF1DA057E6005BBECC /* ProjectWaterBottle.app */;
 			productType = "com.apple.product-type.application";
-		};
-		C9CFFEC21DA057E6005BBECC /* ProjectWaterBottleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C9CFFEDA1DA057E6005BBECC /* Build configuration list for PBXNativeTarget "ProjectWaterBottleTests" */;
-			buildPhases = (
-				B8DB32CDA76B6D0B4F204A89 /* [CP] Check Pods Manifest.lock */,
-				C9CFFEBF1DA057E6005BBECC /* Sources */,
-				C9CFFEC01DA057E6005BBECC /* Frameworks */,
-				C9CFFEC11DA057E6005BBECC /* Resources */,
-				A13D668D481E424F1A263CCB /* [CP] Embed Pods Frameworks */,
-				9248A730D115D1B33CF76563 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C9CFFEC51DA057E6005BBECC /* PBXTargetDependency */,
-			);
-			name = ProjectWaterBottleTests;
-			productName = ProjectWaterBottleTests;
-			productReference = C9CFFEC31DA057E6005BBECC /* ProjectWaterBottleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C9CFFECD1DA057E6005BBECC /* ProjectWaterBottleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C9CFFEDD1DA057E6005BBECC /* Build configuration list for PBXNativeTarget "ProjectWaterBottleUITests" */;
-			buildPhases = (
-				2A5F5B8E425BDCAA6695FFFC /* [CP] Check Pods Manifest.lock */,
-				C9CFFECA1DA057E6005BBECC /* Sources */,
-				C9CFFECB1DA057E6005BBECC /* Frameworks */,
-				C9CFFECC1DA057E6005BBECC /* Resources */,
-				76E38EF731E6C916DDC95381 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C9CFFED01DA057E6005BBECC /* PBXTargetDependency */,
-			);
-			name = ProjectWaterBottleUITests;
-			productName = ProjectWaterBottleUITests;
-			productReference = C9CFFECE1DA057E6005BBECC /* ProjectWaterBottleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -523,12 +401,6 @@
 						DevelopmentTeam = VQXELCH5FM;
 						ProvisioningStyle = Automatic;
 					};
-					C9987C721DA0B4570087BB4C = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = VQXELCH5FM;
-						ProvisioningStyle = Automatic;
-						TestTargetID = C9CFFEAE1DA057E6005BBECC;
-					};
 					C9CFFEAE1DA057E6005BBECC = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = VQXELCH5FM;
@@ -538,18 +410,6 @@
 								enabled = 1;
 							};
 						};
-					};
-					C9CFFEC21DA057E6005BBECC = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = VQXELCH5FM;
-						ProvisioningStyle = Automatic;
-						TestTargetID = C9CFFEAE1DA057E6005BBECC;
-					};
-					C9CFFECD1DA057E6005BBECC = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = VQXELCH5FM;
-						ProvisioningStyle = Automatic;
-						TestTargetID = C9CFFEAE1DA057E6005BBECC;
 					};
 				};
 			};
@@ -564,17 +424,37 @@
 			mainGroup = C9CFFEA61DA057E6005BBECC;
 			productRefGroup = C9CFFEB01DA057E6005BBECC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C94A596B1DC0535100695639 /* Products */;
+					ProjectRef = C94A596A1DC0535100695639 /* Jellybean.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C9CFFEAE1DA057E6005BBECC /* ProjectWaterBottle */,
-				C9CFFEC21DA057E6005BBECC /* ProjectWaterBottleTests */,
-				C9CFFECD1DA057E6005BBECC /* ProjectWaterBottleUITests */,
 				C9987C2F1DA065300087BB4C /* WaterBottleExtension */,
 				C9987C6A1DA0B4570087BB4C /* WaterBottleCard */,
-				C9987C721DA0B4570087BB4C /* WaterBottleCardTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C94A59701DC0535100695639 /* Jellybean.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Jellybean.framework;
+			remoteRef = C94A596F1DC0535100695639 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C94A59721DC0535100695639 /* JellybeanTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = JellybeanTests.xctest;
+			remoteRef = C94A59711DC0535100695639 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C9987C2E1DA065300087BB4C /* Resources */ = {
@@ -592,13 +472,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9987C711DA0B4570087BB4C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C9CFFEAD1DA057E6005BBECC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -609,38 +482,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9CFFEC11DA057E6005BBECC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9CFFECC1DA057E6005BBECC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2A5F5B8E425BDCAA6695FFFC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		38DFC4772D4D6C3B5E02ED8A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -654,21 +498,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectWaterBottle/Pods-ProjectWaterBottle-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		39E3EFA3EB86D1EC7344BFDC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterBottleCardTests/Pods-WaterBottleCardTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		39F61440DF5F4A42CA67924F /* [CP] Check Pods Manifest.lock */ = {
@@ -716,21 +545,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterBottleExtension/Pods-WaterBottleExtension-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		76E38EF731E6C916DDC95381 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectWaterBottleUITests/Pods-ProjectWaterBottleUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7BEAD95A28A7CDDCDC9CE517 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -761,66 +575,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterBottleExtension/Pods-WaterBottleExtension-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9248A730D115D1B33CF76563 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectWaterBottleTests/Pods-ProjectWaterBottleTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A13D668D481E424F1A263CCB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectWaterBottleTests/Pods-ProjectWaterBottleTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B8DB32CDA76B6D0B4F204A89 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		EE6587452E090A8ACE76897F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		F19CAE2DF45A19D20E11025F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -834,21 +588,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterBottleCard/Pods-WaterBottleCard-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F2C27DDE82CB8D017DF7724B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterBottleCardTests/Pods-WaterBottleCardTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F95E870404867FC9C87FD74B /* [CP] Embed Pods Frameworks */ = {
@@ -890,36 +629,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9987C6F1DA0B4570087BB4C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C9987C7B1DA0B4570087BB4C /* WaterBottleCardTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C9CFFEAB1DA057E6005BBECC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C9CFFEB51DA057E6005BBECC /* ViewController.swift in Sources */,
 				C9CFFEB31DA057E6005BBECC /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9CFFEBF1DA057E6005BBECC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C9CFFEC81DA057E6005BBECC /* ProjectWaterBottleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9CFFECA1DA057E6005BBECC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C9CFFED31DA057E6005BBECC /* ProjectWaterBottleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -931,30 +646,10 @@
 			target = C9987C2F1DA065300087BB4C /* WaterBottleExtension */;
 			targetProxy = C9987C381DA065300087BB4C /* PBXContainerItemProxy */;
 		};
-		C9987C761DA0B4570087BB4C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C9987C6A1DA0B4570087BB4C /* WaterBottleCard */;
-			targetProxy = C9987C751DA0B4570087BB4C /* PBXContainerItemProxy */;
-		};
-		C9987C781DA0B4570087BB4C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C9CFFEAE1DA057E6005BBECC /* ProjectWaterBottle */;
-			targetProxy = C9987C771DA0B4570087BB4C /* PBXContainerItemProxy */;
-		};
 		C9987C7F1DA0B4570087BB4C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C9987C6A1DA0B4570087BB4C /* WaterBottleCard */;
 			targetProxy = C9987C7E1DA0B4570087BB4C /* PBXContainerItemProxy */;
-		};
-		C9CFFEC51DA057E6005BBECC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C9CFFEAE1DA057E6005BBECC /* ProjectWaterBottle */;
-			targetProxy = C9CFFEC41DA057E6005BBECC /* PBXContainerItemProxy */;
-		};
-		C9CFFED01DA057E6005BBECC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C9CFFEAE1DA057E6005BBECC /* ProjectWaterBottle */;
-			targetProxy = C9CFFECF1DA057E6005BBECC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1028,6 +723,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/WaterBottleCard",
+				);
 				INFOPLIST_FILE = WaterBottleCard/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1052,6 +752,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/WaterBottleCard",
+				);
 				INFOPLIST_FILE = WaterBottleCard/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1061,36 +766,6 @@
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C9987C861DA0B4570087BB4C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34004747682BDF65AFB2E957 /* Pods-WaterBottleCardTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = VQXELCH5FM;
-				INFOPLIST_FILE = WaterBottleCardTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.BuildThings.WaterBottleCardTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectWaterBottle.app/ProjectWaterBottle";
-			};
-			name = Debug;
-		};
-		C9987C871DA0B4570087BB4C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F644FE841467C7BED233C2B /* Pods-WaterBottleCardTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = VQXELCH5FM;
-				INFOPLIST_FILE = WaterBottleCardTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.BuildThings.WaterBottleCardTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectWaterBottle.app/ProjectWaterBottle";
 			};
 			name = Release;
 		};
@@ -1195,6 +870,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ProjectWaterBottle/ProjectWaterBottle.entitlements;
 				DEVELOPMENT_TEAM = VQXELCH5FM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WaterBottleCard",
+				);
 				INFOPLIST_FILE = ProjectWaterBottle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BuildThings.ProjectWaterBottle;
@@ -1211,73 +890,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ProjectWaterBottle/ProjectWaterBottle.entitlements;
 				DEVELOPMENT_TEAM = VQXELCH5FM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WaterBottleCard",
+				);
 				INFOPLIST_FILE = ProjectWaterBottle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BuildThings.ProjectWaterBottle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		C9CFFEDB1DA057E6005BBECC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E3BD682B7912DC51BD53BC8 /* Pods-ProjectWaterBottleTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = VQXELCH5FM;
-				INFOPLIST_FILE = ProjectWaterBottleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.BuildThings.ProjectWaterBottleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectWaterBottle.app/ProjectWaterBottle";
-			};
-			name = Debug;
-		};
-		C9CFFEDC1DA057E6005BBECC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD482E5A60232485B5F69FCE /* Pods-ProjectWaterBottleTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = VQXELCH5FM;
-				INFOPLIST_FILE = ProjectWaterBottleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.BuildThings.ProjectWaterBottleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectWaterBottle.app/ProjectWaterBottle";
-			};
-			name = Release;
-		};
-		C9CFFEDE1DA057E6005BBECC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0CD9B6F508D6A4E395AF2C7 /* Pods-ProjectWaterBottleUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = VQXELCH5FM;
-				INFOPLIST_FILE = ProjectWaterBottleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.BuildThings.ProjectWaterBottleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = ProjectWaterBottle;
-			};
-			name = Debug;
-		};
-		C9CFFEDF1DA057E6005BBECC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A84721137D70CA40550C4483 /* Pods-ProjectWaterBottleUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = VQXELCH5FM;
-				INFOPLIST_FILE = ProjectWaterBottleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.BuildThings.ProjectWaterBottleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = ProjectWaterBottle;
 			};
 			name = Release;
 		};
@@ -1302,15 +923,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9987C851DA0B4570087BB4C /* Build configuration list for PBXNativeTarget "WaterBottleCardTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C9987C861DA0B4570087BB4C /* Debug */,
-				C9987C871DA0B4570087BB4C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C9CFFEAA1DA057E6005BBECC /* Build configuration list for PBXProject "ProjectWaterBottle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1325,24 +937,6 @@
 			buildConfigurations = (
 				C9CFFED81DA057E6005BBECC /* Debug */,
 				C9CFFED91DA057E6005BBECC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C9CFFEDA1DA057E6005BBECC /* Build configuration list for PBXNativeTarget "ProjectWaterBottleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C9CFFEDB1DA057E6005BBECC /* Debug */,
-				C9CFFEDC1DA057E6005BBECC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C9CFFEDD1DA057E6005BBECC /* Build configuration list for PBXNativeTarget "ProjectWaterBottleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C9CFFEDE1DA057E6005BBECC /* Debug */,
-				C9CFFEDF1DA057E6005BBECC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
