@@ -13,6 +13,7 @@
 		C90442DC1DA4376B00FFA32B /* Japanese.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90442DB1DA4376B00FFA32B /* Japanese.swift */; };
 		C90442E01DA43D1300FFA32B /* JapaneseWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90442DF1DA43D1300FFA32B /* JapaneseWord.swift */; };
 		C94A59731DC0539F00695639 /* Jellybean.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94A59701DC0535100695639 /* Jellybean.framework */; };
+		C94A59771DC060A000695639 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94A59761DC060A000695639 /* Constants.swift */; };
 		C98B7EE21DACA8B50041660C /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98B7EE11DACA8B50041660C /* Secrets.swift */; };
 		C9987C331DA065300087BB4C /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9987C321DA065300087BB4C /* ActionViewController.swift */; };
 		C9987C361DA065300087BB4C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9987C341DA065300087BB4C /* MainInterface.storyboard */; };
@@ -109,6 +110,7 @@
 		C90442DB1DA4376B00FFA32B /* Japanese.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Japanese.swift; sourceTree = "<group>"; };
 		C90442DF1DA43D1300FFA32B /* JapaneseWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapaneseWord.swift; sourceTree = "<group>"; };
 		C94A596A1DC0535100695639 /* Jellybean.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Jellybean.xcodeproj; path = ../Jellybean/Jellybean.xcodeproj; sourceTree = "<group>"; };
+		C94A59761DC060A000695639 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C98B7EDF1DACA7C80041660C /* ProjectWaterBottle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProjectWaterBottle.entitlements; sourceTree = "<group>"; };
 		C98B7EE01DACA7E90041660C /* WaterBottleExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WaterBottleExtension.entitlements; sourceTree = "<group>"; };
 		C98B7EE11DACA8B50041660C /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				C98B7EE11DACA8B50041660C /* Secrets.swift */,
+				C94A59761DC060A000695639 /* Constants.swift */,
 			);
 			name = Constants;
 			sourceTree = "<group>";
@@ -624,6 +627,7 @@
 				C98B7EE21DACA8B50041660C /* Secrets.swift in Sources */,
 				C9B0C22C1DA0B6DE002019D2 /* CardEditorViewController.swift in Sources */,
 				C9B0C22D1DA0B6E3002019D2 /* CardModel.swift in Sources */,
+				C94A59771DC060A000695639 /* Constants.swift in Sources */,
 				C90442DA1DA4369300FFA32B /* Word.swift in Sources */,
 				C90442E01DA43D1300FFA32B /* JapaneseWord.swift in Sources */,
 			);

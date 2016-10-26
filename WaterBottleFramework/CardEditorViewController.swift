@@ -17,7 +17,7 @@ public class CardEditorViewController: UIViewController {
   
   
   public var card: CardModel!
-  
+
   override public func viewDidLoad() {
     super.viewDidLoad()
     frontTextView.delegate = self
@@ -44,6 +44,7 @@ public class CardEditorViewController: UIViewController {
     backTextView.text = card.backText
   }
   
+  /// Defiens the selected word and adds it to the back of the card
   func define() {
     
     print("Should define the word \(selectedText())")
@@ -86,14 +87,12 @@ public class CardEditorViewController: UIViewController {
   func addWordToBack(word: JapaneseWord) {
     let definition = "\(word.term)(\(word.readings[0])) : \(word.definitions[0])"
     
-    card.backText = definition
-    
     if backTextView.text.characters.count == 0 {
       backTextView.text = "\(definition)"
     } else {
       backTextView.text = "\(backTextView.text!)\n\n\(definition)"
     }
-    
+    card.backText = backTextView.text
   }
   
   func selectedText() -> String {

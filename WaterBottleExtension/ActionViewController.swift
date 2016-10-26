@@ -81,22 +81,19 @@ class ActionViewController: UIViewController {
     // The below code probably won't work. The CardModel object needs to conform to the NSCoding protocol,
     // then be archived into NSData THEN stored in UserDefaults
     
-//    if var cards = sharedDefaults?.object(forKey: "Cards") as? [CardModel], let card = cardEditorViewController.card {
-//      // append to cards
-//      cards.append(card)
-//      sharedDefaults?.setValue(cards, forKey: "Cards")
-//    } else {
-//      // no cards object exists, create one here
-//      if let card = cardEditorViewController.card {
-//        let cards = [card]
-//        sharedDefaults?.setValue(cards, forKey: "Cards")
-//      }
-//    }
-    
-  }
-  
-  
-  
+    if var cardData = sharedDefaults?.object(forKey: Constants.userDefaultsCardDataKey) as? [Data], let card = cardEditorViewController.card {
+      // append to cardData
+      let cardDatum = NSKeyedArchiver.archivedData(withRootObject: card)
+      cardData.append(cardDatum)
+      sharedDefaults?.setValue(cardData, forKey: Constants.userDefaultsCardDataKey)
+    } else {
+      // no cards object exists, create one here
+      if let card = cardEditorViewController.card {
+        let cardDatum = NSKeyedArchiver.archivedData(withRootObject: card)
+        sharedDefaults?.setValue([cardDatum], forKey: Constants.userDefaultsCardDataKey)
+      }
+    }
+  } 
 }
 
 

@@ -9,16 +9,21 @@
 import Foundation
 import Jellybean
 
-public class CardModel : NSCoding {
+public class CardModel: NSObject, NSCoding {
   
   public var frontText: String
   public var backText: String
   public let spacing: JBSpacing
   
+  public override var description: String {
+    return "\n----Card Info----\nFront Text: \(frontText)\nBack Text: \(backText)\nSpacing Info:\(spacing)"
+  }
+  
   public init(frontText: String, backText: String) {
     self.frontText = frontText
     self.backText = backText
     self.spacing = JBSpacing()
+    super.init()
   }
   
   public func encode(with aCoder: NSCoder) {
@@ -32,5 +37,5 @@ public class CardModel : NSCoding {
     self.backText = aDecoder.decodeObject(forKey: "backText") as! String
     self.spacing = aDecoder.decodeObject(forKey: "spacing") as! JBSpacing
   }
-  
 }
+
