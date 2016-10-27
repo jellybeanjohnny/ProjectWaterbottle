@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C5991D5C5C145FC127E1CDCA4C70E00529645A1F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C5991D5C5C145FC127E1CDCA4C70E00529645A1F" : 9223372036854775807,
+    "B2E94571A80C249B7D467E5DF9ED21D2FE0079A6" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CFB0EB85-213B-4ACC-B622-585F35B018A4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C5991D5C5C145FC127E1CDCA4C70E00529645A1F" : "ProjectWaterBottle\/",
+    "B2E94571A80C249B7D467E5DF9ED21D2FE0079A6" : "Jellybean\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ProjectWaterBottle",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ProjectWaterBottle.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:jellybeanjohnny\/Jellybean.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B2E94571A80C249B7D467E5DF9ED21D2FE0079A6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:jellybeanjohnny\/ProjectWaterbottle.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C5991D5C5C145FC127E1CDCA4C70E00529645A1F"
+    }
+  ]
+}

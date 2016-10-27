@@ -78,19 +78,20 @@ class ActionViewController: UIViewController {
     // Save the card to the shared card array for the main app to use later on
     let sharedDefaults = UserDefaults(suiteName: Secrets.appGroupName)
     
-    // The below code probably won't work. The CardModel object needs to conform to the NSCoding protocol,
-    // then be archived into NSData THEN stored in UserDefaults
-    
-    if var cardData = sharedDefaults?.object(forKey: Constants.userDefaultsCardDataKey) as? [Data], let card = cardEditorViewController.card {
+    if let cardData = sharedDefaults?.object(forKey: Constants.userDefaultsCardDataKey) as? Data, let card = cardEditorViewController.card {
       // append to cardData
-      let cardDatum = NSKeyedArchiver.archivedData(withRootObject: card)
-      cardData.append(cardDatum)
-      sharedDefaults?.setValue(cardData, forKey: Constants.userDefaultsCardDataKey)
+      
+      var cards = NSKeyedUnarchiver.unarchiveObject(with: cardData) as! [CardModel]
+      cards.append(card)
+      let updatedData = NSKeyedArchiver.archivedData(withRootObject: cards)
+      
+      sharedDefaults?.setValue(updatedData, forKey: Constants.userDefaultsCardDataKey)
     } else {
       // no cards object exists, create one here
       if let card = cardEditorViewController.card {
-        let cardDatum = NSKeyedArchiver.archivedData(withRootObject: card)
-        sharedDefaults?.setValue([cardDatum], forKey: Constants.userDefaultsCardDataKey)
+        let cards = [card]
+        let cardData = NSKeyedArchiver.archivedData(withRootObject: cards)
+        sharedDefaults?.setValue(cardData, forKey: Constants.userDefaultsCardDataKey)
       }
     }
   } 

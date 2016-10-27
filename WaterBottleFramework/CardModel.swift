@@ -13,10 +13,16 @@ public class CardModel: NSObject, NSCoding {
   
   public var frontText: String
   public var backText: String
-  public let spacing: JBSpacing
+  
+  public var dueDate: Date {
+    return spacing.dueDate
+  }
+  
+  let spacing: JBSpacing
+  
   
   public override var description: String {
-    return "\n----Card Info----\nFront Text: \(frontText)\nBack Text: \(backText)\nSpacing Info:\(spacing)"
+    return "\n----Card Info----\nFront Text: \(frontText)\nBack Text: \(backText)\nDue Date:\(dueDate)"
   }
   
   public init(frontText: String, backText: String) {
@@ -37,5 +43,17 @@ public class CardModel: NSObject, NSCoding {
     self.backText = aDecoder.decodeObject(forKey: "backText") as! String
     self.spacing = aDecoder.decodeObject(forKey: "spacing") as! JBSpacing
   }
+  
+  
+  public func markCorrect() {
+    spacing.increaseSpacing()
+  }
+  
+  public func markIncorrect() {
+    spacing.decreaseSpacing()
+  }
+  
+  
+  
 }
 

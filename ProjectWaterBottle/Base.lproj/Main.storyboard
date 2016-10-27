@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,11 +18,77 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="cOC-TA-Zf7" userLabel="Button Stack View">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jMt-GH-FwS">
+                                        <color key="backgroundColor" red="0.98431372549019602" green="0.23921568627450979" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <state key="normal" title="Incorrect">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="incorrectButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="fdZ-LP-gzt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4KF-OK-JXl">
+                                        <color key="backgroundColor" red="0.32941176470588235" green="0.84313725490196079" blue="0.41176470588235292" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <state key="normal" title="Correct">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="correctButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="0eZ-iw-3iP"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="eE5-GQ-DEI" userLabel="Text Stack View">
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Tvj-hQ-vtJ">
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7rK-Ue-Eui">
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </stackView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You're all done. Nice job.⚡️" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NED-a8-0FW">
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eE5-GQ-DEI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="24s-GK-mHm"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cOC-TA-Zf7" secondAttribute="bottom" id="2Bd-XF-Hp2"/>
+                            <constraint firstItem="NED-a8-0FW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7Q5-ao-qfy"/>
+                            <constraint firstItem="NED-a8-0FW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="I1n-hj-pLo"/>
+                            <constraint firstItem="eE5-GQ-DEI" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="SFV-in-sZc"/>
+                            <constraint firstItem="cOC-TA-Zf7" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.1" id="VVa-P7-81z"/>
+                            <constraint firstItem="cOC-TA-Zf7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="iHI-hy-iLs"/>
+                            <constraint firstItem="cOC-TA-Zf7" firstAttribute="top" secondItem="eE5-GQ-DEI" secondAttribute="bottom" id="lT6-B8-QnS"/>
+                            <constraint firstItem="eE5-GQ-DEI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="rgE-O1-gr2"/>
+                            <constraint firstItem="cOC-TA-Zf7" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="vLq-w0-t9w"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backTextView" destination="7rK-Ue-Eui" id="NP2-Gj-isC"/>
+                        <outlet property="completedLabel" destination="NED-a8-0FW" id="KJj-Yz-d6W"/>
+                        <outlet property="correctButton" destination="4KF-OK-JXl" id="Nc4-6A-0iU"/>
+                        <outlet property="frontTextView" destination="Tvj-hQ-vtJ" id="dYJ-OJ-ZYQ"/>
+                        <outlet property="incorrectButton" destination="jMt-GH-FwS" id="D6l-Ti-Xwx"/>
+                        <outlet property="textStackView" destination="eE5-GQ-DEI" id="Y58-H7-n9z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
     </scenes>
 </document>
