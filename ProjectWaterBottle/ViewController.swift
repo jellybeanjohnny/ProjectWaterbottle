@@ -56,8 +56,6 @@ class ViewController: UIViewController {
     
     print("All cards: \(CardDataStore.sharedStore.allCards)")
     
-    
-    
     print("Due cards after marking and syncing:  \(CardDataStore.sharedStore.dueCards)")
     
   }
