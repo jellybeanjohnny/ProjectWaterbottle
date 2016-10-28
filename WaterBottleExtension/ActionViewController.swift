@@ -17,8 +17,6 @@ class ActionViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    print(self.extensionContext?.inputItems)
-    
     parseSelectedText { (text, error) in
       if let text = text {
         self.cardEditorViewController.card = CardModel(frontText: text, backText: "")

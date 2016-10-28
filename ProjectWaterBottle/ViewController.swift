@@ -30,14 +30,43 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
-    backTextView.isHidden = true
-    completedLabel.isHidden = true
-    
-    nextCard()
     
     let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(showBack))
     textStackView.addGestureRecognizer(tapRecognizer)
     
+    NotificationCenter.default.addObserver(self, selector: #selector(handleRefresh), name: .onCardStoreRefresh, object: nil)
+    
+  }
+  
+  override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
+    
+    if !CardDataStore.sharedStore.dueCards.isEmpty {
+      setupReviewSession()
+    } else {
+      displayFinishedMessage()
+    }
+    
+  }
+  
+  func handleRefresh() {
+    if !CardDataStore.sharedStore.dueCards.isEmpty {
+      setupReviewSession()
+    } else {
+      displayFinishedMessage()
+    }
+  }
+  
+  func setupReviewSession() {
+    
+    backTextView.isHidden = true
+    completedLabel.isHidden = true
+    completedLabel.isEnabled = true
+    textStackView.isHidden = false
+    textStackView.isUserInteractionEnabled = true
+    
+    nextCard()
+
   }
   
   @IBAction func correctButtonTapped() {
@@ -72,9 +101,7 @@ class ViewController: UIViewController {
       backTextView.isHidden = true
     } else {
       // no more cards!
-      textStackView.isHidden = true
-      textStackView.isUserInteractionEnabled = false
-      completedLabel.isHidden = false
+      displayFinishedMessage()
     }
   }
   
@@ -88,6 +115,14 @@ class ViewController: UIViewController {
   func toggleButtons() {
     correctButton.isEnabled = !correctButton.isEnabled
     incorrectButton.isEnabled = !incorrectButton.isEnabled
+  }
+  
+  func displayFinishedMessage() {
+    textStackView.isHidden = true
+    textStackView.isUserInteractionEnabled = false
+    completedLabel.isHidden = false
+    correctButton.isEnabled = false
+    incorrectButton.isEnabled = false
   }
 
   
