@@ -27,8 +27,6 @@ class ViewController: UIViewController {
   
   var currentIndex = 0
   
-  let dueCards = CardDataStore.sharedStore.dueCards
-  
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
@@ -39,24 +37,6 @@ class ViewController: UIViewController {
     
     let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(showBack))
     textStackView.addGestureRecognizer(tapRecognizer)
-    
-    testingSpacing()
-    
-  }
-  
-  func testingSpacing() {
-    
-    print("Due cards before marking:  \(CardDataStore.sharedStore.dueCards)")
-    
-    for card in dueCards {
-      card.markCorrect()
-    }
-    
-    CardDataStore.sharedStore.syncWithUserDefaults()
-    
-    print("All cards: \(CardDataStore.sharedStore.allCards)")
-    
-    print("Due cards after marking and syncing:  \(CardDataStore.sharedStore.dueCards)")
     
   }
   
@@ -72,8 +52,8 @@ class ViewController: UIViewController {
   
   func presentCard(forIndex index: Int) {
     
-    if index < dueCards.count && !dueCards.isEmpty {
-      let card = dueCards[index]
+    if index < CardDataStore.sharedStore.dueCards.count && !CardDataStore.sharedStore.dueCards.isEmpty {
+      let card = CardDataStore.sharedStore.dueCards[index]
       currentCard = card
       frontTextView.text = card.frontText
       backTextView.text = card.backText
@@ -86,7 +66,7 @@ class ViewController: UIViewController {
     toggleButtons()
     CardDataStore.sharedStore.syncWithUserDefaults()
     
-    if currentIndex < dueCards.count {
+    if currentIndex < CardDataStore.sharedStore.dueCards.count {
       presentCard(forIndex: currentIndex)
       currentIndex += 1
       backTextView.isHidden = true
@@ -96,10 +76,9 @@ class ViewController: UIViewController {
       textStackView.isUserInteractionEnabled = false
       completedLabel.isHidden = false
     }
-    
- 
-    
   }
+  
+  
   
   func showBack() {
     backTextView.isHidden = false
