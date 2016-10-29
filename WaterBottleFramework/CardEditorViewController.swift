@@ -110,7 +110,9 @@ public class CardEditorViewController: UIViewController {
   func highlightSelectedText() {
     let range = frontTextView.selectedRange
     let text = NSMutableAttributedString(attributedString: frontTextView.attributedText)
-    let attributes = [NSForegroundColorAttributeName : UIColor.red]
+    let attributes = [
+      NSForegroundColorAttributeName : UIColor.red,
+      NSFontAttributeName: UIFont.boldSystemFont(ofSize: UIFont.highlightedFontSize)]
     text.addAttributes(attributes, range: range)
     frontTextView.attributedText = text
   }

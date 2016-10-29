@@ -33,6 +33,7 @@
 		C9CFFEB81DA057E6005BBECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9CFFEB61DA057E6005BBECC /* Main.storyboard */; };
 		C9CFFEBA1DA057E6005BBECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9CFFEB91DA057E6005BBECC /* Assets.xcassets */; };
 		C9CFFEBD1DA057E6005BBECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9CFFEBB1DA057E6005BBECC /* LaunchScreen.storyboard */; };
+		C9F402411DC54C22008FD5D1 /* UIFont+HighlightedFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F402401DC54C22008FD5D1 /* UIFont+HighlightedFontSize.swift */; };
 		D1F17F5725097F16013BFBBD /* Pods_WaterBottleCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F381B1076C87193B25BAB0F /* Pods_WaterBottleCard.framework */; };
 /* End PBXBuildFile section */
 
@@ -144,6 +145,7 @@
 		C9CFFEB91DA057E6005BBECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9CFFEBC1DA057E6005BBECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9CFFEBE1DA057E6005BBECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F402401DC54C22008FD5D1 /* UIFont+HighlightedFontSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+HighlightedFontSize.swift"; sourceTree = "<group>"; };
 		FA21E0555995B7E800470CBF /* Pods-WaterBottleCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterBottleCard.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaterBottleCard/Pods-WaterBottleCard.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -244,6 +246,7 @@
 			children = (
 				C98B7EE11DACA8B50041660C /* Secrets.swift */,
 				C94A59761DC060A000695639 /* Constants.swift */,
+				C9F402401DC54C22008FD5D1 /* UIFont+HighlightedFontSize.swift */,
 			);
 			name = Constants;
 			sourceTree = "<group>";
@@ -645,6 +648,7 @@
 				C98B7EE21DACA8B50041660C /* Secrets.swift in Sources */,
 				C9B0C22C1DA0B6DE002019D2 /* CardEditorViewController.swift in Sources */,
 				C9B0C22D1DA0B6E3002019D2 /* CardModel.swift in Sources */,
+				C9F402411DC54C22008FD5D1 /* UIFont+HighlightedFontSize.swift in Sources */,
 				C94A59771DC060A000695639 /* Constants.swift in Sources */,
 				C90442DA1DA4369300FFA32B /* Word.swift in Sources */,
 				C90442E01DA43D1300FFA32B /* JapaneseWord.swift in Sources */,
