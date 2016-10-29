@@ -79,7 +79,7 @@ class ViewController: UIViewController {
     if index < CardDataStore.sharedStore.dueCards.count && !CardDataStore.sharedStore.dueCards.isEmpty {
       let card = CardDataStore.sharedStore.dueCards[index]
       currentCard = card
-      frontTextView.text = card.frontText
+      frontTextView.attributedText = card.frontAttributedText
       backTextView.text = card.backText
     }
   }

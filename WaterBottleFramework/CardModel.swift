@@ -12,6 +12,7 @@ import Jellybean
 public class CardModel: NSObject, NSCoding {
   
   public var frontText: String
+  public var frontAttributedText: NSAttributedString?
   public var backText: String
   
   public var dueDate: Date {
@@ -36,12 +37,14 @@ public class CardModel: NSObject, NSCoding {
     aCoder.encode(frontText, forKey:"frontText")
     aCoder.encode(backText, forKey:"backText")
     aCoder.encode(spacing, forKey:"spacing")
+    aCoder.encode(frontAttributedText, forKey:"frontAttributedText")
   }
   
   public required init?(coder aDecoder: NSCoder) {
     self.frontText = aDecoder.decodeObject(forKey: "frontText") as! String
     self.backText = aDecoder.decodeObject(forKey: "backText") as! String
     self.spacing = aDecoder.decodeObject(forKey: "spacing") as! JBSpacing
+    self.frontAttributedText = aDecoder.decodeObject(forKey: "frontAttributedText") as? NSAttributedString
   }
   
   

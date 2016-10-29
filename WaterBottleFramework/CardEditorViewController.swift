@@ -115,6 +115,7 @@ public class CardEditorViewController: UIViewController {
       NSFontAttributeName: UIFont.boldSystemFont(ofSize: UIFont.highlightedFontSize)]
     text.addAttributes(attributes, range: range)
     frontTextView.attributedText = text
+    card.frontAttributedText = frontTextView.attributedText
   }
   
 }
@@ -124,6 +125,7 @@ extension CardEditorViewController: UITextViewDelegate {
   public func textViewDidEndEditing(_ textView: UITextView) {
     if textView == frontTextView {
       card.frontText = textView.text
+      card.frontAttributedText = textView.attributedText
       print("Front text: \(card.frontText)")
     } else if textView == backTextView {
       card.backText = backTextView.text
