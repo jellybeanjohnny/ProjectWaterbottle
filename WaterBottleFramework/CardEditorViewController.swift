@@ -44,11 +44,12 @@ public class CardEditorViewController: UIViewController {
     backTextView.text = card.backText
   }
   
-  /// Defiens the selected word and adds it to the back of the card
+  /// Defines the selected word and adds it to the back of the card
   func define() {
     
-    print("Should define the word \(selectedText())")
     let term = selectedText()
+    highlightSelectedText()
+    
     
     if term.characters.count == 0 {
       let alertController = UIAlertController(title: "No Text Selected", message: "First select text then tap WB-Define", preferredStyle: .alert)
@@ -102,11 +103,16 @@ public class CardEditorViewController: UIViewController {
     if frontTextView.selectedRange.length != 0 {
       let text = frontTextView.text as NSString
       result = text.substring(with: frontTextView.selectedRange) as String
-    } else if backTextView.selectedRange.length != 0 {
-      let text = backTextView.text as NSString
-      result = text.substring(with: backTextView.selectedRange) as String
     }
     return result
+  }
+  
+  func highlightSelectedText() {
+    let range = frontTextView.selectedRange
+    let text = NSMutableAttributedString(attributedString: frontTextView.attributedText)
+    let attributes = [NSForegroundColorAttributeName : UIColor.red]
+    text.addAttributes(attributes, range: range)
+    frontTextView.attributedText = text
   }
   
 }

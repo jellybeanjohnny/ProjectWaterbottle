@@ -16,6 +16,8 @@
 		C94A59771DC060A000695639 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94A59761DC060A000695639 /* Constants.swift */; };
 		C94A597A1DC135B500695639 /* CardDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94A59791DC135B500695639 /* CardDataStore.swift */; };
 		C96C661A1DC2EA8F005C086C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C66191DC2EA8F005C086C /* Extensions.swift */; };
+		C9878B121DC439A50049633C /* Jellybean.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94A59701DC0535100695639 /* Jellybean.framework */; };
+		C9878B131DC439A50049633C /* Jellybean.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C94A59701DC0535100695639 /* Jellybean.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C98B7EE21DACA8B50041660C /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98B7EE11DACA8B50041660C /* Secrets.swift */; };
 		C9987C331DA065300087BB4C /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9987C321DA065300087BB4C /* ActionViewController.swift */; };
 		C9987C361DA065300087BB4C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9987C341DA065300087BB4C /* MainInterface.storyboard */; };
@@ -49,6 +51,13 @@
 			remoteGlobalIDString = C94A59571DC052F400695639;
 			remoteInfo = JellybeanTests;
 		};
+		C9878B141DC439A50049633C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C94A596A1DC0535100695639 /* Jellybean.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C94A594D1DC052F300695639;
+			remoteInfo = Jellybean;
+		};
 		C9987C381DA065300087BB4C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C9CFFEA71DA057E6005BBECC /* Project object */;
@@ -73,6 +82,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				C9987C811DA0B4570087BB4C /* WaterBottleCard.framework in Embed Frameworks */,
+				C9878B131DC439A50049633C /* Jellybean.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,6 +172,7 @@
 			files = (
 				C9987C801DA0B4570087BB4C /* WaterBottleCard.framework in Frameworks */,
 				C37CA46603CFBD92C708FF25 /* Pods_ProjectWaterBottle.framework in Frameworks */,
+				C9878B121DC439A50049633C /* Jellybean.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +390,7 @@
 			dependencies = (
 				C9987C391DA065300087BB4C /* PBXTargetDependency */,
 				C9987C7F1DA0B4570087BB4C /* PBXTargetDependency */,
+				C9878B151DC439A50049633C /* PBXTargetDependency */,
 			);
 			name = ProjectWaterBottle;
 			productName = ProjectWaterBottle;
@@ -653,6 +665,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C9878B151DC439A50049633C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Jellybean;
+			targetProxy = C9878B141DC439A50049633C /* PBXContainerItemProxy */;
+		};
 		C9987C391DA065300087BB4C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C9987C2F1DA065300087BB4C /* WaterBottleExtension */;

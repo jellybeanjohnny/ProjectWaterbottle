@@ -25,6 +25,7 @@ class ViewController: UIViewController {
   var currentCard: CardModel?
   
   
+  
   var currentIndex = 0
   
   override func viewDidLoad() {
