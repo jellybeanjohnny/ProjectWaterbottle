@@ -73,6 +73,9 @@ class ActionViewController: UIViewController {
   }
   
   func saveCardToSharedUserDefaultSuite() {
+    
+    print("SAVING CARD...")
+    
     // Save the card to the shared card array for the main app to use later on
     let sharedDefaults = UserDefaults(suiteName: Secrets.appGroupName)
     
@@ -84,12 +87,24 @@ class ActionViewController: UIViewController {
       let updatedData = NSKeyedArchiver.archivedData(withRootObject: cards)
       
       sharedDefaults?.setValue(updatedData, forKey: Constants.userDefaultsCardDataKey)
+      if (sharedDefaults?.synchronize())! {
+        print("SAVED.")
+      } else {
+        print("UNABLE TO SAVE")
+      }
+
+      
     } else {
       // no cards object exists, create one here
       if let card = cardEditorViewController.card {
         let cards = [card]
         let cardData = NSKeyedArchiver.archivedData(withRootObject: cards)
         sharedDefaults?.setValue(cardData, forKey: Constants.userDefaultsCardDataKey)
+        if (sharedDefaults?.synchronize())! {
+          print("SAVED.")
+        } else {
+          print("UNABLE TO SAVE")
+        }
       }
     }
   } 

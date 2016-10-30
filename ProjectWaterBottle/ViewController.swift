@@ -17,9 +17,7 @@ class ViewController: UIViewController {
   
   @IBOutlet weak var completedLabel: UILabel!
   
-  @IBOutlet weak var incorrectButton: UIButton!
-  @IBOutlet weak var correctButton: UIButton!
-  
+  @IBOutlet weak var answerButtonsStackView: UIStackView!
   
   
   var currentCard: CardModel?
@@ -38,12 +36,7 @@ class ViewController: UIViewController {
     NotificationCenter.default.addObserver(self, selector: #selector(handleRefresh), name: .onCardStoreRefresh, object: nil)
     
   }
-  
-  override func viewDidAppear(_ animated: Bool) {
-    super.viewDidAppear(animated)
-    
-  }
-  
+
   func handleRefresh() {
     if !CardDataStore.sharedStore.dueCards.isEmpty {
       setupReviewSession()
@@ -55,11 +48,11 @@ class ViewController: UIViewController {
   func setupReviewSession() {
     
     backTextView.isHidden = true
+    frontTextView.isHidden = false
     completedLabel.isHidden = true
-    completedLabel.isEnabled = true
     textStackView.isHidden = false
     textStackView.isUserInteractionEnabled = true
-    
+    answerButtonsStackView.isHidden = false
     nextCard()
 
   }
@@ -87,7 +80,7 @@ class ViewController: UIViewController {
   
   func nextCard() {
     
-    toggleButtons()
+    answerButtonsStackView.isHidden = true
     CardDataStore.sharedStore.syncWithUserDefaults()
     
     if currentIndex < CardDataStore.sharedStore.dueCards.count {
@@ -104,20 +97,20 @@ class ViewController: UIViewController {
   
   func showBack() {
     backTextView.isHidden = false
-    toggleButtons()
+    answerButtonsStackView.isHidden = false
   }
   
-  func toggleButtons() {
-    correctButton.isEnabled = !correctButton.isEnabled
-    incorrectButton.isEnabled = !incorrectButton.isEnabled
-  }
   
   func displayFinishedMessage() {
+    resetIndex()
     textStackView.isHidden = true
     textStackView.isUserInteractionEnabled = false
     completedLabel.isHidden = false
-    correctButton.isEnabled = false
-    incorrectButton.isEnabled = false
+    answerButtonsStackView.isHidden = true
+  }
+  
+  func resetIndex() {
+    currentIndex = 0
   }
 
   
