@@ -44,17 +44,7 @@ class ActionViewController: UIViewController {
   }
   
   
-  /*
-   Example from apple's documentation
-   - (IBAction)done:(id)sender {
-   NSExtensionItem *outputItem = [[NSExtensionItem alloc] init];
-   outputItem.attributedContentText = self.myTextView.attributedString;
-   
-   NSArray *outputItems = @[outputItem];
-   [self.extensionContext completeRequestReturningItems:outputItems];
-   }
-   
-   */
+
   @IBAction func done() {
     saveCardToSharedUserDefaultSuite()
     self.extensionContext!.completeRequest(returningItems: nil, completionHandler: nil)

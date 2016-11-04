@@ -31,9 +31,6 @@ class CardDataStore {
       
       dueCards = allCards.filter{ $0.dueDate <= today }
       
-      print("Total Cards: \(allCards.count)")
-      print("Due cards: \(dueCards.count)")
-      
     }
   }
   

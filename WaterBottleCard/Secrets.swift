@@ -9,5 +9,5 @@
 import Foundation
 
 public struct Secrets {
-  public static let appGroupName = "group.BuildThingsProjectWaterBottle"
+  public static let appGroupName = "group.ProjectWaterBottle.test"
 }

@@ -35,6 +35,8 @@ class ViewController: UIViewController {
     
     func handleRefresh() {
         
+        CardDataStore.sharedStore.loadCards()
+        
         print("Cards: \(CardDataStore.sharedStore.allCards.count)\nDue: \(CardDataStore.sharedStore.dueCards.count)")
         
         if !CardDataStore.sharedStore.dueCards.isEmpty {
