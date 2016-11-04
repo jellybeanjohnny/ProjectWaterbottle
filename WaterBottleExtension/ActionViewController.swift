@@ -8,7 +8,7 @@
 
 import UIKit
 import MobileCoreServices
-import WaterBottleCard
+import SharedCode
 
 class ActionViewController: UIViewController {
   

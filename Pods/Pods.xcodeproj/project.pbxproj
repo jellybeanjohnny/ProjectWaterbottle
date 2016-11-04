@@ -10,52 +10,52 @@
 		00D629BD1738A0BE63CF2C4C8CC836EA /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C7C311169F3CAF970644274FB0787A /* SwiftyJSON-dummy.m */; };
 		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D182500FF4918391F97385DAE996449 /* Timeline.swift */; };
 		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94276CF887593FC21A638F4E2F1F4A42 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3236E9D2B51C0C74709A17BA3DC40DEE /* Pods-SharedCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E08E13DA38E7527F83FC1672C160243A /* Pods-SharedCode-dummy.m */; };
 		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F0620667B1D1CE3A63A07911DA946 /* TaskDelegate.swift */; };
-		3EEE6A450338AB07B69CC9FBE3963333 /* Pods-ProjectWaterBottle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25F557654496175404323EC974949390 /* Pods-ProjectWaterBottle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EEE6A450338AB07B69CC9FBE3963333 /* Pods-ProjectWaterBottle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 702D09926E0BD4C173770F0DD4BD5776 /* Pods-ProjectWaterBottle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4ACD9B0AE7A473A5D972FF22E3892C80 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBFF681209D4E5030FF4116EFD41362 /* SwiftyJSON.swift */; };
 		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBEB670658597FB7864005ED913ECB6 /* Request.swift */; };
 		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5933A0580629CB79BDBD1D33483297F5 /* DispatchQueue+Alamofire.swift */; };
 		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE6D52AA2F0C3238B527C58255F520 /* ServerTrustPolicy.swift */; };
-		6410481777AB2595D262150F45C5B24B /* Pods-WaterBottleExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B315329D561EE36AD996582E57A8DE0 /* Pods-WaterBottleExtension-dummy.m */; };
+		6410481777AB2595D262150F45C5B24B /* Pods-WaterBottleExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4B8573FEBCA755F333B016A5B841C6 /* Pods-WaterBottleExtension-dummy.m */; };
 		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F6B9EA5D63A221428D82DFC754F83 /* SessionDelegate.swift */; };
 		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA5CA9C1A1A8A10FA0F34E068E281AB /* Result.swift */; };
 		83299E7F894F753E2D7D3BDDFDAD83D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		878BB784EBD00EEFA266DD3696649A0E /* Pods-ProjectWaterBottle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E791514589C9804A053BDB64913027 /* Pods-ProjectWaterBottle-dummy.m */; };
-		91651DEA848D9D701995A4B56EEF00D2 /* Pods-WaterBottleCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA21327720FFB8BFAF3B43A86C5D31B /* Pods-WaterBottleCard-dummy.m */; };
+		878BB784EBD00EEFA266DD3696649A0E /* Pods-ProjectWaterBottle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BBF0FD83A436BD4A3F34778A4C7D2C /* Pods-ProjectWaterBottle-dummy.m */; };
 		947A92BB0967CDB005C434B9154E3364 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6FA20699EAC0AB72A507BB66B191F8 /* AFError.swift */; };
 		A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7857033CB003F852F367D6BC6CA97425 /* NetworkReachabilityManager.swift */; };
+		A75B9E8DE16D502EBD13CEC1ABE8C265 /* Pods-SharedCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A44857F1AB61A42E3C86043C8BF943E /* Pods-SharedCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1634FA3E2F5577B752A2A95EF63B4B81 /* Alamofire-dummy.m */; };
 		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B506A540FE042146EA8265DD35585 /* SessionManager.swift */; };
 		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42F49FBA20BC96954B56110A1FB0535 /* MultipartFormData.swift */; };
 		BB8F50345EB0DA021F3568ACD99F0C58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F382C5721F36A8CF08DA36032E8FF2C1 /* Validation.swift */; };
 		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F03809326666A0674F21BBADB1BB09D /* ParameterEncoding.swift */; };
-		C0129DC029E21C38F0130AE40A79B573 /* Pods-WaterBottleCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0BE6BBDFF7A36800D98B54CF5AF7FC /* Pods-WaterBottleCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C77D16D7F257F757E859F28E510E690B /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5B8F6AE942BA3D7E8C0B8732349B67 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6E04C2B770D33E90A7E43AD9A6DDF5 /* Response.swift */; };
-		D0D60C70F1D09F95FF7DBFE5F2F55070 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		D5EBE167E01A66F380CA23937A556768 /* Pods-WaterBottleExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 596E1F34AC762788B0A3AD9ADD96B552 /* Pods-WaterBottleExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5EBE167E01A66F380CA23937A556768 /* Pods-WaterBottleExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3DACBA69BD5CFA0ADC51C9AE70F00F /* Pods-WaterBottleExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09922B86810418CDE6DD69710D5A9C17 /* Notifications.swift */; };
 		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EFF0A773A9B68F8036680922E55A8F /* ResponseSerialization.swift */; };
 		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FB4343C43368E1D119B6871123AF1 /* Alamofire.swift */; };
+		FC237A5547C024B71D998083D1AA2E09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4FE0FB37CD5E842E98B0748BACD3B6C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF32623510EC289DE3685624FFEA1C4D;
+			remoteInfo = SwiftyJSON;
+		};
 		57488259506426541760D09950B59E3E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
 			remoteInfo = Alamofire;
-		};
-		87C63481C8524A9AD678169E0992CA7B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CF32623510EC289DE3685624FFEA1C4D;
-			remoteInfo = SwiftyJSON;
 		};
 		92FDE3EA9498A16CA17AF3C3E1D06E1C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -64,7 +64,7 @@
 			remoteGlobalIDString = CF32623510EC289DE3685624FFEA1C4D;
 			remoteInfo = SwiftyJSON;
 		};
-		A778D9F7B6D96503A75CA22818A986E6 /* PBXContainerItemProxy */ = {
+		DEB23E6157272E49C05B9C7611959748 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -75,70 +75,70 @@
 
 /* Begin PBXFileReference section */
 		003F0620667B1D1CE3A63A07911DA946 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		0117E1386C2A929EDF6C27CBE610CC2C /* Pods-WaterBottleExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WaterBottleExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		0235F8331269909DABC3D399C7CF5868 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09922B86810418CDE6DD69710D5A9C17 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		0BA21327720FFB8BFAF3B43A86C5D31B /* Pods-WaterBottleCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WaterBottleCard-dummy.m"; sourceTree = "<group>"; };
 		0C6E04C2B770D33E90A7E43AD9A6DDF5 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		0CFA02B28200302FEA715899A662AD69 /* Pods-WaterBottleExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaterBottleExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		10A99B4F208B49DD193D2348008248AE /* Pods-WaterBottleCard-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WaterBottleCard-acknowledgements.plist"; sourceTree = "<group>"; };
+		124A5933C589F9677395BCCF7151916A /* Pods-ProjectWaterBottle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ProjectWaterBottle.modulemap"; sourceTree = "<group>"; };
+		1421E6B3AED60E212F35C0E446032FB0 /* Pods_WaterBottleExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WaterBottleExtension.framework; path = "Pods-WaterBottleExtension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1634FA3E2F5577B752A2A95EF63B4B81 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		17C7C311169F3CAF970644274FB0787A /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		1F5CF810B87A15B12E0B28673F1072CE /* Pods-ProjectWaterBottle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjectWaterBottle.debug.xcconfig"; sourceTree = "<group>"; };
-		206FC68D6E41E6A7537C62A75A51B9FA /* Pods-WaterBottleExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WaterBottleExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
-		25F557654496175404323EC974949390 /* Pods-ProjectWaterBottle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProjectWaterBottle-umbrella.h"; sourceTree = "<group>"; };
+		2290977EBCD183FF201116BA9E2DC878 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26EFF0A773A9B68F8036680922E55A8F /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		2ABC58D174F71AACC63428784E62430E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D182500FF4918391F97385DAE996449 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		2EF3D161B4D3BA0DFB23119504A4863B /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		332F6B9EA5D63A221428D82DFC754F83 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		41FC73FAFEBC7B552A325E665B1E6418 /* Pods-WaterBottleExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WaterBottleExtension.modulemap"; sourceTree = "<group>"; };
-		43B43C5C3AAF7B0B863BF8DAC2928F90 /* Pods_WaterBottleExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WaterBottleExtension.framework; path = "Pods-WaterBottleExtension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4ABABD0F0698026FB351AAC6A8F29832 /* Pods-WaterBottleCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaterBottleCard.debug.xcconfig"; sourceTree = "<group>"; };
-		58D5EDDA28A36663B4C10F3BBB0B206B /* Pods-WaterBottleCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaterBottleCard.release.xcconfig"; sourceTree = "<group>"; };
+		3961E80DC5C3F529E809FA5106673C83 /* Pods-SharedCode-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SharedCode-resources.sh"; sourceTree = "<group>"; };
+		3AACDF29BA35DE732BD8E9EC97D133C1 /* Pods-SharedCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SharedCode.release.xcconfig"; sourceTree = "<group>"; };
+		433824B5C038BF3E8AF10AD406DFD980 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BBF0FD83A436BD4A3F34778A4C7D2C /* Pods-ProjectWaterBottle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProjectWaterBottle-dummy.m"; sourceTree = "<group>"; };
+		4C4B8573FEBCA755F333B016A5B841C6 /* Pods-WaterBottleExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WaterBottleExtension-dummy.m"; sourceTree = "<group>"; };
+		4FB9B57AE53301D45D6CC39AFBED4E85 /* Pods-ProjectWaterBottle-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProjectWaterBottle-frameworks.sh"; sourceTree = "<group>"; };
+		5104A2919D67699A3BAF039AB671D1B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		536B81F82CF5B71555755302904E3839 /* Pods-ProjectWaterBottle-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProjectWaterBottle-acknowledgements.plist"; sourceTree = "<group>"; };
 		5933A0580629CB79BDBD1D33483297F5 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		596E1F34AC762788B0A3AD9ADD96B552 /* Pods-WaterBottleExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WaterBottleExtension-umbrella.h"; sourceTree = "<group>"; };
-		5F35521A7E5B161EA5E110242E85D38F /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		615E604B3093B466B4A71ADA890B4293 /* Pods-WaterBottleExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WaterBottleExtension-acknowledgements.plist"; sourceTree = "<group>"; };
-		68E791514589C9804A053BDB64913027 /* Pods-ProjectWaterBottle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProjectWaterBottle-dummy.m"; sourceTree = "<group>"; };
+		596434F11FD310107C0DCAEB848C1F4E /* Pods-WaterBottleExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaterBottleExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		68D46CB82D7823D0BB9D109C3ECC365B /* Pods-WaterBottleExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaterBottleExtension.release.xcconfig"; sourceTree = "<group>"; };
+		6A44857F1AB61A42E3C86043C8BF943E /* Pods-SharedCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SharedCode-umbrella.h"; sourceTree = "<group>"; };
+		6AD1C958AFBA005905481B02D6A6D1F5 /* Pods-WaterBottleExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WaterBottleExtension.modulemap"; sourceTree = "<group>"; };
+		702D09926E0BD4C173770F0DD4BD5776 /* Pods-ProjectWaterBottle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProjectWaterBottle-umbrella.h"; sourceTree = "<group>"; };
+		784A6393BA741B50A474221C47AB8191 /* Pods-WaterBottleExtension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WaterBottleExtension-resources.sh"; sourceTree = "<group>"; };
 		7857033CB003F852F367D6BC6CA97425 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		7B315329D561EE36AD996582E57A8DE0 /* Pods-WaterBottleExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WaterBottleExtension-dummy.m"; sourceTree = "<group>"; };
+		7ABDC488F358B41B2472EB3692F3A203 /* Pods-ProjectWaterBottle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjectWaterBottle.release.xcconfig"; sourceTree = "<group>"; };
 		7BD1D581B483AF8736F68B34656AEA1F /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
-		80C773740E1A583BC82A542C1CE68E56 /* Pods-WaterBottleExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaterBottleExtension.release.xcconfig"; sourceTree = "<group>"; };
-		82F30268F78730FED6551F450E216DAC /* Pods_WaterBottleCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WaterBottleCard.framework; path = "Pods-WaterBottleCard.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E384662173538680B3C5FBAE58124E /* Pods-SharedCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SharedCode.debug.xcconfig"; sourceTree = "<group>"; };
 		8F03809326666A0674F21BBADB1BB09D /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		91795006969EEC3A2DF9B5DF4765A3CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		927159AC28B562B9F78B38834A07F0DA /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		935435DE1CE2D5F0D5D3C03F2A70D7CE /* Pods_ProjectWaterBottle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProjectWaterBottle.framework; path = "Pods-ProjectWaterBottle.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93F0F62CA1A4DBDCA06A6742B79F3DDA /* Pods-ProjectWaterBottle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ProjectWaterBottle.modulemap"; sourceTree = "<group>"; };
 		94276CF887593FC21A638F4E2F1F4A42 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		98CE2E815D55A480AC962EDFF35CBC55 /* Pods_ProjectWaterBottle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProjectWaterBottle.framework; path = "Pods-ProjectWaterBottle.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A29FDA11FF88AD34BFDB87E7C8FCC237 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5301DCFC928A666F47632F3300FE633 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AABBC7B2A33E0A0AC67EA504F84C4A54 /* Pods-ProjectWaterBottle-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProjectWaterBottle-acknowledgements.plist"; sourceTree = "<group>"; };
+		94B23B5D97DC23EB659524B1D5BBE672 /* Pods-SharedCode-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SharedCode-acknowledgements.markdown"; sourceTree = "<group>"; };
+		97F11C906B5EFF97CE18A6BE68659CE2 /* Pods-WaterBottleExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WaterBottleExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9ABB20D316DB6F85241C8FF6856EFF8A /* Pods-ProjectWaterBottle-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProjectWaterBottle-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D47A9A39A8814A9A5B74A645F0A34B4 /* Pods-ProjectWaterBottle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjectWaterBottle.debug.xcconfig"; sourceTree = "<group>"; };
 		AEBEB670658597FB7864005ED913ECB6 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		AF748B9E1848C5D6DD73C0C1A7A36AE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B20401B31A369E8903A824283ADEBD0F /* Pods-WaterBottleExtension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WaterBottleExtension-resources.sh"; sourceTree = "<group>"; };
-		B56EAD3CD81EDA7D23E44B11E3FC734B /* Pods-ProjectWaterBottle-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProjectWaterBottle-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BA5B8F6AE942BA3D7E8C0B8732349B67 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CC0BE6BBDFF7A36800D98B54CF5AF7FC /* Pods-WaterBottleCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WaterBottleCard-umbrella.h"; sourceTree = "<group>"; };
 		CF6FA20699EAC0AB72A507BB66B191F8 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		CFBFF681209D4E5030FF4116EFD41362 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
-		D13EE8CA7EC290412C592AB179FFF507 /* Pods-ProjectWaterBottle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjectWaterBottle.release.xcconfig"; sourceTree = "<group>"; };
-		D4C530053350D30BD6FDD7A102CF52F4 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C65EFD72FF11278094A810300A0889 /* Pods_SharedCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SharedCode.framework; path = "Pods-SharedCode.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84C057D89F92F2EE6EA6DCB6CFA02E2 /* Pods-SharedCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SharedCode.modulemap"; sourceTree = "<group>"; };
 		D9EE6D52AA2F0C3238B527C58255F520 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		DAA5CA9C1A1A8A10FA0F34E068E281AB /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		DE3DACBA69BD5CFA0ADC51C9AE70F00F /* Pods-WaterBottleExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WaterBottleExtension-umbrella.h"; sourceTree = "<group>"; };
 		DE99AF16AC7077B672DAE5DAD765B367 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		E08E13DA38E7527F83FC1672C160243A /* Pods-SharedCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SharedCode-dummy.m"; sourceTree = "<group>"; };
 		E42F49FBA20BC96954B56110A1FB0535 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		E630CDFC9343B9040500E2DA9E9BA009 /* Pods-WaterBottleCard-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WaterBottleCard-resources.sh"; sourceTree = "<group>"; };
 		E8202EA65D7F9777D78833FBE8F42BF1 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
-		EAA99D175F0C06EB64936C0C753EA52E /* Pods-ProjectWaterBottle-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProjectWaterBottle-resources.sh"; sourceTree = "<group>"; };
+		E943DE9FEECFE7E3007B659B004A7018 /* Pods-ProjectWaterBottle-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProjectWaterBottle-resources.sh"; sourceTree = "<group>"; };
 		EEF1DD17D00D8B108483FE2FEE2ED4DA /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		F05B506A540FE042146EA8265DD35585 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		F26FB4343C43368E1D119B6871123AF1 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		F382C5721F36A8CF08DA36032E8FF2C1 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		F3DA8A89A734A09C9E3E89254AA09615 /* Pods-WaterBottleCard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WaterBottleCard-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FBEE0E4B03BB3692BCF16417DCEEDE5A /* Pods-WaterBottleCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WaterBottleCard.modulemap"; sourceTree = "<group>"; };
 		FC61F6341066AC51394924B7EA2CF193 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDA95DD6139288074F153C447106C2A2 /* Pods-ProjectWaterBottle-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProjectWaterBottle-frameworks.sh"; sourceTree = "<group>"; };
+		FC66D2AB2551C59EDD2DFB4E57EE7E60 /* Pods-SharedCode-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SharedCode-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,19 +150,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6993539D7652A7EB4887F292056A6E1C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0D60C70F1D09F95FF7DBFE5F2F55070 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		79FF7E88F08E62C70364F31A7E123A8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				947A92BB0967CDB005C434B9154E3364 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6C46C624D7931F656294E8F2DEABC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC237A5547C024B71D998083D1AA2E09 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,32 +185,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F34F296D92B6CB2B0468C4BDBAB07F7 /* Pods-ProjectWaterBottle */ = {
+		23704A32ABC698FA2D0D5601300E3824 /* Pods-WaterBottleExtension */ = {
 			isa = PBXGroup;
 			children = (
-				A29FDA11FF88AD34BFDB87E7C8FCC237 /* Info.plist */,
-				93F0F62CA1A4DBDCA06A6742B79F3DDA /* Pods-ProjectWaterBottle.modulemap */,
-				B56EAD3CD81EDA7D23E44B11E3FC734B /* Pods-ProjectWaterBottle-acknowledgements.markdown */,
-				AABBC7B2A33E0A0AC67EA504F84C4A54 /* Pods-ProjectWaterBottle-acknowledgements.plist */,
-				68E791514589C9804A053BDB64913027 /* Pods-ProjectWaterBottle-dummy.m */,
-				FDA95DD6139288074F153C447106C2A2 /* Pods-ProjectWaterBottle-frameworks.sh */,
-				EAA99D175F0C06EB64936C0C753EA52E /* Pods-ProjectWaterBottle-resources.sh */,
-				25F557654496175404323EC974949390 /* Pods-ProjectWaterBottle-umbrella.h */,
-				1F5CF810B87A15B12E0B28673F1072CE /* Pods-ProjectWaterBottle.debug.xcconfig */,
-				D13EE8CA7EC290412C592AB179FFF507 /* Pods-ProjectWaterBottle.release.xcconfig */,
+				2ABC58D174F71AACC63428784E62430E /* Info.plist */,
+				6AD1C958AFBA005905481B02D6A6D1F5 /* Pods-WaterBottleExtension.modulemap */,
+				97F11C906B5EFF97CE18A6BE68659CE2 /* Pods-WaterBottleExtension-acknowledgements.markdown */,
+				0117E1386C2A929EDF6C27CBE610CC2C /* Pods-WaterBottleExtension-acknowledgements.plist */,
+				4C4B8573FEBCA755F333B016A5B841C6 /* Pods-WaterBottleExtension-dummy.m */,
+				784A6393BA741B50A474221C47AB8191 /* Pods-WaterBottleExtension-resources.sh */,
+				DE3DACBA69BD5CFA0ADC51C9AE70F00F /* Pods-WaterBottleExtension-umbrella.h */,
+				596434F11FD310107C0DCAEB848C1F4E /* Pods-WaterBottleExtension.debug.xcconfig */,
+				68D46CB82D7823D0BB9D109C3ECC365B /* Pods-WaterBottleExtension.release.xcconfig */,
 			);
-			name = "Pods-ProjectWaterBottle";
-			path = "Target Support Files/Pods-ProjectWaterBottle";
-			sourceTree = "<group>";
-		};
-		3F555FBE173574550D766F17149E790E /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2F34F296D92B6CB2B0468C4BDBAB07F7 /* Pods-ProjectWaterBottle */,
-				F9008B36C588EF43A4131736321C8CBC /* Pods-WaterBottleCard */,
-				BC105F4BCE2A54A43DDBE3FDA2F9FF90 /* Pods-WaterBottleExtension */,
-			);
-			name = "Targets Support Files";
+			name = "Pods-WaterBottleExtension";
+			path = "Target Support Files/Pods-WaterBottleExtension";
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -241,9 +230,27 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				86D8AA6B1E9A5BBF1AE91BD6451D7A84 /* Pods */,
-				DC614A68241BC959D861BFD9D0533885 /* Products */,
-				3F555FBE173574550D766F17149E790E /* Targets Support Files */,
+				C437F7BDA4D3F7BED542E8D0FF78E8C0 /* Products */,
+				C4AA3519FF14F497A6FEAC3236879CDA /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		841D425630AFF9B4BC9CB7F9E3E507E0 /* Pods-ProjectWaterBottle */ = {
+			isa = PBXGroup;
+			children = (
+				5104A2919D67699A3BAF039AB671D1B6 /* Info.plist */,
+				124A5933C589F9677395BCCF7151916A /* Pods-ProjectWaterBottle.modulemap */,
+				9ABB20D316DB6F85241C8FF6856EFF8A /* Pods-ProjectWaterBottle-acknowledgements.markdown */,
+				536B81F82CF5B71555755302904E3839 /* Pods-ProjectWaterBottle-acknowledgements.plist */,
+				45BBF0FD83A436BD4A3F34778A4C7D2C /* Pods-ProjectWaterBottle-dummy.m */,
+				4FB9B57AE53301D45D6CC39AFBED4E85 /* Pods-ProjectWaterBottle-frameworks.sh */,
+				E943DE9FEECFE7E3007B659B004A7018 /* Pods-ProjectWaterBottle-resources.sh */,
+				702D09926E0BD4C173770F0DD4BD5776 /* Pods-ProjectWaterBottle-umbrella.h */,
+				9D47A9A39A8814A9A5B74A645F0A34B4 /* Pods-ProjectWaterBottle.debug.xcconfig */,
+				7ABDC488F358B41B2472EB3692F3A203 /* Pods-ProjectWaterBottle.release.xcconfig */,
+			);
+			name = "Pods-ProjectWaterBottle";
+			path = "Target Support Files/Pods-ProjectWaterBottle";
 			sourceTree = "<group>";
 		};
 		86D8AA6B1E9A5BBF1AE91BD6451D7A84 /* Pods */ = {
@@ -255,29 +262,34 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		BC105F4BCE2A54A43DDBE3FDA2F9FF90 /* Pods-WaterBottleExtension */ = {
-			isa = PBXGroup;
-			children = (
-				A5301DCFC928A666F47632F3300FE633 /* Info.plist */,
-				41FC73FAFEBC7B552A325E665B1E6418 /* Pods-WaterBottleExtension.modulemap */,
-				206FC68D6E41E6A7537C62A75A51B9FA /* Pods-WaterBottleExtension-acknowledgements.markdown */,
-				615E604B3093B466B4A71ADA890B4293 /* Pods-WaterBottleExtension-acknowledgements.plist */,
-				7B315329D561EE36AD996582E57A8DE0 /* Pods-WaterBottleExtension-dummy.m */,
-				B20401B31A369E8903A824283ADEBD0F /* Pods-WaterBottleExtension-resources.sh */,
-				596E1F34AC762788B0A3AD9ADD96B552 /* Pods-WaterBottleExtension-umbrella.h */,
-				0CFA02B28200302FEA715899A662AD69 /* Pods-WaterBottleExtension.debug.xcconfig */,
-				80C773740E1A583BC82A542C1CE68E56 /* Pods-WaterBottleExtension.release.xcconfig */,
-			);
-			name = "Pods-WaterBottleExtension";
-			path = "Target Support Files/Pods-WaterBottleExtension";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C437F7BDA4D3F7BED542E8D0FF78E8C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2290977EBCD183FF201116BA9E2DC878 /* Alamofire.framework */,
+				935435DE1CE2D5F0D5D3C03F2A70D7CE /* Pods_ProjectWaterBottle.framework */,
+				D2C65EFD72FF11278094A810300A0889 /* Pods_SharedCode.framework */,
+				1421E6B3AED60E212F35C0E446032FB0 /* Pods_WaterBottleExtension.framework */,
+				433824B5C038BF3E8AF10AD406DFD980 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4AA3519FF14F497A6FEAC3236879CDA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				841D425630AFF9B4BC9CB7F9E3E507E0 /* Pods-ProjectWaterBottle */,
+				FED6C05D8EE2F3DB399483814055C6D5 /* Pods-SharedCode */,
+				23704A32ABC698FA2D0D5601300E3824 /* Pods-WaterBottleExtension */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		C9BFD22DAF08BC7D056B72F0924E9AFE /* SwiftyJSON */ = {
@@ -288,18 +300,6 @@
 			);
 			name = SwiftyJSON;
 			path = SwiftyJSON;
-			sourceTree = "<group>";
-		};
-		DC614A68241BC959D861BFD9D0533885 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D4C530053350D30BD6FDD7A102CF52F4 /* Alamofire.framework */,
-				98CE2E815D55A480AC962EDFF35CBC55 /* Pods_ProjectWaterBottle.framework */,
-				82F30268F78730FED6551F450E216DAC /* Pods_WaterBottleCard.framework */,
-				43B43C5C3AAF7B0B863BF8DAC2928F90 /* Pods_WaterBottleExtension.framework */,
-				5F35521A7E5B161EA5E110242E85D38F /* SwiftyJSON.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		EB9D3294C408A3132839B3B5B37A96BC /* Alamofire */ = {
@@ -342,34 +342,26 @@
 			path = "../Target Support Files/SwiftyJSON";
 			sourceTree = "<group>";
 		};
-		F9008B36C588EF43A4131736321C8CBC /* Pods-WaterBottleCard */ = {
+		FED6C05D8EE2F3DB399483814055C6D5 /* Pods-SharedCode */ = {
 			isa = PBXGroup;
 			children = (
-				91795006969EEC3A2DF9B5DF4765A3CD /* Info.plist */,
-				FBEE0E4B03BB3692BCF16417DCEEDE5A /* Pods-WaterBottleCard.modulemap */,
-				F3DA8A89A734A09C9E3E89254AA09615 /* Pods-WaterBottleCard-acknowledgements.markdown */,
-				10A99B4F208B49DD193D2348008248AE /* Pods-WaterBottleCard-acknowledgements.plist */,
-				0BA21327720FFB8BFAF3B43A86C5D31B /* Pods-WaterBottleCard-dummy.m */,
-				E630CDFC9343B9040500E2DA9E9BA009 /* Pods-WaterBottleCard-resources.sh */,
-				CC0BE6BBDFF7A36800D98B54CF5AF7FC /* Pods-WaterBottleCard-umbrella.h */,
-				4ABABD0F0698026FB351AAC6A8F29832 /* Pods-WaterBottleCard.debug.xcconfig */,
-				58D5EDDA28A36663B4C10F3BBB0B206B /* Pods-WaterBottleCard.release.xcconfig */,
+				0235F8331269909DABC3D399C7CF5868 /* Info.plist */,
+				D84C057D89F92F2EE6EA6DCB6CFA02E2 /* Pods-SharedCode.modulemap */,
+				94B23B5D97DC23EB659524B1D5BBE672 /* Pods-SharedCode-acknowledgements.markdown */,
+				FC66D2AB2551C59EDD2DFB4E57EE7E60 /* Pods-SharedCode-acknowledgements.plist */,
+				E08E13DA38E7527F83FC1672C160243A /* Pods-SharedCode-dummy.m */,
+				3961E80DC5C3F529E809FA5106673C83 /* Pods-SharedCode-resources.sh */,
+				6A44857F1AB61A42E3C86043C8BF943E /* Pods-SharedCode-umbrella.h */,
+				80E384662173538680B3C5FBAE58124E /* Pods-SharedCode.debug.xcconfig */,
+				3AACDF29BA35DE732BD8E9EC97D133C1 /* Pods-SharedCode.release.xcconfig */,
 			);
-			name = "Pods-WaterBottleCard";
-			path = "Target Support Files/Pods-WaterBottleCard";
+			name = "Pods-SharedCode";
+			path = "Target Support Files/Pods-SharedCode";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		06499408E30CEBF806D054B5BF004A3E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C0129DC029E21C38F0130AE40A79B573 /* Pods-WaterBottleCard-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		15D3615371C2CCC3DF4D8A35B76AC30F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -391,6 +383,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C872C5F45F91462B21872D89673EC613 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75B9E8DE16D502EBD13CEC1ABE8C265 /* Pods-SharedCode-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,26 +419,26 @@
 			);
 			name = "Pods-WaterBottleExtension";
 			productName = "Pods-WaterBottleExtension";
-			productReference = 43B43C5C3AAF7B0B863BF8DAC2928F90 /* Pods_WaterBottleExtension.framework */;
+			productReference = 1421E6B3AED60E212F35C0E446032FB0 /* Pods_WaterBottleExtension.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		70EC1CA59122FF214232AA33177AD465 /* Pods-WaterBottleCard */ = {
+		5E84BD7F46DDA4E336B4E2682BCBCC25 /* Pods-SharedCode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8AF2AF9CA136AD167A74B53B1C67E214 /* Build configuration list for PBXNativeTarget "Pods-WaterBottleCard" */;
+			buildConfigurationList = 8F982A1779CA776E34D7659ACF7A46F4 /* Build configuration list for PBXNativeTarget "Pods-SharedCode" */;
 			buildPhases = (
-				8863E3810F83450F665554B2AD08A9A0 /* Sources */,
-				6993539D7652A7EB4887F292056A6E1C /* Frameworks */,
-				06499408E30CEBF806D054B5BF004A3E /* Headers */,
+				80E127C283E1C951F618CA165799778C /* Sources */,
+				7A6C46C624D7931F656294E8F2DEABC1 /* Frameworks */,
+				C872C5F45F91462B21872D89673EC613 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BF369D2814F5BDD02D89F5B0F416447B /* PBXTargetDependency */,
-				6AE29ADEB9E63900782ADCCAA9764EE6 /* PBXTargetDependency */,
+				644BD4D5687DDC6D37A2CCDBCA0144FF /* PBXTargetDependency */,
+				7075E746E6B087D69F66F0F603CC6B19 /* PBXTargetDependency */,
 			);
-			name = "Pods-WaterBottleCard";
-			productName = "Pods-WaterBottleCard";
-			productReference = 82F30268F78730FED6551F450E216DAC /* Pods_WaterBottleCard.framework */;
+			name = "Pods-SharedCode";
+			productName = "Pods-SharedCode";
+			productReference = D2C65EFD72FF11278094A810300A0889 /* Pods_SharedCode.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
@@ -455,7 +455,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = D4C530053350D30BD6FDD7A102CF52F4 /* Alamofire.framework */;
+			productReference = 2290977EBCD183FF201116BA9E2DC878 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CF32623510EC289DE3685624FFEA1C4D /* SwiftyJSON */ = {
@@ -472,7 +472,7 @@
 			);
 			name = SwiftyJSON;
 			productName = SwiftyJSON;
-			productReference = 5F35521A7E5B161EA5E110242E85D38F /* SwiftyJSON.framework */;
+			productReference = 433824B5C038BF3E8AF10AD406DFD980 /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E14499A7E63E24DAE4CF1D610C822BC7 /* Pods-ProjectWaterBottle */ = {
@@ -491,7 +491,7 @@
 			);
 			name = "Pods-ProjectWaterBottle";
 			productName = "Pods-ProjectWaterBottle";
-			productReference = 98CE2E815D55A480AC962EDFF35CBC55 /* Pods_ProjectWaterBottle.framework */;
+			productReference = 935435DE1CE2D5F0D5D3C03F2A70D7CE /* Pods_ProjectWaterBottle.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -511,13 +511,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = DC614A68241BC959D861BFD9D0533885 /* Products */;
+			productRefGroup = C437F7BDA4D3F7BED542E8D0FF78E8C0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
 				E14499A7E63E24DAE4CF1D610C822BC7 /* Pods-ProjectWaterBottle */,
-				70EC1CA59122FF214232AA33177AD465 /* Pods-WaterBottleCard */,
+				5E84BD7F46DDA4E336B4E2682BCBCC25 /* Pods-SharedCode */,
 				365B2B1AEBF1E65CD662BAD2C3C2536D /* Pods-WaterBottleExtension */,
 				CF32623510EC289DE3685624FFEA1C4D /* SwiftyJSON */,
 			);
@@ -567,11 +567,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8863E3810F83450F665554B2AD08A9A0 /* Sources */ = {
+		80E127C283E1C951F618CA165799778C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91651DEA848D9D701995A4B56EEF00D2 /* Pods-WaterBottleCard-dummy.m in Sources */,
+				3236E9D2B51C0C74709A17BA3DC40DEE /* Pods-SharedCode-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,17 +592,17 @@
 			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
 			targetProxy = 57488259506426541760D09950B59E3E /* PBXContainerItemProxy */;
 		};
-		6AE29ADEB9E63900782ADCCAA9764EE6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyJSON;
-			target = CF32623510EC289DE3685624FFEA1C4D /* SwiftyJSON */;
-			targetProxy = 87C63481C8524A9AD678169E0992CA7B /* PBXContainerItemProxy */;
-		};
-		BF369D2814F5BDD02D89F5B0F416447B /* PBXTargetDependency */ = {
+		644BD4D5687DDC6D37A2CCDBCA0144FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
-			targetProxy = A778D9F7B6D96503A75CA22818A986E6 /* PBXContainerItemProxy */;
+			targetProxy = DEB23E6157272E49C05B9C7611959748 /* PBXContainerItemProxy */;
+		};
+		7075E746E6B087D69F66F0F603CC6B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = CF32623510EC289DE3685624FFEA1C4D /* SwiftyJSON */;
+			targetProxy = 4FE0FB37CD5E842E98B0748BACD3B6C1 /* PBXContainerItemProxy */;
 		};
 		F9E654FBBE8A19DF68C874D21741290A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -657,9 +657,9 @@
 			};
 			name = Debug;
 		};
-		555FAC47321809D4A7DBF047F50F2556 /* Release */ = {
+		21F87C3EB3C483A7E34E5D35AAD51820 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58D5EDDA28A36663B4C10F3BBB0B206B /* Pods-WaterBottleCard.release.xcconfig */;
+			baseConfigurationReference = 3AACDF29BA35DE732BD8E9EC97D133C1 /* Pods-SharedCode.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -673,18 +673,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WaterBottleCard/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SharedCode/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WaterBottleCard/Pods-WaterBottleCard.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SharedCode/Pods-SharedCode.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WaterBottleCard;
+				PRODUCT_NAME = Pods_SharedCode;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -694,9 +694,47 @@
 			};
 			name = Release;
 		};
+		457A74164DC844425AF05E84C91D6769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80E384662173538680B3C5FBAE58124E /* Pods-SharedCode.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SharedCode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SharedCode/Pods-SharedCode.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SharedCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		57116DA29DCFB6C3F3B6DD1EEEBC106F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CFA02B28200302FEA715899A662AD69 /* Pods-WaterBottleExtension.debug.xcconfig */;
+			baseConfigurationReference = 596434F11FD310107C0DCAEB848C1F4E /* Pods-WaterBottleExtension.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -766,7 +804,7 @@
 		};
 		63E08412DBDA2BEA817E49A21F47131B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80C773740E1A583BC82A542C1CE68E56 /* Pods-WaterBottleExtension.release.xcconfig */;
+			baseConfigurationReference = 68D46CB82D7823D0BB9D109C3ECC365B /* Pods-WaterBottleExtension.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -802,7 +840,7 @@
 		};
 		856EDC22CC76C27D85169A3150A0BD81 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F5CF810B87A15B12E0B28673F1072CE /* Pods-ProjectWaterBottle.debug.xcconfig */;
+			baseConfigurationReference = 9D47A9A39A8814A9A5B74A645F0A34B4 /* Pods-ProjectWaterBottle.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -871,44 +909,6 @@
 			};
 			name = Debug;
 		};
-		9F363489061C72BA8027E822A1C200E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4ABABD0F0698026FB351AAC6A8F29832 /* Pods-WaterBottleCard.debug.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WaterBottleCard/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WaterBottleCard/Pods-WaterBottleCard.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WaterBottleCard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		AE14C7B7E3724FC06A31559EB2E21726 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DE99AF16AC7077B672DAE5DAD765B367 /* SwiftyJSON.xcconfig */;
@@ -944,7 +944,7 @@
 		};
 		D83B3EDE4CC649FCB10CFDB05CBB5155 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D13EE8CA7EC290412C592AB179FFF507 /* Pods-ProjectWaterBottle.release.xcconfig */;
+			baseConfigurationReference = 7ABDC488F358B41B2472EB3692F3A203 /* Pods-ProjectWaterBottle.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1099,11 +1099,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8AF2AF9CA136AD167A74B53B1C67E214 /* Build configuration list for PBXNativeTarget "Pods-WaterBottleCard" */ = {
+		8F982A1779CA776E34D7659ACF7A46F4 /* Build configuration list for PBXNativeTarget "Pods-SharedCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F363489061C72BA8027E822A1C200E4 /* Debug */,
-				555FAC47321809D4A7DBF047F50F2556 /* Release */,
+				457A74164DC844425AF05E84C91D6769 /* Debug */,
+				21F87C3EB3C483A7E34E5D35AAD51820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

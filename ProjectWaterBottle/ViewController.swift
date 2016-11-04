@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import WaterBottleCard
+import SharedCode
 
 class ViewController: UIViewController {
     
