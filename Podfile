@@ -8,17 +8,6 @@ target 'ProjectWaterBottle' do
   # Pods for ProjectWaterBottle
     pod 'Alamofire'
     pod 'SwiftyJSON'
-
-  target 'ProjectWaterBottleTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'ProjectWaterBottleUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
 end
 
 target 'WaterBottleCard' do
@@ -28,11 +17,6 @@ target 'WaterBottleCard' do
   # Pods for WaterBottleCard
   pod 'Alamofire'
   pod 'SwiftyJSON'
-
-  target 'WaterBottleCardTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
 
 end
 

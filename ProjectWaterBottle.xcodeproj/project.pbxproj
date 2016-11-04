@@ -102,8 +102,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		34004747682BDF65AFB2E957 /* Pods-WaterBottleCardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterBottleCardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaterBottleCardTests/Pods-WaterBottleCardTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3E3BD682B7912DC51BD53BC8 /* Pods-ProjectWaterBottleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectWaterBottleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectWaterBottleTests/Pods-ProjectWaterBottleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4E2DC5C6C670E585C74B9B31 /* Pods-WaterBottleExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterBottleExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaterBottleExtension/Pods-WaterBottleExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		580FFCF54C526D196E4AE5D5 /* Pods_WaterBottleCardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaterBottleCardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		637F396FD9440923A714A865 /* Pods-ProjectWaterBottle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectWaterBottle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectWaterBottle/Pods-ProjectWaterBottle.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,13 +109,9 @@
 		778F11632739C07C9F22764A /* Pods-ProjectWaterBottle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectWaterBottle.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectWaterBottle/Pods-ProjectWaterBottle.release.xcconfig"; sourceTree = "<group>"; };
 		793F96C95FBD63666F3BF28C /* Pods_ProjectWaterBottleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectWaterBottleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F381B1076C87193B25BAB0F /* Pods_WaterBottleCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaterBottleCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F644FE841467C7BED233C2B /* Pods-WaterBottleCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterBottleCardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaterBottleCardTests/Pods-WaterBottleCardTests.release.xcconfig"; sourceTree = "<group>"; };
 		826E2F3E086FC051FCA57955 /* Pods_ProjectWaterBottleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectWaterBottleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		838106BB1769E489B3EE3E1C /* Pods_WaterBottleExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaterBottleExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FEEE76874FA56D4B5013B27 /* Pods_ProjectWaterBottle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectWaterBottle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0CD9B6F508D6A4E395AF2C7 /* Pods-ProjectWaterBottleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectWaterBottleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectWaterBottleUITests/Pods-ProjectWaterBottleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		A84721137D70CA40550C4483 /* Pods-ProjectWaterBottleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectWaterBottleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectWaterBottleUITests/Pods-ProjectWaterBottleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		AD482E5A60232485B5F69FCE /* Pods-ProjectWaterBottleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectWaterBottleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectWaterBottleTests/Pods-ProjectWaterBottleTests.release.xcconfig"; sourceTree = "<group>"; };
 		B4A00CD862E02F218E497954 /* Pods-WaterBottleExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterBottleExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaterBottleExtension/Pods-WaterBottleExtension.release.xcconfig"; sourceTree = "<group>"; };
 		C90442D91DA4369300FFA32B /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		C90442DB1DA4376B00FFA32B /* Japanese.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Japanese.swift; sourceTree = "<group>"; };
@@ -199,14 +193,8 @@
 			children = (
 				637F396FD9440923A714A865 /* Pods-ProjectWaterBottle.debug.xcconfig */,
 				778F11632739C07C9F22764A /* Pods-ProjectWaterBottle.release.xcconfig */,
-				3E3BD682B7912DC51BD53BC8 /* Pods-ProjectWaterBottleTests.debug.xcconfig */,
-				AD482E5A60232485B5F69FCE /* Pods-ProjectWaterBottleTests.release.xcconfig */,
-				A0CD9B6F508D6A4E395AF2C7 /* Pods-ProjectWaterBottleUITests.debug.xcconfig */,
-				A84721137D70CA40550C4483 /* Pods-ProjectWaterBottleUITests.release.xcconfig */,
 				6D93C8253CB3872879389304 /* Pods-WaterBottleCard.debug.xcconfig */,
 				FA21E0555995B7E800470CBF /* Pods-WaterBottleCard.release.xcconfig */,
-				34004747682BDF65AFB2E957 /* Pods-WaterBottleCardTests.debug.xcconfig */,
-				7F644FE841467C7BED233C2B /* Pods-WaterBottleCardTests.release.xcconfig */,
 				4E2DC5C6C670E585C74B9B31 /* Pods-WaterBottleExtension.debug.xcconfig */,
 				B4A00CD862E02F218E497954 /* Pods-WaterBottleExtension.release.xcconfig */,
 			);
@@ -343,7 +331,6 @@
 				C9987C2C1DA065300087BB4C /* Sources */,
 				C9987C2D1DA065300087BB4C /* Frameworks */,
 				C9987C2E1DA065300087BB4C /* Resources */,
-				7FA9C4B9300FCF0FFE8A02B2 /* [CP] Embed Pods Frameworks */,
 				644E44677928A254E409F8C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -536,7 +523,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		507C3569C3277ED80E9C2AB3 /* [CP] Check Pods Manifest.lock */ = {
@@ -551,7 +538,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		644E44677928A254E409F8C2 /* [CP] Copy Pods Resources */ = {
@@ -581,22 +568,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		7FA9C4B9300FCF0FFE8A02B2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterBottleExtension/Pods-WaterBottleExtension-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		F19CAE2DF45A19D20E11025F /* [CP] Copy Pods Resources */ = {
@@ -748,7 +720,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6D93C8253CB3872879389304 /* Pods-WaterBottleCard.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -778,7 +749,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA21E0555995B7E800470CBF /* Pods-WaterBottleCard.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -903,10 +873,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 637F396FD9440923A714A865 /* Pods-ProjectWaterBottle.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ProjectWaterBottle/ProjectWaterBottle.entitlements;
 				DEVELOPMENT_TEAM = VQXELCH5FM;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WaterBottleCard",
@@ -923,10 +893,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 778F11632739C07C9F22764A /* Pods-ProjectWaterBottle.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ProjectWaterBottle/ProjectWaterBottle.entitlements;
 				DEVELOPMENT_TEAM = VQXELCH5FM;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WaterBottleCard",

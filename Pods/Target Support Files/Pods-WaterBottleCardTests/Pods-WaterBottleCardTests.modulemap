@@ -1,6 +1,0 @@
-framework module Pods_WaterBottleCardTests {
-  umbrella header "Pods-WaterBottleCardTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
