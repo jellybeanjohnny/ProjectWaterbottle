@@ -19,7 +19,6 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var answerButtonsStackView: UIStackView!
     
-    
     var currentCard: CardModel?
     
     var currentIndex = 0
