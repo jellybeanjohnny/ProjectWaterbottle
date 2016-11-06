@@ -44,6 +44,5 @@ class CardDataStore {
     
     loadCards()
   }
-
   
 }

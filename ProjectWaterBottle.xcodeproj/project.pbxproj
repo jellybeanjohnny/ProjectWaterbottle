@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		41D633E739A10D380A0A261F /* Pods_WaterBottleExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838106BB1769E489B3EE3E1C /* Pods_WaterBottleExtension.framework */; };
 		C37CA46603CFBD92C708FF25 /* Pods_ProjectWaterBottle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEEE76874FA56D4B5013B27 /* Pods_ProjectWaterBottle.framework */; };
+		C905A3941DCFBE60002E944E /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C905A3851DCFBBC2002E944E /* Realm.framework */; };
+		C905A3951DCFBE60002E944E /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C905A3861DCFBBC2002E944E /* RealmSwift.framework */; };
+		C905A3971DCFBE76002E944E /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C905A3961DCFBE76002E944E /* Test.swift */; };
+		C905A39A1DCFBF1C002E944E /* Realm in Resources */ = {isa = PBXBuildFile; fileRef = C905A3991DCFBF1C002E944E /* Realm */; };
 		C94A59731DC0539F00695639 /* Jellybean.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94A59701DC0535100695639 /* Jellybean.framework */; };
 		C94A597A1DC135B500695639 /* CardDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94A59791DC135B500695639 /* CardDataStore.swift */; };
 		C96C661A1DC2EA8F005C086C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C66191DC2EA8F005C086C /* Extensions.swift */; };
@@ -119,6 +123,10 @@
 		C90442D91DA4369300FFA32B /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		C90442DB1DA4376B00FFA32B /* Japanese.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Japanese.swift; sourceTree = "<group>"; };
 		C90442DF1DA43D1300FFA32B /* JapaneseWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapaneseWord.swift; sourceTree = "<group>"; };
+		C905A3851DCFBBC2002E944E /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "../../../Downloads/realm-swift-2.0.3/ios/swift-3.0.1/Realm.framework"; sourceTree = "<group>"; };
+		C905A3861DCFBBC2002E944E /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "../../../Downloads/realm-swift-2.0.3/ios/swift-3.0.1/RealmSwift.framework"; sourceTree = "<group>"; };
+		C905A3961DCFBE76002E944E /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		C905A3991DCFBF1C002E944E /* Realm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Realm; sourceTree = "<group>"; };
 		C94A596A1DC0535100695639 /* Jellybean.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Jellybean.xcodeproj; path = ../Jellybean/Jellybean.xcodeproj; sourceTree = "<group>"; };
 		C94A59761DC060A000695639 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C94A59791DC135B500695639 /* CardDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDataStore.swift; sourceTree = "<group>"; };
@@ -136,6 +144,8 @@
 		C9987C611DA078D30087BB4C /* CardEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardEditorViewController.swift; path = ../WaterBottleFramework/CardEditorViewController.swift; sourceTree = "<group>"; };
 		C9987C631DA07BB30087BB4C /* CardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardModel.swift; path = ../WaterBottleFramework/CardModel.swift; sourceTree = "<group>"; };
 		C9987C6B1DA0B4570087BB4C /* WaterBottleCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaterBottleCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9AF82FF1DCFB08700B86ED5 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "../../../Library/Developer/Xcode/DerivedData/ProjectWaterBottle-ecwtgkhlwngmlvaeqjvdjqiasetz/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework"; sourceTree = "<group>"; };
+		C9AF83011DCFB09500B86ED5 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "../../../Library/Developer/Xcode/DerivedData/ProjectWaterBottle-ecwtgkhlwngmlvaeqjvdjqiasetz/Build/Products/Debug-iphonesimulator/Realm/Realm.framework"; sourceTree = "<group>"; };
 		C9CFFEAF1DA057E6005BBECC /* ProjectWaterBottle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectWaterBottle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CFFEB21DA057E6005BBECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9CFFEB41DA057E6005BBECC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -153,6 +163,8 @@
 			files = (
 				C97851BD1DCD4E90008A7D9C /* Jellybean.framework in Frameworks */,
 				F540C008538C9519C259C4BF /* Pods_SharedCode.framework in Frameworks */,
+				C905A3941DCFBE60002E944E /* Realm.framework in Frameworks */,
+				C905A3951DCFBE60002E944E /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +201,10 @@
 		1BAB8BC768E08AA3522E72BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C905A3851DCFBBC2002E944E /* Realm.framework */,
+				C905A3861DCFBBC2002E944E /* RealmSwift.framework */,
+				C9AF83011DCFB09500B86ED5 /* Realm.framework */,
+				C9AF82FF1DCFB08700B86ED5 /* RealmSwift.framework */,
 				9FEEE76874FA56D4B5013B27 /* Pods_ProjectWaterBottle.framework */,
 				826E2F3E086FC051FCA57955 /* Pods_ProjectWaterBottleTests.framework */,
 				793F96C95FBD63666F3BF28C /* Pods_ProjectWaterBottleUITests.framework */,
@@ -234,6 +250,14 @@
 			path = ../WaterBottleCard;
 			sourceTree = "<group>";
 		};
+		C905A3981DCFBEFE002E944E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C905A3991DCFBF1C002E944E /* Realm */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C94A596B1DC0535100695639 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -257,6 +281,8 @@
 		C97851B01DCD4E32008A7D9C /* SharedCode */ = {
 			isa = PBXGroup;
 			children = (
+				C905A3981DCFBEFE002E944E /* Frameworks */,
+				C9AF82FB1DCFAFC700B86ED5 /* Realm */,
 				C90442DE1DA43AF400FFA32B /* Card */,
 				C90442DD1DA43AE900FFA32B /* Languages */,
 				C94A59741DC0565C00695639 /* Constants */,
@@ -283,6 +309,14 @@
 				C9987C371DA065300087BB4C /* Info.plist */,
 			);
 			path = WaterBottleExtension;
+			sourceTree = "<group>";
+		};
+		C9AF82FB1DCFAFC700B86ED5 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				C905A3961DCFBE76002E944E /* Test.swift */,
+			);
+			name = Realm;
 			sourceTree = "<group>";
 		};
 		C9CFFEA61DA057E6005BBECC = {
@@ -519,6 +553,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C905A39A1DCFBF1C002E944E /* Realm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,6 +699,7 @@
 			files = (
 				C97851C11DCD4EC3008A7D9C /* Japanese.swift in Sources */,
 				C97851C31DCD4ED4008A7D9C /* Secrets.swift in Sources */,
+				C905A3971DCFBE76002E944E /* Test.swift in Sources */,
 				C97851BE1DCD4EB4008A7D9C /* CardEditorViewController.swift in Sources */,
 				C97851BF1DCD4EB9008A7D9C /* CardModel.swift in Sources */,
 				C97851C51DCD4EDC008A7D9C /* UIFont+HighlightedFontSize.swift in Sources */,
@@ -760,9 +796,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SRCROOT)/**",
-					"\"$PODS_CONFIGURATION_BUILD_DIR/Alamofire\"",
-					"\"$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON\"",
+					"$(inherited)/**",
+					"$(SRCROOT)/Realm",
 				);
 				INFOPLIST_FILE = SharedCode/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -790,9 +825,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SRCROOT)/**",
-					"\"$PODS_CONFIGURATION_BUILD_DIR/Alamofire\"",
-					"\"$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON\"",
+					"$(inherited)/**",
+					"$(SRCROOT)/Realm",
 				);
 				INFOPLIST_FILE = SharedCode/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1001,6 +1035,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WaterBottleCard",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = ProjectWaterBottle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1021,6 +1056,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WaterBottleCard",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = ProjectWaterBottle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
