@@ -1,5 +1,5 @@
 //
-//  Test.swift
+//  Person.swift
 //  ProjectWaterBottle
 //
 //  Created by Matt Amerige on 11/6/16.
@@ -9,6 +9,8 @@
 import Foundation
 import RealmSwift
 
-class Person: Object {
-    
+public class Person: Object {
+  
+  public dynamic var age = 20
+  
 }

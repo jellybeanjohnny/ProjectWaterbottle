@@ -9,6 +9,7 @@
 import UIKit
 import MobileCoreServices
 import SharedCode
+import Realm
 
 class ActionViewController: UIViewController {
   
@@ -16,6 +17,8 @@ class ActionViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    realmSetup()
     
     parseSelectedText { (text, error) in
       if let text = text {
@@ -64,6 +67,8 @@ class ActionViewController: UIViewController {
   
   func saveCardToSharedUserDefaultSuite() {
     
+    testingRealm()
+    
     print("SAVING CARD...")
     
     // Save the card to the shared card array for the main app to use later on
@@ -97,7 +102,27 @@ class ActionViewController: UIViewController {
         }
       }
     }
-  } 
+  }
+  
+  func testingRealm() {
+    let newPerson = Person()
+    newPerson.age = 28
+    
+    let realm = RealmInterface()
+    
+    realm.save(person: newPerson)
+    
+  }
+  
+  func realmSetup() {
+    let realmPath: URL = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: Secrets.appGroupName)!.appendingPathComponent("db.realm")
+    
+    let config = RLMRealmConfiguration.default()
+    config.fileURL = realmPath
+    
+    RLMRealmConfiguration.setDefault(config)
+  }
+  
 }
 
 
