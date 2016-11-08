@@ -136,8 +136,7 @@ class ViewController: UIViewController {
 // MARK: - Realm Testing
 extension ViewController {
   func load() {
-    let realm = RealmInterface()
-    let people = realm.loadPeople()
+    let people = RealmInterface.shared.loadPeople()
     print(people)
   }
 }

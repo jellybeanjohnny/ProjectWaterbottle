@@ -8,11 +8,24 @@
 
 import Foundation
 import RealmSwift
+import Realm
 
 public class RealmInterface {
   
-  public init() {
+  public static let shared = RealmInterface()
+  
+  //MARK: Setup and initialization
+  init() {
+    setupRealmAppGroup()
+  }
+  
+  func setupRealmAppGroup() {
+    let realmPath: URL = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: Secrets.appGroupName)!.appendingPathComponent("db.realm")
     
+    let config = RLMRealmConfiguration.default()
+    config.fileURL = realmPath
+    
+    RLMRealmConfiguration.setDefault(config)
   }
   
   public func save(person: Person) {
@@ -31,6 +44,5 @@ public class RealmInterface {
     
     return realm.objects(Person.self)
   }
-  
-  
 }
+

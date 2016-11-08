@@ -18,8 +18,6 @@ class ActionViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    realmSetup()
-    
     parseSelectedText { (text, error) in
       if let text = text {
         self.cardEditorViewController.card = CardModel(frontText: text, backText: "")
@@ -108,19 +106,8 @@ class ActionViewController: UIViewController {
     let newPerson = Person()
     newPerson.age = 28
     
-    let realm = RealmInterface()
+    RealmInterface.shared.save(person: newPerson)
     
-    realm.save(person: newPerson)
-    
-  }
-  
-  func realmSetup() {
-    let realmPath: URL = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: Secrets.appGroupName)!.appendingPathComponent("db.realm")
-    
-    let config = RLMRealmConfiguration.default()
-    config.fileURL = realmPath
-    
-    RLMRealmConfiguration.setDefault(config)
   }
   
 }

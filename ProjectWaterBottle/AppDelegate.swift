@@ -20,12 +20,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
     
-    let realmPath: URL = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: Secrets.appGroupName)!.appendingPathComponent("db.realm")
     
-    let config = RLMRealmConfiguration.default()
-    config.fileURL = realmPath
-
-    RLMRealmConfiguration.setDefault(config)
+//    let realmPath: URL = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: Secrets.appGroupName)!.appendingPathComponent("db.realm")
+//    
+//    let config = RLMRealmConfiguration.default()
+//    config.fileURL = realmPath
+//
+//    RLMRealmConfiguration.setDefault(config)
     
     
     return true
