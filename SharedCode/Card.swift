@@ -10,7 +10,7 @@ import Foundation
 import RealmSwift
 import Jellybean
 
-class Card: Object {
+public class Card: Object {
   
   //MARK: - Public Properties
   public dynamic var frontText: String?
@@ -59,7 +59,7 @@ class Card: Object {
     }
   }
   
-  override static func ignoredProperties() -> [String] {
+  override public static func ignoredProperties() -> [String] {
     return ["frontAttributedText", "spacing"]
   }
   

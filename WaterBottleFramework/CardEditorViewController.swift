@@ -17,7 +17,7 @@ public class CardEditorViewController: UIViewController {
   
   
   public var card: CardModel!
-
+  
   override public func viewDidLoad() {
     super.viewDidLoad()
     frontTextView.delegate = self

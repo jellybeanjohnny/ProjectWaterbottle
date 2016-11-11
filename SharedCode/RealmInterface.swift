@@ -44,5 +44,39 @@ public class RealmInterface {
     
     return realm.objects(Person.self)
   }
+  
+  public func save(card: Card) {
+    card.archiveSpacingAndTextData()
+    let realm = defaultRealm()
+    do {
+      try realm.write {
+        realm.add(card)
+      }
+    } catch {
+      print(error.localizedDescription)
+    }
+  }
+  
+  public func loadCards() {
+    let realm = defaultRealm()
+    let cards = realm.objects(Card.self)
+    
+    var cardsArray: [Card] = []
+    
+    for card in cards {
+      card.unarchiveSpacingAndTextData()
+      cardsArray.append(card)
+    }
+  }
+  
+  func defaultRealm() -> Realm {
+    do {
+      let realm = try Realm()
+      return realm
+    } catch {
+      fatalError("Unable to load Realm. Error: \(error.localizedDescription)")
+    }
+  }
+  
 }
 
