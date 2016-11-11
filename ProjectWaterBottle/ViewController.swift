@@ -20,7 +20,7 @@ class ViewController: UIViewController {
   
   @IBOutlet weak var answerButtonsStackView: UIStackView!
   
-  var currentCard: CardModel?
+  var currentCard: Card?
   
   var currentIndex = 0
   
@@ -39,7 +39,6 @@ class ViewController: UIViewController {
   func handleRefresh() {
     
     CardDataStore.sharedStore.loadCards()
-    load()
     
     print("Cards: \(CardDataStore.sharedStore.allCards.count)\nDue: \(CardDataStore.sharedStore.dueCards.count)")
     
@@ -88,12 +87,12 @@ class ViewController: UIViewController {
   }
   
   
-  func presentCard(_ card: CardModel) {
+  func presentCard(_ card: Card) {
     frontTextView.attributedText = card.frontAttributedText
     backTextView.text = card.backText
   }
   
-  func nextCard() -> CardModel? {
+  func nextCard() -> Card? {
     if currentIndex < CardDataStore.sharedStore.dueCards.count {
       return CardDataStore.sharedStore.dueCards[currentIndex]
     }
@@ -133,11 +132,4 @@ class ViewController: UIViewController {
   }
 }
 
-// MARK: - Realm Testing
-extension ViewController {
-  func load() {
-    let people = RealmInterface.shared.loadPeople()
-    print(people)
-  }
-}
 

@@ -28,36 +28,19 @@ public class RealmInterface {
     RLMRealmConfiguration.setDefault(config)
   }
   
-  public func save(person: Person) {
-    
-    let realm = try! Realm()
-    
-    try! realm.write {
-      realm.add(person)
-      print("Added to Realm")
-    }
-  }
-  
-  public func loadPeople() -> Results<Person> {
-    
-    let realm = try! Realm()
-    
-    return realm.objects(Person.self)
-  }
-  
   public func save(card: Card) {
     card.archiveSpacingAndTextData()
     let realm = defaultRealm()
     do {
       try realm.write {
-        realm.add(card)
+        realm.add(card, update: true)
       }
     } catch {
       print(error.localizedDescription)
     }
   }
   
-  public func loadCards() {
+  public func loadCards() -> [Card] {
     let realm = defaultRealm()
     let cards = realm.objects(Card.self)
     
@@ -67,6 +50,7 @@ public class RealmInterface {
       card.unarchiveSpacingAndTextData()
       cardsArray.append(card)
     }
+    return cardsArray
   }
   
   func defaultRealm() -> Realm {

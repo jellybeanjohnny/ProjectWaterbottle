@@ -58,7 +58,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   }
   
   func refresh() {
-    CardDataStore.sharedStore.syncWithUserDefaults()
     
     NotificationCenter.default.post(name: .onCardStoreRefresh, object: nil)
     

@@ -20,7 +20,10 @@ class ActionViewController: UIViewController {
     
     parseSelectedText { (text, error) in
       if let text = text {
-        self.cardEditorViewController.card = CardModel(frontText: text, backText: "")
+        let card = Card()
+        card.frontText = text
+        card.backText = ""
+        self.cardEditorViewController.card = card
       }
     }
     
@@ -47,7 +50,9 @@ class ActionViewController: UIViewController {
   
 
   @IBAction func done() {
-    saveCardToSharedUserDefaultSuite()
+    
+    RealmInterface.shared.save(card: cardEditorViewController.card)
+    
     self.extensionContext!.completeRequest(returningItems: nil, completionHandler: nil)
   }
   
@@ -63,52 +68,8 @@ class ActionViewController: UIViewController {
     }
   }
   
-  func saveCardToSharedUserDefaultSuite() {
-    
-    testingRealm()
-    
-    print("SAVING CARD...")
-    
-    // Save the card to the shared card array for the main app to use later on
-    let sharedDefaults = UserDefaults(suiteName: Secrets.appGroupName)
-    
-    if let cardData = sharedDefaults?.object(forKey: Constants.userDefaultsCardDataKey) as? Data, let card = cardEditorViewController.card {
-      // append to cardData
-      
-      var cards = NSKeyedUnarchiver.unarchiveObject(with: cardData) as! [CardModel]
-      cards.append(card)
-      let updatedData = NSKeyedArchiver.archivedData(withRootObject: cards)
-      
-      sharedDefaults?.setValue(updatedData, forKey: Constants.userDefaultsCardDataKey)
-      if (sharedDefaults?.synchronize())! {
-        print("SAVED.")
-      } else {
-        print("UNABLE TO SAVE")
-      }
-
-      
-    } else {
-      // no cards object exists, create one here
-      if let card = cardEditorViewController.card {
-        let cards = [card]
-        let cardData = NSKeyedArchiver.archivedData(withRootObject: cards)
-        sharedDefaults?.setValue(cardData, forKey: Constants.userDefaultsCardDataKey)
-        if (sharedDefaults?.synchronize())! {
-          print("SAVED.")
-        } else {
-          print("UNABLE TO SAVE")
-        }
-      }
-    }
-  }
   
-  func testingRealm() {
-    let newPerson = Person()
-    newPerson.age = 28
-    
-    RealmInterface.shared.save(person: newPerson)
-    
-  }
+
   
 }
 

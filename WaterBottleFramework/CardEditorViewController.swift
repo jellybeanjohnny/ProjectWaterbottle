@@ -15,8 +15,7 @@ public class CardEditorViewController: UIViewController {
   @IBOutlet weak var frontTextView: UITextView!
   @IBOutlet weak var backTextView: UITextView!
   
-  
-  public var card: CardModel!
+  public var card: Card!
   
   override public func viewDidLoad() {
     super.viewDidLoad()
