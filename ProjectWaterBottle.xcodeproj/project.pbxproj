@@ -19,6 +19,7 @@
 		C93074721DD16A77007E742E /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C93074631DD167DB007E742E /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C939D7421DD15D360081666E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C939D7411DD15D360081666E /* Card.swift */; };
 		C9426DA51DD66A2F00AF8212 /* DefinitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9426DA41DD66A2F00AF8212 /* DefinitionsViewController.swift */; };
+		C9426DA71DD66E9E00AF8212 /* JishoAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9426DA61DD66E9E00AF8212 /* JishoAPIClient.swift */; };
 		C94A597A1DC135B500695639 /* CardDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94A59791DC135B500695639 /* CardDataStore.swift */; };
 		C96C661A1DC2EA8F005C086C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C66191DC2EA8F005C086C /* Extensions.swift */; };
 		C97851B31DCD4E32008A7D9C /* SharedCode.h in Headers */ = {isa = PBXBuildFile; fileRef = C97851B11DCD4E32008A7D9C /* SharedCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,7 +27,6 @@
 		C97851B71DCD4E32008A7D9C /* SharedCode.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C97851AF1DCD4E32008A7D9C /* SharedCode.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C97851BD1DCD4E90008A7D9C /* Jellybean.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94A59701DC0535100695639 /* Jellybean.framework */; };
 		C97851BE1DCD4EB4008A7D9C /* CardEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9987C611DA078D30087BB4C /* CardEditorViewController.swift */; };
-		C97851BF1DCD4EB9008A7D9C /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9987C631DA07BB30087BB4C /* CardModel.swift */; };
 		C97851C01DCD4EC1008A7D9C /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90442D91DA4369300FFA32B /* Word.swift */; };
 		C97851C11DCD4EC3008A7D9C /* Japanese.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90442DB1DA4376B00FFA32B /* Japanese.swift */; };
 		C97851C21DCD4EC7008A7D9C /* JapaneseWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90442DF1DA43D1300FFA32B /* JapaneseWord.swift */; };
@@ -137,6 +137,7 @@
 		C93074631DD167DB007E742E /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = SharedCode/Realm/RealmSwift.framework; sourceTree = "<group>"; };
 		C939D7411DD15D360081666E /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		C9426DA41DD66A2F00AF8212 /* DefinitionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionsViewController.swift; sourceTree = "<group>"; };
+		C9426DA61DD66E9E00AF8212 /* JishoAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JishoAPIClient.swift; sourceTree = "<group>"; };
 		C94A596A1DC0535100695639 /* Jellybean.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Jellybean.xcodeproj; path = ../Jellybean/Jellybean.xcodeproj; sourceTree = "<group>"; };
 		C94A59761DC060A000695639 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C94A59791DC135B500695639 /* CardDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDataStore.swift; sourceTree = "<group>"; };
@@ -154,7 +155,6 @@
 		C9987C351DA065300087BB4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		C9987C371DA065300087BB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9987C611DA078D30087BB4C /* CardEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardEditorViewController.swift; path = ../WaterBottleFramework/CardEditorViewController.swift; sourceTree = "<group>"; };
-		C9987C631DA07BB30087BB4C /* CardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardModel.swift; path = ../WaterBottleFramework/CardModel.swift; sourceTree = "<group>"; };
 		C9AF82FF1DCFB08700B86ED5 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "../../../Library/Developer/Xcode/DerivedData/ProjectWaterBottle-ecwtgkhlwngmlvaeqjvdjqiasetz/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework"; sourceTree = "<group>"; };
 		C9AF83011DCFB09500B86ED5 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "../../../Library/Developer/Xcode/DerivedData/ProjectWaterBottle-ecwtgkhlwngmlvaeqjvdjqiasetz/Build/Products/Debug-iphonesimulator/Realm/Realm.framework"; sourceTree = "<group>"; };
 		C9CFFEAF1DA057E6005BBECC /* ProjectWaterBottle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectWaterBottle.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -249,7 +249,6 @@
 			isa = PBXGroup;
 			children = (
 				C9987C611DA078D30087BB4C /* CardEditorViewController.swift */,
-				C9987C631DA07BB30087BB4C /* CardModel.swift */,
 			);
 			name = Card;
 			path = ../WaterBottleCard;
@@ -267,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				C9426DA41DD66A2F00AF8212 /* DefinitionsViewController.swift */,
+				C9426DA61DD66E9E00AF8212 /* JishoAPIClient.swift */,
 			);
 			name = Definitions;
 			sourceTree = "<group>";
@@ -676,12 +676,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C978BC7D1DCFDDD00041C7A0 /* Person.swift in Sources */,
+				C9426DA71DD66E9E00AF8212 /* JishoAPIClient.swift in Sources */,
 				C9426DA51DD66A2F00AF8212 /* DefinitionsViewController.swift in Sources */,
 				C978BC801DCFEEB00041C7A0 /* RealmInterface.swift in Sources */,
 				C97851C11DCD4EC3008A7D9C /* Japanese.swift in Sources */,
 				C97851C31DCD4ED4008A7D9C /* Secrets.swift in Sources */,
 				C97851BE1DCD4EB4008A7D9C /* CardEditorViewController.swift in Sources */,
-				C97851BF1DCD4EB9008A7D9C /* CardModel.swift in Sources */,
 				C97851C51DCD4EDC008A7D9C /* UIFont+HighlightedFontSize.swift in Sources */,
 				C97851C41DCD4ED9008A7D9C /* Constants.swift in Sources */,
 				C97851C01DCD4EC1008A7D9C /* Word.swift in Sources */,

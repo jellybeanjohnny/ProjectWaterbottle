@@ -50,15 +50,7 @@ public class CardEditorViewController: UIViewController {
     highlightSelectedText()
     
     
-    if term.characters.count == 0 {
-      let alertController = UIAlertController(title: "No Text Selected", message: "First select text then tap WB-Define", preferredStyle: .alert)
-      let okayAction = UIAlertAction(title: "Okay", style: .default, handler: nil)
-      alertController.addAction(okayAction)
-      present(alertController, animated: true, completion: nil)
-      print("No text selected")
-      return
-    }
- 
+    //TODO: This request should be handled by another class
     
     let urlString = "http://www.jisho.org/api/v1/search/words"
     
@@ -66,7 +58,7 @@ public class CardEditorViewController: UIViewController {
       "keyword" : term
     ]
     
-    Alamofire.request(urlString, method: .get, parameters: parameters).responseJSON { (response) in
+    Alamofire.request(urlString, method: .get, parameters: parameters).responseJSON { response in
       
       switch response.result {
       case .success(let value):
@@ -81,6 +73,9 @@ public class CardEditorViewController: UIViewController {
         print(error)
       }
     }
+    
+    performSegue(withIdentifier: "ShowDefinitions", sender: nil)
+    
   }
   
   

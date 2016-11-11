@@ -15,6 +15,7 @@ class DefinitionsViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     setupTableView()
+    loadDefinitions()
   }
   
   func setupTableView() {
@@ -23,6 +24,10 @@ class DefinitionsViewController: UIViewController {
   }
   
   func loadDefinitions() {
+    
+    JishoAPIClient.definitions(forTerm: "男") {
+      
+    }
     
   }
   

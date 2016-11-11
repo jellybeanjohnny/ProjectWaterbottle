@@ -107,7 +107,7 @@
                     <connections>
                         <outlet property="backTextView" destination="ZUm-Ff-2ex" id="Uux-zk-06C"/>
                         <outlet property="frontTextView" destination="Vak-W2-JqG" id="Hvh-Dr-PKD"/>
-                        <segue destination="hMc-Hi-yPB" kind="show" id="oXq-c4-tjR"/>
+                        <segue destination="hMc-Hi-yPB" kind="show" identifier="ShowDefinitions" id="oXq-c4-tjR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0tv-x0-981" userLabel="First Responder" sceneMemberID="firstResponder"/>
