@@ -17,6 +17,8 @@ public class CardEditorViewController: UIViewController {
   
   public var card: Card!
   
+  var searchTerm: String?
+  
   override public func viewDidLoad() {
     super.viewDidLoad()
     frontTextView.delegate = self
@@ -46,33 +48,33 @@ public class CardEditorViewController: UIViewController {
   /// Defines the selected word and adds it to the back of the card
   func define() {
     
-    let term = selectedText()
+    searchTerm = selectedText()
     highlightSelectedText()
     
     
     //TODO: This request should be handled by another class
-    
-    let urlString = "http://www.jisho.org/api/v1/search/words"
-    
-    let parameters = [
-      "keyword" : term
-    ]
-    
-    Alamofire.request(urlString, method: .get, parameters: parameters).responseJSON { response in
-      
-      switch response.result {
-      case .success(let value):
-        let json = JSON(value)
-        
-        let word = JapaneseWord(json: json)
-        print(word)
-        
-        self.addWordToBack(word: word)
-        
-      case .failure(let error):
-        print(error)
-      }
-    }
+//    
+//    let urlString = "http://www.jisho.org/api/v1/search/words"
+//    
+//    let parameters = [
+//      "keyword" : term
+//    ]
+//    
+//    Alamofire.request(urlString, method: .get, parameters: parameters).responseJSON { response in
+//      
+//      switch response.result {
+//      case .success(let value):
+//        let json = JSON(value)
+//        
+//        let word = JapaneseWord(json: json)
+//        print(word)
+//        
+//        self.addWordToBack(word: word)
+//        
+//      case .failure(let error):
+//        print(error)
+//      }
+//    }
     
     performSegue(withIdentifier: "ShowDefinitions", sender: nil)
     
@@ -112,6 +114,13 @@ public class CardEditorViewController: UIViewController {
     card.frontAttributedText = frontTextView.attributedText
   }
   
+  public override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    if segue.identifier == "ShowDefinitions" {
+      let definitionsVC = segue.destination as! DefinitionsViewController
+      definitionsVC.searchTerm = searchTerm
+    }
+  }
+  
 }
 
 extension CardEditorViewController: UITextViewDelegate {
@@ -126,7 +135,4 @@ extension CardEditorViewController: UITextViewDelegate {
       print("Back text: \(card.backText)")
     }
   }
-  
-  
-  
 }

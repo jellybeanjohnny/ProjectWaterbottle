@@ -18,7 +18,7 @@ class JishoAPIClient {
     static let path = "/api/v1/search/words"
   }
   
-  class func definitions(forTerm term: String, completion:()->() ) {
+  class func definitions(forTerm term: String, completion:@escaping ([JapaneseDefinition]?, Error?)->() ) {
     let parameters = [
       "keyword" : term
     ]
@@ -32,18 +32,33 @@ class JishoAPIClient {
         switch response.result {
         case .success(let value):
           let json = JSON(value)
-          parse(json: json)
-          
+          let definitions = parse(json: json)
+          completion(definitions, nil)
           
         case .failure(let error):
           print(error.localizedDescription)
+          completion(nil, error)
         }
     }
     
   }
   
-  private class func parse(json: JSON) {
-    print(json)
+  private class func parse(json: JSON) -> [JapaneseDefinition] {
+        
+    var items: [JapaneseDefinition] = []
+    
+    for (_, entry) in json["data"] {
+      let word = entry["japanese"][0]["word"].stringValue
+      let reading = entry["japanese"][0]["reading"].stringValue
+      var definitions: [[String]] = []
+      for (_, sense) in entry["senses"] {
+        let meanings = sense["english_definitions"].arrayValue.map{$0.stringValue}
+        definitions.append(meanings)
+      }
+      let newItem = JapaneseDefinition(word: word, reading: reading, definitions: definitions)
+      items.append(newItem)
+    }
+    return items
   }
   
   

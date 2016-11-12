@@ -12,6 +12,11 @@ class DefinitionsViewController: UIViewController {
   
   @IBOutlet weak var tableView: UITableView!
   
+  var searchTerm: String!
+  
+  @IBOutlet weak var navBar: UINavigationBar!
+  var entries: [JapaneseDefinition] = []
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     setupTableView()
@@ -24,11 +29,12 @@ class DefinitionsViewController: UIViewController {
   }
   
   func loadDefinitions() {
-    
-    JishoAPIClient.definitions(forTerm: "男") {
-      
+    JishoAPIClient.definitions(forTerm: searchTerm) { (definitions, error) in
+      if let definitions = definitions {
+        self.entries = definitions
+        self.tableView.reloadData()
+      }
     }
-    
   }
   
 }
@@ -37,11 +43,16 @@ class DefinitionsViewController: UIViewController {
 extension DefinitionsViewController: UITableViewDelegate, UITableViewDataSource {
   
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return 10 // stub
+    return entries.count
   }
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: "DefinitionCell", for: indexPath)
+    
+    let definition = entries[indexPath.row]
+    
+    cell.textLabel?.text = definition.word
+    cell.detailTextLabel?.text = definition.reading
     
     return cell
   }
