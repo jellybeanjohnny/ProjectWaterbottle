@@ -79,7 +79,7 @@ extension DefinitionsViewController: UITableViewDelegate, UITableViewDataSource 
     }
     
     cell.termLabel.text = term
-    cell.definitionLabel.text = entry.formatedDefinitions
+    cell.definitionTextView.text = entry.formatedDefinitions
   }
   
 }

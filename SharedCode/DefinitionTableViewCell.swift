@@ -11,13 +11,10 @@ import UIKit
 class DefinitionTableViewCell: UITableViewCell {
   
   @IBOutlet weak var termLabel: UILabel!
-  @IBOutlet weak var definitionLabel: UILabel!
+  @IBOutlet weak var definitionTextView: UITextView!
   
   override func layoutSubviews() {
     super.layoutSubviews()
-    
-    contentView.layoutIfNeeded()
-    definitionLabel.preferredMaxLayoutWidth = definitionLabel.frame.width
+    definitionTextView.textContainerInset = .zero
   }
-  
 }
