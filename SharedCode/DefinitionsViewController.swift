@@ -12,10 +12,6 @@ class DefinitionsViewController: UIViewController {
   
   @IBOutlet weak var tableView: UITableView!
   
-  var prototypeCell: DefinitionTableViewCell! {
-      return tableView.dequeueReusableCell(withIdentifier: "DefinitionCell") as! DefinitionTableViewCell
-  }
-  
   var searchTerm: String!
   
   @IBOutlet weak var navBar: UINavigationBar!
@@ -23,6 +19,8 @@ class DefinitionsViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    
     setupTableView()
     loadDefinitions()
   }
@@ -31,7 +29,7 @@ class DefinitionsViewController: UIViewController {
     tableView.delegate = self
     tableView.dataSource = self
     tableView.rowHeight = UITableViewAutomaticDimension
-    tableView.estimatedRowHeight = 95
+    tableView.estimatedRowHeight = 140
   }
   
   func loadDefinitions() {
@@ -60,17 +58,6 @@ extension DefinitionsViewController: UITableViewDelegate, UITableViewDataSource 
     return cell
   }
   
-  func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-    
-    let prototypeCell = DefinitionTableViewCell(style: .default, reuseIdentifier: "DefinitionCell")
-    configure(cell: prototypeCell, forRowAt: indexPath)
-    
-    prototypeCell.definitionLabel.sizeToFit()
-    prototypeCell.termLabel.sizeToFit()
-    
-    return prototypeCell.bounds.height
-    
-  }
   
   func configure(cell: DefinitionTableViewCell, forRowAt indexPath: IndexPath) {
     let entry = entries[indexPath.row]

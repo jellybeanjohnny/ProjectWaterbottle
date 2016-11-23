@@ -139,14 +139,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="例文 (れいぶん)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ilo-oP-B8f">
-                                                    <rect key="frame" x="8" y="8" width="120" height="21"/>
+                                                    <rect key="frame" x="8" y="8" width="359" height="21"/>
                                                     <color key="backgroundColor" red="0.98823529409999999" green="0.12941176469999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. example sentence; illustrative sentence" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCf-R2-a5V">
-                                                    <rect key="frame" x="8" y="37" width="284" height="18"/>
+                                                    <rect key="frame" x="8" y="37" width="359" height="18"/>
                                                     <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <nil key="textColor"/>
@@ -154,13 +154,13 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="leadingMargin" secondItem="sCf-R2-a5V" secondAttribute="leading" id="3MH-OX-KIY"/>
-                                                <constraint firstItem="sCf-R2-a5V" firstAttribute="top" secondItem="ilo-oP-B8f" secondAttribute="bottom" constant="8" id="EQQ-5V-zeZ"/>
-                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ilo-oP-B8f" secondAttribute="trailing" constant="8" id="MTb-TQ-WMH"/>
+                                                <constraint firstItem="sCf-R2-a5V" firstAttribute="top" secondItem="ilo-oP-B8f" secondAttribute="bottom" constant="8" id="GNq-4y-leA"/>
+                                                <constraint firstAttribute="trailing" secondItem="ilo-oP-B8f" secondAttribute="trailing" constant="8" id="MTb-TQ-WMH"/>
                                                 <constraint firstItem="ilo-oP-B8f" firstAttribute="top" secondItem="BPL-O2-KMm" secondAttribute="topMargin" id="d19-cr-RyP"/>
-                                                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="sCf-R2-a5V" secondAttribute="trailing" id="k1C-nE-zmz"/>
-                                                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="sCf-R2-a5V" secondAttribute="bottom" constant="7" id="kYe-Ox-urz"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="sCf-R2-a5V" secondAttribute="bottom" constant="10" id="dVo-8p-wkf"/>
                                                 <constraint firstItem="ilo-oP-B8f" firstAttribute="leading" secondItem="BPL-O2-KMm" secondAttribute="leadingMargin" id="nIM-zC-dLs"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="sCf-R2-a5V" secondAttribute="trailing" id="vX2-Hs-1qD"/>
+                                                <constraint firstItem="sCf-R2-a5V" firstAttribute="leading" secondItem="BPL-O2-KMm" secondAttribute="leadingMargin" id="wxX-Xn-kQe"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.1843137255" green="0.83529411760000005" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>

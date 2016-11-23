@@ -13,5 +13,11 @@ class DefinitionTableViewCell: UITableViewCell {
   @IBOutlet weak var termLabel: UILabel!
   @IBOutlet weak var definitionLabel: UILabel!
   
+  override func layoutSubviews() {
+    super.layoutSubviews()
+    
+    contentView.layoutIfNeeded()
+    definitionLabel.preferredMaxLayoutWidth = definitionLabel.frame.width
+  }
   
 }
