@@ -49,10 +49,12 @@ extension DefinitionsViewController: UITableViewDelegate, UITableViewDataSource 
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: "DefinitionCell", for: indexPath)
     
-    let definition = entries[indexPath.row]
+    let entry = entries[indexPath.row]
     
-    cell.textLabel?.text = definition.word
-    cell.detailTextLabel?.text = definition.reading
+    cell.textLabel?.text = entry.word
+    cell.detailTextLabel?.text = entry.reading
+    
+    print(entry)
     
     return cell
   }
