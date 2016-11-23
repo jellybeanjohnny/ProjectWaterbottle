@@ -29,7 +29,7 @@ class DefinitionsViewController: UIViewController {
     tableView.delegate = self
     tableView.dataSource = self
     tableView.rowHeight = UITableViewAutomaticDimension
-    tableView.estimatedRowHeight = 140
+    tableView.estimatedRowHeight = 80
   }
   
   func loadDefinitions() {
