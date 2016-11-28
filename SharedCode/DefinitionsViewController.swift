@@ -21,7 +21,6 @@ class DefinitionsViewController: UIViewController {
   
   var searchTerm: String!
   
-  @IBOutlet weak var navBar: UINavigationBar!
   var entries: [JapaneseDefinition] = []
   
   override func viewDidLoad() {
