@@ -8,7 +8,14 @@
 
 import UIKit
 
+protocol DefinitionsViewControllerDelegate {
+  func definitionsViewController(_ controller: DefinitionsViewController, didSelect definition: JapaneseDefinition)
+}
+
 class DefinitionsViewController: UIViewController {
+  
+
+  var delegate: DefinitionsViewControllerDelegate?
   
   @IBOutlet weak var tableView: UITableView!
   
@@ -82,4 +89,28 @@ extension DefinitionsViewController: UITableViewDelegate, UITableViewDataSource 
     cell.definitionTextView.text = entry.formatedDefinitions
   }
   
+  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    delegate?.definitionsViewController(self, didSelect: entries[indexPath.row])
+    dismiss(animated: true, completion: nil)
+  }
+  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
