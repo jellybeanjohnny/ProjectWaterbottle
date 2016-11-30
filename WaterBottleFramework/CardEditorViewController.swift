@@ -13,7 +13,7 @@ import SwiftyJSON
 public class CardEditorViewController: UIViewController {
   
   @IBOutlet weak var frontTextView: UITextView!
-  @IBOutlet weak var backTextView: UITextView!
+
   
   public var card: Card!
   
@@ -23,8 +23,6 @@ public class CardEditorViewController: UIViewController {
   
   override public func viewDidLoad() {
     super.viewDidLoad()
-    frontTextView.delegate = self
-    backTextView.delegate = self
     
     addCustomMenu()
     
@@ -38,13 +36,11 @@ public class CardEditorViewController: UIViewController {
   
   public override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
-    print("viewDidAppear")
     initializeCard()
   }
   
   func initializeCard() {
     frontTextView.text = card.frontText
-    backTextView.text = card.backText
   }
   
   /// Defines the selected word and adds it to the back of the card
@@ -57,17 +53,6 @@ public class CardEditorViewController: UIViewController {
     
   }
   
-  
-  func addWordToBack(word: JapaneseWord) {
-    let definition = "\(word.term)(\(word.readings[0])) : \(word.definitions[0])"
-    
-    if backTextView.text.characters.count == 0 {
-      backTextView.text = "\(definition)"
-    } else {
-      backTextView.text = "\(backTextView.text!)\n\n\(definition)"
-    }
-    card.backText = backTextView.text
-  }
   
   func selectedText() -> String {
     
@@ -95,6 +80,7 @@ public class CardEditorViewController: UIViewController {
     if segue.identifier == "ShowDefinitions" {
       let definitionsVC = segue.destination as! DefinitionsViewController
       definitionsVC.searchTerm = searchTerm
+      definitionsVC.delegate = self
     } else if segue.identifier == "EmbedCardBack" {
       cardBackViewController = segue.destination as! CardBackViewController
     }
@@ -102,25 +88,12 @@ public class CardEditorViewController: UIViewController {
   
 }
 
-extension CardEditorViewController: UITextViewDelegate {
-  
-  public func textViewDidEndEditing(_ textView: UITextView) {
-    if textView == frontTextView {
-      card.frontText = textView.text
-      card.frontAttributedText = textView.attributedText
-      print("Front text: \(card.frontText)")
-    } else if textView == backTextView {
-      card.backText = backTextView.text
-      print("Back text: \(card.backText)")
-    }
-  }
-}
 
 //MARK: - DefinitionsViewController Delegate
 extension CardEditorViewController: DefinitionsViewControllerDelegate {
   
   func definitionsViewController(_ controller: DefinitionsViewController, didSelect definition: JapaneseDefinition) {
-    //TODO: Add new definition to the cardBackVC
+    cardBackViewController.add(definition: definition)
   }
   
 }

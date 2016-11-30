@@ -19,6 +19,15 @@ class CardBackViewController: UIViewController {
     
     tableView.delegate = self
     tableView.dataSource = self
+    
+    tableView.rowHeight = UITableViewAutomaticDimension
+    tableView.estimatedRowHeight = 80
+  }
+  
+  func add(definition: JapaneseDefinition) {
+    //TODO: Add animation for the new cell
+    definitions.append(definition)
+    tableView.reloadData()
   }
   
 }
