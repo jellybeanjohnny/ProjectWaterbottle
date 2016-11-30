@@ -19,6 +19,8 @@ public class CardEditorViewController: UIViewController {
   
   var searchTerm: String?
   
+  var cardBackViewController: CardBackViewController!
+  
   override public func viewDidLoad() {
     super.viewDidLoad()
     frontTextView.delegate = self
@@ -50,31 +52,6 @@ public class CardEditorViewController: UIViewController {
     
     searchTerm = selectedText()
     highlightSelectedText()
-    
-    
-    //TODO: This request should be handled by another class
-//    
-//    let urlString = "http://www.jisho.org/api/v1/search/words"
-//    
-//    let parameters = [
-//      "keyword" : term
-//    ]
-//    
-//    Alamofire.request(urlString, method: .get, parameters: parameters).responseJSON { response in
-//      
-//      switch response.result {
-//      case .success(let value):
-//        let json = JSON(value)
-//        
-//        let word = JapaneseWord(json: json)
-//        print(word)
-//        
-//        self.addWordToBack(word: word)
-//        
-//      case .failure(let error):
-//        print(error)
-//      }
-//    }
     
     performSegue(withIdentifier: "ShowDefinitions", sender: nil)
     
@@ -118,6 +95,8 @@ public class CardEditorViewController: UIViewController {
     if segue.identifier == "ShowDefinitions" {
       let definitionsVC = segue.destination as! DefinitionsViewController
       definitionsVC.searchTerm = searchTerm
+    } else if segue.identifier == "EmbedCardBack" {
+      cardBackViewController = segue.destination as! CardBackViewController
     }
   }
   
@@ -136,3 +115,13 @@ extension CardEditorViewController: UITextViewDelegate {
     }
   }
 }
+
+//MARK: - DefinitionsViewController Delegate
+extension CardEditorViewController: DefinitionsViewControllerDelegate {
+  
+  func definitionsViewController(_ controller: DefinitionsViewController, didSelect definition: JapaneseDefinition) {
+    //TODO: Add new definition to the cardBackVC
+  }
+  
+}
+

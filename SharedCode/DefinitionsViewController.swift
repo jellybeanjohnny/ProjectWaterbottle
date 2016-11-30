@@ -95,21 +95,3 @@ extension DefinitionsViewController: UITableViewDelegate, UITableViewDataSource 
   
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
