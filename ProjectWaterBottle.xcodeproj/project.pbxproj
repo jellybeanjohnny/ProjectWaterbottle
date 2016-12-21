@@ -35,7 +35,6 @@
 		C97851C31DCD4ED4008A7D9C /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98B7EE11DACA8B50041660C /* Secrets.swift */; };
 		C97851C41DCD4ED9008A7D9C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94A59761DC060A000695639 /* Constants.swift */; };
 		C97851C51DCD4EDC008A7D9C /* UIFont+HighlightedFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F402401DC54C22008FD5D1 /* UIFont+HighlightedFontSize.swift */; };
-		C978BC7D1DCFDDD00041C7A0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C978BC7C1DCFDDD00041C7A0 /* Person.swift */; };
 		C978BC801DCFEEB00041C7A0 /* RealmInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = C978BC7F1DCFEEB00041C7A0 /* RealmInterface.swift */; };
 		C97D7C011DE55A18009A4900 /* DefinitionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97D7C001DE55A18009A4900 /* DefinitionTableViewCell.swift */; };
 		C98008781DCD549800B715A4 /* SharedCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97851AF1DCD4E32008A7D9C /* SharedCode.framework */; };
@@ -150,7 +149,6 @@
 		C97851AF1DCD4E32008A7D9C /* SharedCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SharedCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97851B11DCD4E32008A7D9C /* SharedCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedCode.h; sourceTree = "<group>"; };
 		C97851B21DCD4E32008A7D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C978BC7C1DCFDDD00041C7A0 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		C978BC7F1DCFEEB00041C7A0 /* RealmInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmInterface.swift; sourceTree = "<group>"; };
 		C97D7C001DE55A18009A4900 /* DefinitionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionTableViewCell.swift; sourceTree = "<group>"; };
 		C98B7EDF1DACA7C80041660C /* ProjectWaterBottle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProjectWaterBottle.entitlements; sourceTree = "<group>"; };
@@ -337,7 +335,6 @@
 		C9AF82FB1DCFAFC700B86ED5 /* Realm */ = {
 			isa = PBXGroup;
 			children = (
-				C978BC7C1DCFDDD00041C7A0 /* Person.swift */,
 				C978BC7F1DCFEEB00041C7A0 /* RealmInterface.swift */,
 				C939D7411DD15D360081666E /* Card.swift */,
 			);
@@ -468,7 +465,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = BuildThings;
 				TargetAttributes = {
 					C97851AE1DCD4E32008A7D9C = {
@@ -684,7 +681,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C978BC7D1DCFDDD00041C7A0 /* Person.swift in Sources */,
 				C9426DAB1DD69D4900AF8212 /* JapaneseDefinition.swift in Sources */,
 				C9426DA71DD66E9E00AF8212 /* JishoAPIClient.swift in Sources */,
 				C9426DA51DD66A2F00AF8212 /* DefinitionsViewController.swift in Sources */,

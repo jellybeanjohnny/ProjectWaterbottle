@@ -13,8 +13,8 @@ import Jellybean
 public class Card: Object {
   
   //MARK: - Public Properties
-  public dynamic var frontText: String?
-  public dynamic var backText: String?
+  public dynamic var frontText: String? // Ignored
+  public dynamic var definitions: [String]? // Realm should ignore
   public var frontAttributedText: NSAttributedString? // Realm should ignore
   public dynamic var dueDate: Date {
     return spacing.dueDate
@@ -23,6 +23,7 @@ public class Card: Object {
   //MARK: - Private Properties
   private(set) var spacing = JBSpacing() // Realm should ignore
   dynamic var frontAttributedTextData: Data?
+  dynamic var definitionsData: Data?
   dynamic var spacingData: Data?
   dynamic var id = UUID().uuidString
   
@@ -51,6 +52,9 @@ public class Card: Object {
         if let frontAttributedText = frontAttributedText {
           frontAttributedTextData = NSKeyedArchiver.archivedData(withRootObject: frontAttributedText)
         }
+        if let definitions = definitions {
+          definitionsData = NSKeyedArchiver.archivedData(withRootObject: definitions)
+        }
       }
     } catch {
       print("Unable to write archieved data to Realm: \(error.localizedDescription)")
@@ -67,11 +71,16 @@ public class Card: Object {
     if let frontAttributedTextData = frontAttributedTextData {
       frontAttributedText = NSKeyedUnarchiver.unarchiveObject(with: frontAttributedTextData) as? NSAttributedString
     }
+    
+    if let definitionsData = definitionsData {
+      definitions = NSKeyedUnarchiver.unarchiveObject(with: definitionsData) as? [String]
+    }
+    
   }
   
   //MARK: - Realm Required Overrides
   override public static func ignoredProperties() -> [String] {
-    return ["frontAttributedText", "spacing"]
+    return ["frontAttributedText", "spacing" ,"definitions", "frontText"]
   }
   
   override public static func primaryKey() -> String? {

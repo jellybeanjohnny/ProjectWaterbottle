@@ -22,7 +22,6 @@ class ActionViewController: UIViewController {
       if let text = text {
         let card = Card()
         card.frontText = text
-        card.backText = ""
         self.cardEditorViewController.card = card
       }
     }

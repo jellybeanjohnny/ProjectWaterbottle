@@ -89,7 +89,7 @@ class ViewController: UIViewController {
   
   func presentCard(_ card: Card) {
     frontTextView.attributedText = card.frontAttributedText
-    backTextView.text = card.backText
+
   }
   
   func nextCard() -> Card? {

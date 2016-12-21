@@ -94,6 +94,7 @@ extension CardEditorViewController: DefinitionsViewControllerDelegate {
   
   func definitionsViewController(_ controller: DefinitionsViewController, didSelect definition: JapaneseDefinition) {
     cardBackViewController.add(definition: definition)
+    card.definitions?.append(definition.formatedDefinitions)
   }
   
 }
